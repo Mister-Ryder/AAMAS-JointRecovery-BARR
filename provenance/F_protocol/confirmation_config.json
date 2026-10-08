@@ -1,0 +1,326 @@
+{
+  "schema": "barr_v04F_frozen_basic_chils_v1",
+  "phase": "confirmation",
+  "role": "fresh_basic_chils_confirmation",
+  "seconds": 360.0,
+  "population": 4,
+  "threads": 1,
+  "native_threads": 1,
+  "coordinator_cpu": 11,
+  "cpus": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "extra_calibration_paths": [],
+  "positions": 48,
+  "fresh_seeds": [
+    83,
+    89,
+    97
+  ],
+  "arms": [
+    {
+      "id": "full",
+      "source": "BARR_v0.4E",
+      "mode": "pair",
+      "options": {
+        "gate-fraction": 0.05,
+        "gate-warmup": 30,
+        "gate-cooldown": 0.5,
+        "event-stale": 8,
+        "pair-slice": 0.5,
+        "pair-max-seeds": 0,
+        "pair-fusion-every": 4,
+        "challengers": 12,
+        "kernel-nodes": 128,
+        "kernel-seconds": 0.03,
+        "local-iterations": 64,
+        "local-seconds": 0.025,
+        "pair-policy": "fusion-refine",
+        "pair-component": "full"
+      },
+      "binary_sha256": "8dba1d02ad3da42f49d3a9b6d0858a6bdbdffb0e28c9fa41e4f5130ab0bab656",
+      "population": 4,
+      "threads": 1,
+      "trace": false,
+      "kernel_snapshots": false,
+      "sketch_snapshots": false,
+      "role": "fresh_basic_chils_confirmation"
+    },
+    {
+      "id": "chils-basic",
+      "source": "chils",
+      "mode": "chils",
+      "options": {},
+      "binary_sha256": "134b238004b3f7ca7fc0ee1b424c9a6826139b86656156e8adc4ecc0acd68736",
+      "population": 4,
+      "threads": 1,
+      "step_seconds": 10.0,
+      "callback": "OFF",
+      "initialization": "Official cold member0; members1..3 use common frozen initial",
+      "trace": false,
+      "kernel_snapshots": false,
+      "sketch_snapshots": false,
+      "role": "fresh_basic_chils_confirmation"
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "confirm_000",
+      "graph": "gW1200_gE0340_s0150",
+      "seed": 97,
+      "cpu": 5,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_001",
+      "graph": "gW1200_gE0680_s0150",
+      "seed": 83,
+      "cpu": 6,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_002",
+      "graph": "g1200",
+      "seed": 83,
+      "cpu": 7,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_003",
+      "graph": "g1800",
+      "seed": 89,
+      "cpu": 8,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_004",
+      "graph": "gW0680_gE1200_s0150",
+      "seed": 83,
+      "cpu": 9,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_005",
+      "graph": "gW0340_gE1200_s0150",
+      "seed": 89,
+      "cpu": 10,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_006",
+      "graph": "g0680",
+      "seed": 97,
+      "cpu": 12,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_007",
+      "graph": "gW0680_gE1200_s0150",
+      "seed": 97,
+      "cpu": 13,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_008",
+      "graph": "g0340",
+      "seed": 83,
+      "cpu": 14,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_009",
+      "graph": "gW1200_gE0680_s0150",
+      "seed": 97,
+      "cpu": 15,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_010",
+      "graph": "gW1200_gE0680_s0150",
+      "seed": 89,
+      "cpu": 16,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_011",
+      "graph": "g0340",
+      "seed": 89,
+      "cpu": 17,
+      "arm_order": [
+        "full",
+        "chils-basic"
+      ]
+    },
+    {
+      "block_id": "confirm_012",
+      "graph": "gW0340_gE1200_s0150",
+      "seed": 83,
+      "cpu": 5,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_013",
+      "graph": "gW0340_gE1200_s0150",
+      "seed": 97,
+      "cpu": 6,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_014",
+      "graph": "gW0680_gE1200_s0150",
+      "seed": 89,
+      "cpu": 7,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_015",
+      "graph": "g0680",
+      "seed": 89,
+      "cpu": 8,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_016",
+      "graph": "g1200",
+      "seed": 97,
+      "cpu": 9,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_017",
+      "graph": "g0680",
+      "seed": 83,
+      "cpu": 10,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_018",
+      "graph": "gW1200_gE0340_s0150",
+      "seed": 83,
+      "cpu": 12,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_019",
+      "graph": "gW1200_gE0340_s0150",
+      "seed": 89,
+      "cpu": 13,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_020",
+      "graph": "g1800",
+      "seed": 83,
+      "cpu": 14,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_021",
+      "graph": "g0340",
+      "seed": 97,
+      "cpu": 15,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_022",
+      "graph": "g1800",
+      "seed": 97,
+      "cpu": 16,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    },
+    {
+      "block_id": "confirm_023",
+      "graph": "g1200",
+      "seed": 89,
+      "cpu": 17,
+      "arm_order": [
+        "chils-basic",
+        "full"
+      ]
+    }
+  ],
+  "order_seed": 20261007,
+  "common_initialization": "Same graph common frozen initial for BARR member0/CHILS members1..3; BARR greedy diversity and CHILS official cold member0 differ",
+  "resource_policy": "All quality rows retained; CPU/wall<.95 flagged, no automatic rerun/exclusion",
+  "scientific_scope": "Two fixed population4 single-thread algorithms on one reused AU-L002 physical mother source; not an algorithm parameter selection",
+  "native_budget_definition": "360 native wall seconds includes internal population construction/initialization; external input preparation and validation are separate",
+  "quality_collections": "All trace/kernel/scout snapshots OFF",
+  "legacy_chils_p16": "Retained historical appendix only; F main comparison uses population4"
+}

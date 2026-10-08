@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-07T13:39:50.945540+00:00",
+  "files": {
+    "ablation_audit.json": "10ec35be6e1eced1b57b5eace9668248c33932c9f9436b04363904d24552aa35",
+    "ablation_summary.json": "da569720f5319c49ad32c01be528217c7ad8e285a1b27f9656282031a0349562",
+    "audited_runs.json": "2c8817852c002d789c578ca0a65ae57604b49c8f246480ecde997994f626e353",
+    "event_evidence.json": "10a890bf10c5b2c7ec312751594b3841a8b56bc59320065275a5627fc20297dc",
+    "failures.json": "55b0b45a51564c0389d032db31422f474903f0e7e9946aa77423b7bac75bfac5",
+    "pair_diagnostic_audit.json": "2c394dd7495d5aa2e01b8d5d9061a276fd86b90b7816f6b5510c4c4a5858b4dd",
+    "pair_diagnostic_summary.json": "3b6e5704f54eef127160552a977c18dded486b005de51f24ce4df3742b092474",
+    "solution_audit.json": "e894c0c9438e684a1941a7cd150ec0313a2236b6a0bfac912a45edb29a579339",
+    "source_audit.json": "983ee300333ebbc00dea884567e8056931842cd9a458d6484faf1ac5632f7fab",
+    "summary.json": "ba3ad2eaa9ff1a88d4aac70a8e5ea5e085759549265690870137ce42eca3692e"
+  },
+  "overall_audit_pass": true,
+  "no_quality_solver_calls": true,
+  "no_performance_reruns": true
+}

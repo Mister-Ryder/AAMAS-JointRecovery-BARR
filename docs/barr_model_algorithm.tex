@@ -1,0 +1,257 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=19mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,tabularx,array}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\SetKwInOut{Input}{Input}
+\SetKwInOut{Output}{Output}
+\SetKw{Return}{return}
+\SetKw{Continue}{continue}
+\SetKw{Break}{break}
+\SetAlFnt{\small}
+\SetAlgoNlRelativeSize{-1}
+\newcommand{\Pop}{\mathcal P}
+\newcommand{\Ind}{\mathbf 1}
+\newcommand{\Best}{\operatorname{best}}
+\newcommand{\MWIS}{\operatorname{MWIS}}
+\newcommand{\Remember}{\operatorname{remember}}
+\newcommand{\Deadline}{\operatorname{deadline}}
+\begin{document}
+\begin{center}
+{\Large\bfseries Joint Recovery: BARR Pair-Fusion}\\[3pt]
+{\small Frozen candidate B: problem model, analytical screening and algorithms}
+\end{center}
+
+\textbf{Fixed-contact model.}
+Let $V$ be a set of predefined visibility windows. A contact
+$v=(s_v,a_v,b_v,e_v)$ has a fixed satellite, antenna, start and end.
+The decision selects or omits the whole contact. Its weight is
+$w_v=e_v-b_v>0$, represented by integer microsecond ticks in the stored graphs.
+On a shared resource $r$, order two contacts by start time. They conflict
+when the later start minus the earlier end is strictly less than the
+resource separation $\delta_r$. Equality is compatible. The conflict graph
+$G=(V,E)$ combines satellite and antenna conflicts. The objective is
+\begin{equation}
+\max_{x\in\{0,1\}^{|V|}}\sum_{v\in V}w_vx_v,
+\qquad x_u+x_v\leq1\quad\text{for each }\{u,v\}\in E.
+\end{equation}
+For an independent set $S$, write $W(S)=\sum_{v\in S}w_v$.
+
+\textbf{Recovery relative to a fixed state.}
+For each outsider $v\notin S$, its selected blockers are
+$B_v=N(v)\cap S$. For an independent outsider subset $T$, define
+\begin{equation}
+B(T)=\bigcup_{v\in T}B_v,\qquad
+S_T=(S\setminus B(T))\cup T,\qquad
+g_S(T)=W(T)-W(B(T)).
+\end{equation}
+Removing every selected blocker makes $S_T$ feasible. The deficit of an
+outsider is $d_v=W(B_v)-w_v$; a positive singleton witness has $d_v<0$.
+For compatible outsiders $a,b$, inclusion--exclusion gives
+\begin{align}
+g_S(\{a,b\})&=W(B_a\cap B_b)-d_a-d_b,\\
+U_{ab}&=\min\{W(B_a),W(B_b)\}-d_a-d_b\ \geq g_S(\{a,b\}).
+\end{align}
+The scout rejects $U_{ab}\leq0$ before computing the exact intersection.
+When all $d_v\geq0$, a positive pair must share a selected blocker.
+
+\textbf{State, archive and budget quantities.}
+The main search maintains a population $\Pop$ and an immutable historical
+best mask $S^*$. A call $\Remember(S)$ updates $S^*$ only if its exact
+objective is larger. An event's state gain $g_S(T)$, an archive refresh
+$\max(0,W(S_T)-W(S^*))$, and a difference between budget-endpoint
+objectives have different reference states. The original B log stores
+state gain and refinement gain; it has no separate per-event archive-refresh field.
+
+\textbf{Initial states and local state.}
+The saved common mask is the best of deterministic greedy orders using
+exponents $0,\frac12,1$. Member 0 descends from that mask; other members
+use diverse noisy greedy starts. Local state maintains the selected mask,
+blocker counts and blocker weights. Queue descent uses strict singleton
+improvements and one-to-many exchanges. Perturbations use a transaction;
+an interrupted or decreasing transaction is rolled back, while equality
+can be accepted.
+
+\textbf{Execution scope.}
+The frozen B path is serial, with population 4 and one native thread.
+Native 360-second timing includes internal population construction;
+external input preparation and post-run validation are separate.
+The diagram expands the following three algorithms using matching numbers.
+
+\clearpage
+\section*{Population search and sparse fusion pulses}
+\begin{algorithm}[H]
+\Input{Fixed graph $G,w$, saved common mask $S_0$, seed, budget $B=360$ s}
+\Output{Feasible historical incumbent $S^*$}
+Start the native clock; initialize population $\Pop$, $S^*$ and exact-mask caches\;
+Set event count $e\gets0$, stale-round counter $k\gets0$ and charged time $H\gets0$\;
+\While{global time remains}{
+  Advance each local member (at most 64 iterations or a 0.025 s slice)\;
+  Offer member states to $\Remember$; reset $k$ on an integer-best refresh, else increment it\;
+  Let $t$ be elapsed time and $c=0.05t-H$\;
+  \If{$t<30$ s, $k<8$ rounds, cooldown $<0.5$ s, or $c<0.01$ s}{\Continue\;}
+  $e\gets e+1$; set event deadline to $\min(B,t+\min(c,0.5\text{ s}))$\;
+  Select the elite on odd events; on even events rotate through members\;
+  \If{$e\bmod4=0$ and event remaining time $>0.04$ s}{
+    Choose a member farthest from the elite by weighted Hamming distance\;
+    Fuse their union using component-wise bipartite min-cut (slice 0.1 s)\;
+    Descend the fused state; offer it to $\Remember$; use it as event state\;
+  }
+  \eIf{the exact state mask has a cached complete zero certificate}{
+    For a fused state, apply eligible population feedback\;
+  }{
+    $(T,g,\mathrm{flags})\gets$ Algorithm 2 on the event state $S$\;
+    Cache $S$ only when the flags supply a complete zero certificate\;
+    \If{$g>0$}{
+      Form $S_T$; verify full-graph feasibility and the exact objective\;
+      $\Remember(S_T)$ \tcp*{positive witness precedes refinement}
+      $\widehat S\gets$ Algorithm 3$(S,T,S_T,\Deadline)$\;
+      Verify $\widehat S$; offer it to $\Remember$; reset the local state and $k\gets0$\;
+      For a fused state, replace the worst slot only when not decreasing it\;
+    }
+  }
+  Charge the complete event duration to $H$\;
+}
+\Return $S^*$\;
+\caption{Frozen B pair-fusion population controller}
+\end{algorithm}
+
+\textbf{Parent-union fusion.}
+Common selected vertices are fixed. The symmetric difference of two
+independent parents is bipartite; a weighted min-cut gives a compatible
+selection on each component. A component fallback preserves the better
+parent contribution when bounded work stops. This pulse produces a
+temporary event state before the pair scout. Fused-state feedback and
+the event's pair exchange are distinct operations.
+
+\textbf{Cache identity and timing.}
+Zero-cache hits require bitwise equality of the whole mask under the fixed
+graph and weights. There are per-slot caches and a separate fused-state
+cache. Partial scans do not create zero certificates. The measured
+\texttt{escalation\_seconds} is an umbrella that overlaps scout, fusion,
+construction and recovery times; these fields are not disjoint summands.
+
+\clearpage
+\section*{Shared-blocker scout and certificate scope}
+\begin{algorithm}[H]
+\Input{Feasible mask $S$, fixed $G,w$, event index $e$, event deadline}
+\Output{Best retained singleton/pair witness, exact gain and completion flags}
+For all outsiders compute $d_v$; retain the best positive singleton\;
+Build sorted flat blocker lists $B_v$; check maintained counts and weights\;
+Rotate the outsider seed order by $9973e\bmod|V\setminus S|$\;
+\ForEach{seed $a$ in the all-outsider order}{
+  \ForEach{outsider $b$ sharing a selected blocker with $a$}{
+    Deduplicate with stamps; process only $a<b$\;
+    \If{the event deadline is reached}{mark partial; \Return retained witness and flags\;}
+    \If{$U_{ab}\leq0$ or $\{a,b\}\in E$}{\Continue\;}
+    Compute $I=W(B_a\cap B_b)$ by a merge of sorted lists\;
+    Set $g=I-d_a-d_b$\;
+    Retain the largest positive gain (fewer inserted vertices, then IDs, break ties)\;
+  }
+}
+If all seeds were covered and all $d_v\geq0$, mark complete $\leq2$ coverage\;
+If additionally no positive witness exists, mark a complete zero certificate\;
+\Return retained witness, gain and flags\;
+\caption{Analytical shared-blocker screening}
+\end{algorithm}
+
+\textbf{Coverage argument.}
+If a compatible pair has no shared blocker, then
+$g_S(\{a,b\})=-d_a-d_b\leq0$ when all singleton gains are nonpositive.
+Every possibly positive pair is therefore encountered by the selected
+blocker's two-hop adjacency traversal. The upper bound cannot reject a
+positive pair because the intersection weight is at most either blocker
+weight. Exact list intersection determines the gain of each surviving pair.
+
+\textbf{Complete and partial outcomes.}
+The frozen setting \texttt{pair-max-seeds=0} requests all outsiders.
+The elapsed deadline can still stop enumeration. A partial scan provides
+its verified positive lower-bound witness, or an unknown result if none
+was found. Complete zero means only that this fixed state admits no
+improving exchange inserting at most two outsiders. It does not extend
+to three or more outsiders or to global optimality.
+
+\textbf{Three-outsider example.}
+Let selected vertices $u,v,z$ be independent, each of weight 3. Let three
+independent outsiders have weight 4 and blocker sets
+$\{u,v\},\{v,z\},\{z,u\}$. Every singleton gain is $-2$, every pair
+gain is $-1$, and the triple gain is $12-9=3$.
+
+\textbf{Cost of a scan.}
+Flat blocker construction traverses selected-to-outsider adjacency.
+Pair intersections cost $O(|B_a|+|B_b|)$ after the cheap upper-bound
+and compatibility checks. Two-hop pair count depends on the actual
+blocker degrees. Neither all-seed configuration nor a zero certificate
+changes the event's fixed time allowance.
+
+\clearpage
+\section*{Positive-seed expansion and structured recovery}
+\begin{algorithm}[H]
+\Input{Event state $S$, verified seed $T$, retained feasible $S_T$, deadline}
+\Output{Retained feasible candidate $\widehat S$}
+Set $\widehat S\gets S_T$; mark blockers $B(T)$ as already paid\;
+Collect outsiders through paid blockers; rank by $w_v-W(B_v\setminus B(T))$\;
+Expand to at most 12 outsiders, retaining candidates with negative singleton gain\;
+Compute a clique-cost upper bound $U$ and a feasible sketch witness\;
+Verify and retain a sketch only if it exceeds the current witness\;
+\If{$U>W(\widehat S)-W(S)$ and time remains}{
+  Induce outsiders and all affected backbone components with full boundary checks\;
+  \If{the full Kernel fits the 4096-vertex limit}{
+    Compile backbone response factors; attempt bounded-width elimination\;
+    If unresolved and time remains, use bounded branch or feasible recovery\;
+    Lift the result; verify it on $G$; retain only an additional improvement\;
+  }
+}
+On a deadline or size limit retain the already verified candidate\;
+\Return $\widehat S$\;
+\caption{Positive-witness structured refinement}
+\end{algorithm}
+
+\textbf{Clique-cost bound.}
+Partition the expanded outsiders into conflict cliques $\mathcal C$.
+For each blocker $b$, let $h_b$ be the number of cliques adjacent to it.
+Assign $\lfloor w_b/h_b\rfloor$ to every adjacent outsider, and define
+\begin{equation}
+r_v=w_v-\sum_{b\in B_v}\lfloor w_b/h_b\rfloor,\qquad
+U=\sum_{C\in\mathcal C}\max(0,\max_{v\in C}r_v).
+\end{equation}
+A feasible subset takes at most one vertex per clique, so its allocated
+cost for $b$ is at most $h_b\lfloor w_b/h_b\rfloor\leq w_b$.
+Thus $U$ bounds the gain within this fixed expansion. The feasible
+sketch tries up to four lead orders and can pass through negative
+marginal prefixes while retaining the best positive subset.
+
+\textbf{Kernel response.}
+For a general affected bipartite backbone component $C$, the response
+to outsider choice $T$ is $\MWIS(G[C\setminus N(T)])$.
+The pair path's backbone is the current independent set; each component
+is a singleton $b$ with response $w_b\Ind[N(b)\cap T=\varnothing]$.
+Original outsider conflicts remain hard constraints. Exact flags apply
+to the bounded recovery subproblem when its bounds close or its
+structural computation completes.
+
+\begin{center}\small
+\begin{tabular}{ll@{\qquad}ll}
+\toprule
+Parameter & Frozen value & Parameter & Frozen value\\
+\midrule
+Population / threads & 4 / 1 & Recovery slice & 0.03 s\\
+Branch-node limit & 128 & Elimination width / boundary & 10 / 10\\
+Factor-entry limit & 262144 & Expanded outsider cap & 12\\
+Event slice / fraction & 0.5 s / 0.05 & Fusion interval & every 4 gates\\
+\bottomrule
+\end{tabular}
+\end{center}
+\textbf{Source mapping.}\\
+Algorithm 1: \texttt{pair\_solver\_impl.hpp}.\\
+Algorithm 2: \texttt{pair\_scout.hpp}.\\
+Algorithm 3: \texttt{selective.hpp}, \texttt{recombination.hpp}, \texttt{coupling.hpp}.
+
+The 47 frozen B source hashes, input hashes, raw results and exact batch
+summaries are stored under \texttt{provenance/} and \texttt{results/}.\\
+Historical B binary SHA256 prefix: \texttt{fb56e65a09f59762}.
+\end{document}

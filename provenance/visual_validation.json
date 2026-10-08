@@ -1,0 +1,43 @@
+{
+  "checked_utc": "2026-10-08T12:23:56.842958+00:00",
+  "diagrams": [
+    {
+      "diagram": "barr-pair-fusion",
+      "native_cells": 79,
+      "unique_cell_ids": true,
+      "pdf_pages": 1,
+      "pdf_embedded_xml_match_after_subject_escape_normalization": true,
+      "svg_embedded_xml_present": true,
+      "png_preview_verified": true,
+      "png_size": [
+        2165,
+        1607
+      ],
+      "pdf_sha256": "6ec8f1b94da9eb6069dcb2363b018602940f0371c3f9e852fd292afe1b3381ba",
+      "rendered_pdf_inspected": true
+    },
+    {
+      "diagram": "barr-pair-fusion-zh",
+      "native_cells": 79,
+      "unique_cell_ids": true,
+      "pdf_pages": 1,
+      "pdf_embedded_xml_match_after_subject_escape_normalization": true,
+      "svg_embedded_xml_present": true,
+      "png_preview_verified": true,
+      "png_size": [
+        2165,
+        1607
+      ],
+      "pdf_sha256": "8efcd376dfe768c7014bfeeb5738894a9817335328ca4d81941cff8377402a2c",
+      "rendered_pdf_inspected": true
+    }
+  ],
+  "model_pdf": {
+    "pages": 4,
+    "all_pages_rendered_and_inspected": true,
+    "latex_overfull_boxes": 0,
+    "sha256": "a8d42e7a3b331ba0d310c7832c43000d8fe8f62fb7c2577172cc5b0c654dfbf5"
+  },
+  "renderer": "Poppler pdftoppm",
+  "visual_style": "C05 reference; blue screening/archive, orange structured recovery, white/transparent remaining components"
+}

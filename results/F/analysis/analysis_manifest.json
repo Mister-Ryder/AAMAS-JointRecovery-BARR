@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-07T15:17:11.884642+00:00",
+  "files": {
+    "audited_runs.json": "d06633beed1d4480500dec606bde8abe956091e3c90ede4f47aa2c0dc11aca5a",
+    "confirmation_audit.json": "ed2d7f2937e92206f6d1562a7353fe7e933ea9ffb24d61a849e57fef6459b000",
+    "confirmation_summary.json": "7148a5ce276fa1f2b497bc1d7b0896a08da7a23b0f59fd4aac94bfac38d2a07f",
+    "design_audit.json": "039820bdb6f9cc53c576b15d074ef98d059b239db3bf83e0418db83271151f29",
+    "event_evidence.json": "efda795418fec1efd7ad454e77fb4ffa38a59fed02559e6f9e090231087b2293",
+    "failures.json": "55b0b45a51564c0389d032db31422f474903f0e7e9946aa77423b7bac75bfac5",
+    "resource_audit.json": "d14e71834663a2321023fb31597e2a406a6fb501951d395844beab8ecbc33229",
+    "solution_audit.json": "91151d659b26ffddea0bb9f800014ddb4d2147cea1b896c8a96b1f0e3f30e97b",
+    "source_audit.json": "eeb149fa2c66610aeb310108242bd30ca9c8ecda9f3d9b9cc6173d65527afb2b",
+    "summary.json": "59ffa9429bbab52b113417b832eb371df2b17fad4c1712a5da9d0633a4ab66cb"
+  },
+  "overall_audit_pass": true,
+  "no_quality_solver_calls": true,
+  "no_performance_reruns": true
+}

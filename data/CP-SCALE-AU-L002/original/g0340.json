@@ -1,0 +1,154 @@
+{
+  "version": "cipheur-scaleup-benchmark-graphs-v1",
+  "source_id": "CP-SCALE-AU-L002",
+  "source_group": "CP-SCALE-L002",
+  "split": "benchmark",
+  "config_id": "g0340",
+  "family": "uniform",
+  "factorial_aliases": [
+    "A"
+  ],
+  "station_gap_mode": "per_antenna",
+  "station_gap_by_antenna_seconds": {
+    "GS01-A1": 340,
+    "GS02-A1": 340,
+    "GS03-A1": 340,
+    "GS04-A1": 340,
+    "GS05-A1": 340,
+    "GS06-A1": 340,
+    "GS07-A1": 340,
+    "GS08-A1": 340,
+    "GS09-A1": 340,
+    "GS10-A1": 340,
+    "GS11-A1": 340,
+    "GS12-A1": 340
+  },
+  "antenna_group": {
+    "GS01-A1": "west",
+    "GS02-A1": "west",
+    "GS03-A1": "west",
+    "GS04-A1": "east",
+    "GS05-A1": "east",
+    "GS06-A1": "east",
+    "GS07-A1": "west",
+    "GS08-A1": "west",
+    "GS09-A1": "west",
+    "GS10-A1": "east",
+    "GS11-A1": "east",
+    "GS12-A1": "east"
+  },
+  "west_gap_seconds": 340,
+  "east_gap_seconds": 340,
+  "satellite_gap_seconds": 150,
+  "node_mapping_sha256": "7a4d1c857eb28aa0e004bf0774fb5bf1f5716a6d2092cb2ccb02af677d7bfc00",
+  "weight_ticks_sha256": "369e1f648ea09d41f7da9a63fa3c7eaed1666f36607ba20deb35ec7a1b46856d",
+  "raw_contacts_sha256": "075902a3e8442b66b3e73d6389e980fbfcf5e183a241ed5d2c8dcad77b125368",
+  "raw_manifest_sha256": "b60e56ea29fe83ea8bb7788dd0305fe4f57cab9d6200974c4cdb1a4ad3018165",
+  "configuration_declaration_sha256": "8b48863b445d509ddda0a038346096fbdfad46a974193e2cc29a1be06afdf799",
+  "builder_sha256": "cfebc8f3bd4eeed6aec719562ab4355d60f3e6eb1b4abeb3b1163575a515692f",
+  "parent_p0_builder_sha256": "c09951e3c615ca5462066d666f834f08a3006a7a86e72b9ccf34000b2856ca56",
+  "parent_heterogeneous_builder_sha256": "de20a2da82efb0ca927caafc39d9ee92b55fb9c948df1c90ee64b0b44cb29d32",
+  "edge_arrays_sha256": "2010171096ccb5bb9d164a81e33003da86fc06b2550f743cc551ce51be95314e",
+  "npz_sha256": "f45451c354383da570944ddf0fc7898e9cd7056ac0ff54e97a2a2c4b69036697",
+  "edge_mask": {
+    "ground": 1,
+    "satellite": 2,
+    "overlap": 4,
+    "gap_only": 8
+  },
+  "stats": {
+    "n": 37421,
+    "m": 492851,
+    "near_boundary_diagnostics": {
+      "ground": {
+        "resource_field": "antenna_id",
+        "gap_mode": "per_antenna",
+        "gap_by_antenna_ticks": {
+          "GS01-A1": 340000000,
+          "GS02-A1": 340000000,
+          "GS03-A1": 340000000,
+          "GS04-A1": 340000000,
+          "GS05-A1": 340000000,
+          "GS06-A1": 340000000,
+          "GS07-A1": 340000000,
+          "GS08-A1": 340000000,
+          "GS09-A1": 340000000,
+          "GS10-A1": 340000000,
+          "GS11-A1": 340000000,
+          "GS12-A1": 340000000
+        },
+        "near_boundary_radius_ticks": 2000,
+        "near_boundary_pair_count": 6,
+        "near_conflicting_pairs": 4,
+        "near_compatible_pairs": 2,
+        "closest_pair": {
+          "absolute_margin_ticks": 142,
+          "signed_margin_ticks": -142,
+          "earlier_contact": "CP-SCALE-AU-L002:S-P17-S04:GS12:p0006",
+          "later_contact": "CP-SCALE-AU-L002:S-P18-S02:GS12:p0005",
+          "resource_id": "GS12-A1",
+          "resource_gap_ticks": 340000000
+        },
+        "examples": [
+          {
+            "earlier_contact": "CP-SCALE-AU-L002:S-P11-S10:GS03:p0003",
+            "later_contact": "CP-SCALE-AU-L002:S-P04-S12:GS03:p0003",
+            "resource_id": "GS03-A1",
+            "resource_gap_ticks": 340000000,
+            "signed_margin_ticks": 1256,
+            "resource_conflict": false
+          },
+          {
+            "earlier_contact": "CP-SCALE-AU-L002:S-P03-S10:GS05:p0011",
+            "later_contact": "CP-SCALE-AU-L002:S-P13-S04:GS05:p0012",
+            "resource_id": "GS05-A1",
+            "resource_gap_ticks": 340000000,
+            "signed_margin_ticks": -365,
+            "resource_conflict": true
+          },
+          {
+            "earlier_contact": "CP-SCALE-AU-L002:S-P06-S09:GS05:p0012",
+            "later_contact": "CP-SCALE-AU-L002:S-P07-S07:GS05:p0013",
+            "resource_id": "GS05-A1",
+            "resource_gap_ticks": 340000000,
+            "signed_margin_ticks": 243,
+            "resource_conflict": false
+          },
+          {
+            "earlier_contact": "CP-SCALE-AU-L002:S-P08-S01:GS10:p0012",
+            "later_contact": "CP-SCALE-AU-L002:S-P09-S11:GS10:p0014",
+            "resource_id": "GS10-A1",
+            "resource_gap_ticks": 340000000,
+            "signed_margin_ticks": -353,
+            "resource_conflict": true
+          },
+          {
+            "earlier_contact": "CP-SCALE-AU-L002:S-P09-S04:GS11:p0011",
+            "later_contact": "CP-SCALE-AU-L002:S-P14-S12:GS11:p0010",
+            "resource_id": "GS11-A1",
+            "resource_gap_ticks": 340000000,
+            "signed_margin_ticks": -383,
+            "resource_conflict": true
+          },
+          {
+            "earlier_contact": "CP-SCALE-AU-L002:S-P17-S04:GS12:p0006",
+            "later_contact": "CP-SCALE-AU-L002:S-P18-S02:GS12:p0005",
+            "resource_id": "GS12-A1",
+            "resource_gap_ticks": 340000000,
+            "signed_margin_ticks": -142,
+            "resource_conflict": true
+          }
+        ],
+        "interpretation": "Input timing-boundary QC only; no prior-source sensitivity receipt is transferred to this new physical source and no rigorous physical timing error bound is claimed."
+      }
+    }
+  },
+  "input_integrity_checks": {
+    "sorted_unique_nonself_edges": true,
+    "csr_degree_sum_equals_2m": true,
+    "all_edges_match_actual_resource_predicate": true,
+    "edge_reason_masks_match_predicate": true,
+    "frozen_duration_equals_endpoint_difference": true
+  },
+  "optimization_labels_or_scores_executed": false
+}

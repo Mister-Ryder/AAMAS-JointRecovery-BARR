@@ -1,0 +1,2466 @@
+{
+  "phase": "ablation",
+  "role": "frozen_pulse_component_ablation",
+  "expected_positions": 48,
+  "positions": 48,
+  "full_quality_frame": true,
+  "native_failures": [],
+  "audit_errors": [],
+  "summaries": {
+    "full": {
+      "assigned": 24,
+      "expected": 24,
+      "audited_complete": 24,
+      "full_quality_frame": true,
+      "statuses": {
+        "COMPLETE": 24
+      },
+      "resource_unqualified": 0,
+      "mean_quality_ticks": 1135645938578.9583,
+      "mean_initial_relative_percent": 14.429965646222985,
+      "native_stats": {
+        "accepted_recoveries": {
+          "total": 589,
+          "distribution": {
+            "count": 24,
+            "mean": 24.541666666666668,
+            "min": 11,
+            "max": 38,
+            "median": 24.5,
+            "sd": 7.632762145581014
+          },
+          "recorded_cells": 24
+        },
+        "branch_nodes": {
+          "total": 4537,
+          "distribution": {
+            "count": 24,
+            "mean": 189.04166666666666,
+            "min": 29,
+            "max": 347,
+            "median": 191.5,
+            "sd": 98.15891249117054
+          },
+          "recorded_cells": 24
+        },
+        "build_seconds": {
+          "total": 1.4902677549999999,
+          "distribution": {
+            "count": 24,
+            "mean": 0.062094489791666665,
+            "min": 0.03656198,
+            "max": 0.09952844900000002,
+            "median": 0.063538505,
+            "sd": 0.017544962171672868
+          },
+          "recorded_cells": 24
+        },
+        "cache_hits": {
+          "total": 2110,
+          "distribution": {
+            "count": 24,
+            "mean": 87.91666666666667,
+            "min": 14,
+            "max": 162,
+            "median": 87.5,
+            "sd": 45.709780769229404
+          },
+          "recorded_cells": 24
+        },
+        "consensus_released": {
+          "total": 1212,
+          "distribution": {
+            "count": 24,
+            "mean": 50.5,
+            "min": 22,
+            "max": 76,
+            "median": 50.0,
+            "sd": 15.623282514303424
+          },
+          "recorded_cells": 24
+        },
+        "cut_calls": {
+          "total": 4303946,
+          "distribution": {
+            "count": 24,
+            "mean": 179331.08333333334,
+            "min": 47085,
+            "max": 364492,
+            "median": 200204.5,
+            "sd": 79583.19250068729
+          },
+          "recorded_cells": 24
+        },
+        "escalation_seconds": {
+          "total": 125.78537469799997,
+          "distribution": {
+            "count": 24,
+            "mean": 5.241057279083332,
+            "min": 3.2620090760000053,
+            "max": 6.843263634999998,
+            "median": 5.226324388499996,
+            "sd": 1.0274689501208718
+          },
+          "recorded_cells": 24
+        },
+        "exploration_openings": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "factor_attempts": {
+          "total": 589,
+          "distribution": {
+            "count": 24,
+            "mean": 24.541666666666668,
+            "min": 11,
+            "max": 38,
+            "median": 24.5,
+            "sd": 7.632762145581014
+          },
+          "recorded_cells": 24
+        },
+        "factor_compiled_entries": {
+          "total": 319736,
+          "distribution": {
+            "count": 24,
+            "mean": 13322.333333333334,
+            "min": 2554,
+            "max": 24370,
+            "median": 13100.0,
+            "sd": 6287.101901420127
+          },
+          "recorded_cells": 24
+        },
+        "factor_dp_entries": {
+          "total": 252863,
+          "distribution": {
+            "count": 24,
+            "mean": 10535.958333333334,
+            "min": 1779,
+            "max": 19342,
+            "median": 10461.5,
+            "sd": 5200.4387814806105
+          },
+          "recorded_cells": 24
+        },
+        "factor_exact": {
+          "total": 461,
+          "distribution": {
+            "count": 24,
+            "mean": 19.208333333333332,
+            "min": 5,
+            "max": 32,
+            "median": 19.5,
+            "sd": 8.113216092420986
+          },
+          "recorded_cells": 24
+        },
+        "factor_fallbacks": {
+          "total": 128,
+          "distribution": {
+            "count": 24,
+            "mean": 5.333333333333333,
+            "min": 1,
+            "max": 12,
+            "median": 5.0,
+            "sd": 2.973311236676196
+          },
+          "recorded_cells": 24
+        },
+        "fusion_exact": {
+          "total": 1880,
+          "distribution": {
+            "count": 24,
+            "mean": 78.33333333333333,
+            "min": 36,
+            "max": 113,
+            "median": 84.5,
+            "sd": 20.58422077533022
+          },
+          "recorded_cells": 24
+        },
+        "fusion_seconds": {
+          "total": 15.551490377000002,
+          "distribution": {
+            "count": 24,
+            "mean": 0.6479787657083333,
+            "min": 0.4482234500000001,
+            "max": 0.827559804,
+            "median": 0.6645740579999999,
+            "sd": 0.10380644859640092
+          },
+          "recorded_cells": 24
+        },
+        "fusions": {
+          "total": 1880,
+          "distribution": {
+            "count": 24,
+            "mean": 78.33333333333333,
+            "min": 36,
+            "max": 113,
+            "median": 84.5,
+            "sd": 20.58422077533022
+          },
+          "recorded_cells": 24
+        },
+        "gate_budget_skips": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "gate_epochs": {
+          "total": 15740,
+          "distribution": {
+            "count": 24,
+            "mean": 655.8333333333334,
+            "min": 654,
+            "max": 658,
+            "median": 656.0,
+            "sd": 1.1293194051465598
+          },
+          "recorded_cells": 24
+        },
+        "gate_oversized": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "gate_seconds": {
+          "total": 86.93760294700002,
+          "distribution": {
+            "count": 24,
+            "mean": 3.622400122791667,
+            "min": 2.1751447379999997,
+            "max": 4.763361901000002,
+            "median": 3.723222325000001,
+            "sd": 0.7669570675947452
+          },
+          "recorded_cells": 24
+        },
+        "gate_timeouts": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "heuristic_skips": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "inference_seconds": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "kernels_materialized": {
+          "total": 589,
+          "distribution": {
+            "count": 24,
+            "mean": 24.541666666666668,
+            "min": 11,
+            "max": 38,
+            "median": 24.5,
+            "sd": 7.632762145581014
+          },
+          "recorded_cells": 24
+        },
+        "local_iterations": {
+          "total": 371061881,
+          "distribution": {
+            "count": 24,
+            "mean": 15460911.708333334,
+            "min": 9921952,
+            "max": 22451359,
+            "median": 15611767.5,
+            "sd": 3524388.5735891154
+          },
+          "recorded_cells": 24
+        },
+        "local_seconds": {
+          "total": 8512.121129935016,
+          "distribution": {
+            "count": 24,
+            "mean": 354.6717137472923,
+            "min": 353.06338055800126,
+            "max": 356.6409667529977,
+            "median": 354.68901340849936,
+            "sd": 1.0213352759004473
+          },
+          "recorded_cells": 24
+        },
+        "model_batches": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "model_fallback_batches": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "neighbor_visits": {
+          "total": 14546054508,
+          "distribution": {
+            "count": 24,
+            "mean": 606085604.5,
+            "min": 401912919,
+            "max": 797974069,
+            "median": 639419020.0,
+            "sd": 120501164.89232783
+          },
+          "recorded_cells": 24
+        },
+        "outsiders_inserted": {
+          "total": 1209,
+          "distribution": {
+            "count": 24,
+            "mean": 50.375,
+            "min": 22,
+            "max": 76,
+            "median": 50.0,
+            "sd": 15.494213506141996
+          },
+          "recorded_cells": 24
+        },
+        "pair_cached_zero": {
+          "total": 11392,
+          "distribution": {
+            "count": 24,
+            "mean": 474.6666666666667,
+            "min": 386,
+            "max": 573,
+            "median": 466.0,
+            "sd": 50.38345714243107
+          },
+          "recorded_cells": 24
+        },
+        "pair_certificates": {
+          "total": 3759,
+          "distribution": {
+            "count": 24,
+            "mean": 156.625,
+            "min": 69,
+            "max": 239,
+            "median": 166.0,
+            "sd": 45.927932677184586
+          },
+          "recorded_cells": 24
+        },
+        "pair_complete": {
+          "total": 4348,
+          "distribution": {
+            "count": 24,
+            "mean": 181.16666666666666,
+            "min": 81,
+            "max": 271,
+            "median": 190.0,
+            "sd": 51.172059858334094
+          },
+          "recorded_cells": 24
+        },
+        "pair_conflict_rejects": {
+          "total": 30746903,
+          "distribution": {
+            "count": 24,
+            "mean": 1281120.9583333333,
+            "min": 382111,
+            "max": 1898311,
+            "median": 1316491.0,
+            "sd": 394081.7508888313
+          },
+          "recorded_cells": 24
+        },
+        "pair_exact_checks": {
+          "total": 10637231,
+          "distribution": {
+            "count": 24,
+            "mean": 443217.9583333333,
+            "min": 194528,
+            "max": 654864,
+            "median": 452270.0,
+            "sd": 107304.50257479542
+          },
+          "recorded_cells": 24
+        },
+        "pair_positive_candidates": {
+          "total": 967,
+          "distribution": {
+            "count": 24,
+            "mean": 40.291666666666664,
+            "min": 19,
+            "max": 90,
+            "median": 37.0,
+            "sd": 16.85095576354432
+          },
+          "recorded_cells": 24
+        },
+        "pair_unique": {
+          "total": 6108503576,
+          "distribution": {
+            "count": 24,
+            "mean": 254520982.33333334,
+            "min": 166428867,
+            "max": 335717982,
+            "median": 269156675.5,
+            "sd": 51178863.450900786
+          },
+          "recorded_cells": 24
+        },
+        "pair_upper_rejects": {
+          "total": 6067119442,
+          "distribution": {
+            "count": 24,
+            "mean": 252796643.41666666,
+            "min": 164772503,
+            "max": 333164807,
+            "median": 267344412.0,
+            "sd": 51009362.30561703
+          },
+          "recorded_cells": 24
+        },
+        "pair_visits": {
+          "total": 14163188964,
+          "distribution": {
+            "count": 24,
+            "mean": 590132873.5,
+            "min": 387622245,
+            "max": 778016626,
+            "median": 622775959.0,
+            "sd": 116773845.32307188
+          },
+          "recorded_cells": 24
+        },
+        "positive_gain_ticks": {
+          "total": 20082823144,
+          "distribution": {
+            "count": 24,
+            "mean": 836784297.6666666,
+            "min": 63274223,
+            "max": 1474834642,
+            "median": 855575051.5,
+            "sd": 348651701.7750288
+          },
+          "recorded_cells": 24
+        },
+        "proposal_seconds": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "raw_candidates": {
+          "total": 152917425,
+          "distribution": {
+            "count": 24,
+            "mean": 6371559.375,
+            "min": 2931407,
+            "max": 9281092,
+            "median": 6649908.5,
+            "sd": 1743846.9568914687
+          },
+          "recorded_cells": 24
+        },
+        "recoveries": {
+          "total": 589,
+          "distribution": {
+            "count": 24,
+            "mean": 24.541666666666668,
+            "min": 11,
+            "max": 38,
+            "median": 24.5,
+            "sd": 7.632762145581014
+          },
+          "recorded_cells": 24
+        },
+        "recovery_exact": {
+          "total": 589,
+          "distribution": {
+            "count": 24,
+            "mean": 24.541666666666668,
+            "min": 11,
+            "max": 38,
+            "median": 24.5,
+            "sd": 7.632762145581014
+          },
+          "recorded_cells": 24
+        },
+        "recovery_seconds": {
+          "total": 0.16909773999999997,
+          "distribution": {
+            "count": 24,
+            "mean": 0.007045739166666666,
+            "min": 0.0019178690000000002,
+            "max": 0.011909111999999998,
+            "median": 0.0070603105,
+            "sd": 0.0029586414184379147
+          },
+          "recorded_cells": 24
+        },
+        "refinement_extra_ticks": {
+          "total": 685536590,
+          "distribution": {
+            "count": 24,
+            "mean": 28564024.583333332,
+            "min": 0,
+            "max": 129791761,
+            "median": 14542757.5,
+            "sd": 35431652.96245073
+          },
+          "recorded_cells": 24
+        },
+        "restarts": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "rounds": {
+          "total": 1449471,
+          "distribution": {
+            "count": 24,
+            "mean": 60394.625,
+            "min": 38758,
+            "max": 87701,
+            "median": 60984.0,
+            "sd": 13767.221278196486
+          },
+          "recorded_cells": 24
+        },
+        "safe_rejects": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "sketches": {
+          "total": 589,
+          "distribution": {
+            "count": 24,
+            "mean": 24.541666666666668,
+            "min": 11,
+            "max": 38,
+            "median": 24.5,
+            "sd": 7.632762145581014
+          },
+          "recorded_cells": 24
+        },
+        "witness_moves": {
+          "total": 589,
+          "distribution": {
+            "count": 24,
+            "mean": 24.541666666666668,
+            "min": 11,
+            "max": 38,
+            "median": 24.5,
+            "sd": 7.632762145581014
+          },
+          "recorded_cells": 24
+        },
+        "witness_openings": {
+          "total": 589,
+          "distribution": {
+            "count": 24,
+            "mean": 24.541666666666668,
+            "min": 11,
+            "max": 38,
+            "median": 24.5,
+            "sd": 7.632762145581014
+          },
+          "recorded_cells": 24
+        }
+      },
+      "native_seconds": {
+        "count": 24,
+        "mean": 360.0044020897083,
+        "min": 360.00365239,
+        "max": 360.005920713,
+        "median": 360.0042202715,
+        "sd": 0.0006086846071213189
+      },
+      "native_cpu_seconds": {
+        "count": 24,
+        "mean": 358.64109125000004,
+        "min": 357.842181,
+        "max": 359.23865000000023,
+        "median": 358.6834215,
+        "sd": 0.33789470395961363
+      },
+      "cpu_wall_ratio": {
+        "count": 24,
+        "mean": 0.9962130725674329,
+        "min": 0.9939923955848085,
+        "max": 0.9978743705050201,
+        "median": 0.9963306217075364,
+        "sd": 0.0009394852550352817
+      },
+      "total_cpu_seconds": {
+        "count": 24,
+        "mean": 359.5927180774167,
+        "min": 358.75794355499994,
+        "max": 360.36655361500004,
+        "median": 359.523586522,
+        "sd": 0.3382937632764067
+      },
+      "controller_only_cpu_seconds": {
+        "count": 24,
+        "mean": 0.9516268274166666,
+        "min": 0.5122357339999999,
+        "max": 1.6557771810000002,
+        "median": 0.952682389,
+        "sd": 0.2537562156076653
+      },
+      "total_cell_seconds": {
+        "count": 24,
+        "mean": 361.18129868277657,
+        "min": 360.6588979586959,
+        "max": 362.0163566470146,
+        "median": 361.17325235158205,
+        "sd": 0.30065097620019254
+      },
+      "preparation_seconds": {
+        "count": 24,
+        "mean": 0.8889418691396713,
+        "min": 0.4542478546500206,
+        "max": 1.5743319317698479,
+        "median": 0.8908249773085117,
+        "sd": 0.24913538654254963
+      },
+      "validation_seconds": {
+        "count": 24,
+        "mean": 0.04054028571893772,
+        "min": 0.030748866498470306,
+        "max": 0.05836261808872223,
+        "median": 0.040573928505182266,
+        "sd": 0.006944404364328744
+      },
+      "independent_audit_wall_seconds": {
+        "count": 24,
+        "mean": 0.02113805990666151,
+        "min": 0.015147082507610321,
+        "max": 0.028565630316734314,
+        "median": 0.021070219576358795,
+        "sd": 0.003207515493990366
+      },
+      "selected_count": {
+        "count": 24,
+        "mean": 2143.5416666666665,
+        "min": 1231,
+        "max": 3181,
+        "median": 2161.0,
+        "sd": 559.9296523490341
+      },
+      "mean_umbrella_seconds": 5.241057279083332,
+      "umbrella_fraction": {
+        "count": 24,
+        "mean": 0.014558317439838951,
+        "min": 0.009060993361493377,
+        "max": 0.019008832912482163,
+        "median": 0.014517405359170881,
+        "sd": 0.002854059030569816
+      },
+      "stage_time_note": "escalation_seconds is an umbrella and overlaps gate/build/recovery/fusion work; these fields are not summed as exclusive stages."
+    },
+    "pulse-only": {
+      "assigned": 24,
+      "expected": 24,
+      "audited_complete": 24,
+      "full_quality_frame": true,
+      "statuses": {
+        "COMPLETE": 24
+      },
+      "resource_unqualified": 0,
+      "mean_quality_ticks": 1135740806759.25,
+      "mean_initial_relative_percent": 14.435414047663226,
+      "native_stats": {
+        "accepted_recoveries": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "branch_nodes": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "build_seconds": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "cache_hits": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "consensus_released": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "cut_calls": {
+          "total": 3920763,
+          "distribution": {
+            "count": 24,
+            "mean": 163365.125,
+            "min": 36020,
+            "max": 295327,
+            "median": 160866.5,
+            "sd": 72315.39370689823
+          },
+          "recorded_cells": 24
+        },
+        "escalation_seconds": {
+          "total": 29.12279046199999,
+          "distribution": {
+            "count": 24,
+            "mean": 1.2134496025833332,
+            "min": 0.7155030999999994,
+            "max": 1.8039293250000008,
+            "median": 1.255382317,
+            "sd": 0.22111997984320303
+          },
+          "recorded_cells": 24
+        },
+        "exploration_openings": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "factor_attempts": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "factor_compiled_entries": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "factor_dp_entries": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "factor_exact": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "factor_fallbacks": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "fusion_exact": {
+          "total": 1825,
+          "distribution": {
+            "count": 24,
+            "mean": 76.04166666666667,
+            "min": 32,
+            "max": 112,
+            "median": 78.5,
+            "sd": 19.346899912696195
+          },
+          "recorded_cells": 24
+        },
+        "fusion_seconds": {
+          "total": 15.101991846999999,
+          "distribution": {
+            "count": 24,
+            "mean": 0.6292496602916666,
+            "min": 0.3920691119999999,
+            "max": 0.9182022460000004,
+            "median": 0.6348593414999999,
+            "sd": 0.1082729823053629
+          },
+          "recorded_cells": 24
+        },
+        "fusions": {
+          "total": 1825,
+          "distribution": {
+            "count": 24,
+            "mean": 76.04166666666667,
+            "min": 32,
+            "max": 112,
+            "median": 78.5,
+            "sd": 19.346899912696195
+          },
+          "recorded_cells": 24
+        },
+        "gate_budget_skips": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "gate_epochs": {
+          "total": 15739,
+          "distribution": {
+            "count": 24,
+            "mean": 655.7916666666666,
+            "min": 653,
+            "max": 658,
+            "median": 656.0,
+            "sd": 1.2846642825425558
+          },
+          "recorded_cells": 24
+        },
+        "gate_oversized": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "gate_seconds": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "gate_timeouts": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "heuristic_skips": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "inference_seconds": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "kernels_materialized": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "local_iterations": {
+          "total": 373113286,
+          "distribution": {
+            "count": 24,
+            "mean": 15546386.916666666,
+            "min": 9983743,
+            "max": 22425512,
+            "median": 15592595.5,
+            "sd": 3569311.240619338
+          },
+          "recorded_cells": 24
+        },
+        "local_seconds": {
+          "total": 8608.702335182996,
+          "distribution": {
+            "count": 24,
+            "mean": 358.6959306326249,
+            "min": 358.11250286300003,
+            "max": 359.1644125770019,
+            "median": 358.6651675584976,
+            "sd": 0.21328900197872325
+          },
+          "recorded_cells": 24
+        },
+        "model_batches": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "model_fallback_batches": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "neighbor_visits": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "outsiders_inserted": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "pair_cached_zero": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "pair_certificates": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "pair_complete": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "pair_conflict_rejects": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "pair_exact_checks": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "pair_positive_candidates": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "pair_unique": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "pair_upper_rejects": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "pair_visits": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "positive_gain_ticks": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "proposal_seconds": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "raw_candidates": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "recoveries": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "recovery_exact": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "recovery_seconds": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "refinement_extra_ticks": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "restarts": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "rounds": {
+          "total": 1457486,
+          "distribution": {
+            "count": 24,
+            "mean": 60728.583333333336,
+            "min": 38999,
+            "max": 87600,
+            "median": 60909.0,
+            "sd": 13942.64862217539
+          },
+          "recorded_cells": 24
+        },
+        "safe_rejects": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "sketches": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "witness_moves": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        },
+        "witness_openings": {
+          "total": 0,
+          "distribution": {
+            "count": 24,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "median": 0.0,
+            "sd": 0.0
+          },
+          "recorded_cells": 24
+        }
+      },
+      "native_seconds": {
+        "count": 24,
+        "mean": 360.0047130594583,
+        "min": 360.003507108,
+        "max": 360.010427229,
+        "median": 360.0043876145,
+        "sd": 0.0013458181920123328
+      },
+      "native_cpu_seconds": {
+        "count": 24,
+        "mean": 358.3930517083333,
+        "min": 356.74492499999997,
+        "max": 359.18413799999996,
+        "median": 358.43355599999995,
+        "sd": 0.5251930040038899
+      },
+      "cpu_wall_ratio": {
+        "count": 24,
+        "mean": 0.995523221283449,
+        "min": 0.9909415875419432,
+        "max": 0.9977226116980529,
+        "median": 0.9956369990801557,
+        "sd": 0.0014586728251866827
+      },
+      "total_cpu_seconds": {
+        "count": 24,
+        "mean": 359.15926256625,
+        "min": 357.89605321199997,
+        "max": 360.1178450879998,
+        "median": 359.207376616,
+        "sd": 0.5108307697491251
+      },
+      "controller_only_cpu_seconds": {
+        "count": 24,
+        "mean": 0.7662108579166667,
+        "min": 0.4704819659999999,
+        "max": 1.2019780880000004,
+        "median": 0.7411790454999999,
+        "sd": 0.1946598562461153
+      },
+      "total_cell_seconds": {
+        "count": 24,
+        "mean": 360.94930068807054,
+        "min": 360.59945534169674,
+        "max": 361.4755325615406,
+        "median": 360.9129817150533,
+        "sd": 0.23128467812700002
+      },
+      "preparation_seconds": {
+        "count": 24,
+        "mean": 0.6971442286546031,
+        "min": 0.4044027552008629,
+        "max": 1.1128749921917915,
+        "median": 0.674540288746357,
+        "sd": 0.18799132986679506
+      },
+      "validation_seconds": {
+        "count": 24,
+        "mean": 0.044473874382674694,
+        "min": 0.030276387929916382,
+        "max": 0.06675595790147781,
+        "median": 0.042745672166347504,
+        "sd": 0.0093765509101917
+      },
+      "independent_audit_wall_seconds": {
+        "count": 24,
+        "mean": 0.02314789779484272,
+        "min": 0.01879073679447174,
+        "max": 0.02753835916519165,
+        "median": 0.023039627820253372,
+        "sd": 0.00246793521170971
+      },
+      "selected_count": {
+        "count": 24,
+        "mean": 2143.7916666666665,
+        "min": 1232,
+        "max": 3184,
+        "median": 2161.5,
+        "sd": 560.1692274713037
+      },
+      "mean_umbrella_seconds": 1.2134496025833332,
+      "umbrella_fraction": {
+        "count": 24,
+        "mean": 0.003370650431771229,
+        "min": 0.0019874510455356147,
+        "max": 0.005010851431969656,
+        "median": 0.003487136675253454,
+        "sd": 0.0006142189469129352
+      },
+      "stage_time_note": "escalation_seconds is an umbrella and overlaps gate/build/recovery/fusion work; these fields are not summed as exclusive stages."
+    }
+  },
+  "quality_by_graph": {
+    "g0340": {
+      "full": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1622884885577,
+        "seed_values": {
+          "73": 1622956791486,
+          "71": 1622538192935,
+          "79": 1623159672310
+        }
+      },
+      "pulse-only": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1623349746662.3333,
+        "seed_values": {
+          "71": 1622671040939,
+          "73": 1624095802221,
+          "79": 1623282396827
+        }
+      }
+    },
+    "g0680": {
+      "full": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1245367093028.3333,
+        "seed_values": {
+          "79": 1243754215522,
+          "71": 1245860340896,
+          "73": 1246486722667
+        }
+      },
+      "pulse-only": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1244919195962,
+        "seed_values": {
+          "79": 1244269823962,
+          "71": 1245700956401,
+          "73": 1244786807523
+        }
+      }
+    },
+    "g1200": {
+      "full": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 882475740331.3334,
+        "seed_values": {
+          "71": 882286905328,
+          "73": 883875148838,
+          "79": 881265166828
+        }
+      },
+      "pulse-only": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 883032780273.6666,
+        "seed_values": {
+          "71": 882830350297,
+          "73": 884111029173,
+          "79": 882156961351
+        }
+      }
+    },
+    "g1800": {
+      "full": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 682412637143,
+        "seed_values": {
+          "73": 681016680728,
+          "71": 685278677138,
+          "79": 680942553563
+        }
+      },
+      "pulse-only": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 682119979990.3334,
+        "seed_values": {
+          "73": 680988484289,
+          "71": 684000018109,
+          "79": 681371437573
+        }
+      }
+    },
+    "gW0340_gE1200_s0150": {
+      "full": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1260663077727.3333,
+        "seed_values": {
+          "73": 1260979681042,
+          "71": 1259817913503,
+          "79": 1261191638637
+        }
+      },
+      "pulse-only": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1260549128084.6667,
+        "seed_values": {
+          "73": 1260493041857,
+          "71": 1260097174149,
+          "79": 1261057168248
+        }
+      }
+    },
+    "gW0680_gE1200_s0150": {
+      "full": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1064846215533.6666,
+        "seed_values": {
+          "71": 1064067945497,
+          "79": 1065687697924,
+          "73": 1064783003180
+        }
+      },
+      "pulse-only": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1064881930620.6666,
+        "seed_values": {
+          "71": 1064572955492,
+          "79": 1065479553143,
+          "73": 1064593283227
+        }
+      }
+    },
+    "gW1200_gE0340_s0150": {
+      "full": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1261320798751,
+        "seed_values": {
+          "79": 1260033462988,
+          "71": 1262286361351,
+          "73": 1261642571914
+        }
+      },
+      "pulse-only": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1261899492007.3333,
+        "seed_values": {
+          "79": 1260443049816,
+          "71": 1262485978065,
+          "73": 1262769448141
+        }
+      }
+    },
+    "gW1200_gE0680_s0150": {
+      "full": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1065197060540,
+        "seed_values": {
+          "71": 1065961744762,
+          "73": 1064651840697,
+          "79": 1064977596161
+        }
+      },
+      "pulse-only": {
+        "expected": 3,
+        "complete": 3,
+        "mean_ticks": 1065174200473,
+        "seed_values": {
+          "71": 1065093603939,
+          "73": 1064671961279,
+          "79": 1065757036201
+        }
+      }
+    }
+  },
+  "pairings": {
+    "pulse-only": {
+      "target": "full",
+      "baseline": "pulse-only",
+      "expected": 24,
+      "paired": 24,
+      "unavailable": [],
+      "full_paired_frame": true,
+      "wins": 9,
+      "ties": 0,
+      "losses": 15,
+      "mean_relative_percent": -0.006382913807246193,
+      "mean_delta_seconds": -94.86818029166668,
+      "same_cpu_pairs": 24,
+      "differences": [
+        {
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 79,
+          "delta_ticks": -409586828,
+          "relative_percent": -0.03249546483355925,
+          "same_cpu": true,
+          "cpu": 5,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.9967699966053493,
+          "baseline_cpu_wall_ratio": 0.994838327320219,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 71,
+          "delta_ticks": 868140823,
+          "relative_percent": 0.08150840637756004,
+          "same_cpu": true,
+          "cpu": 6,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.995686375312589,
+          "baseline_cpu_wall_ratio": 0.9960535915158757,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g1200",
+          "seed": 71,
+          "delta_ticks": -543444969,
+          "relative_percent": -0.061557123496850254,
+          "same_cpu": true,
+          "cpu": 7,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.9975806884220701,
+          "baseline_cpu_wall_ratio": 0.996264326160391,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g1800",
+          "seed": 73,
+          "delta_ticks": 28196439,
+          "relative_percent": 0.004140516271642841,
+          "same_cpu": true,
+          "cpu": 8,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.994031504513191,
+          "baseline_cpu_wall_ratio": 0.9909415875419432,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 71,
+          "delta_ticks": -505009995,
+          "relative_percent": -0.047437800518481704,
+          "same_cpu": true,
+          "cpu": 9,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.9953235005901914,
+          "baseline_cpu_wall_ratio": 0.9945756611618234,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 73,
+          "delta_ticks": 486639185,
+          "relative_percent": 0.03860705048264821,
+          "same_cpu": true,
+          "cpu": 10,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.9965510466002767,
+          "baseline_cpu_wall_ratio": 0.9968022813246418,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g0680",
+          "seed": 79,
+          "delta_ticks": -515608440,
+          "relative_percent": -0.041438635742061254,
+          "same_cpu": true,
+          "cpu": 12,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.9956800818080664,
+          "baseline_cpu_wall_ratio": 0.9950151557440816,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 79,
+          "delta_ticks": 208144781,
+          "relative_percent": 0.019535314439963213,
+          "same_cpu": true,
+          "cpu": 13,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.996375406134935,
+          "baseline_cpu_wall_ratio": 0.993474786472157,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g0340",
+          "seed": 71,
+          "delta_ticks": -132848004,
+          "relative_percent": -0.008186995432119384,
+          "same_cpu": true,
+          "cpu": 14,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.9965426537266954,
+          "baseline_cpu_wall_ratio": 0.9941990040135013,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 79,
+          "delta_ticks": -779440040,
+          "relative_percent": -0.07313487160060363,
+          "same_cpu": true,
+          "cpu": 15,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.9968708056271103,
+          "baseline_cpu_wall_ratio": 0.9948498039577507,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 73,
+          "delta_ticks": -20120582,
+          "relative_percent": -0.0018898386293397793,
+          "same_cpu": true,
+          "cpu": 16,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.996648152534783,
+          "baseline_cpu_wall_ratio": 0.9956038714797615,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g0340",
+          "seed": 73,
+          "delta_ticks": -1139010735,
+          "relative_percent": -0.07013199180998858,
+          "same_cpu": true,
+          "cpu": 17,
+          "target_before_baseline": true,
+          "target_cpu_wall_ratio": 0.995853063437448,
+          "baseline_cpu_wall_ratio": 0.9951225138829739,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 71,
+          "delta_ticks": -279260646,
+          "relative_percent": -0.022161834160813607,
+          "same_cpu": true,
+          "cpu": 5,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9962119542782537,
+          "baseline_cpu_wall_ratio": 0.996395174673974,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 79,
+          "delta_ticks": 134470389,
+          "relative_percent": 0.010663306342155853,
+          "same_cpu": true,
+          "cpu": 6,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9965783691724428,
+          "baseline_cpu_wall_ratio": 0.9974256030932442,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 73,
+          "delta_ticks": 189719953,
+          "relative_percent": 0.017820885777610772,
+          "same_cpu": true,
+          "cpu": 7,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9978743705050201,
+          "baseline_cpu_wall_ratio": 0.9966594464780248,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g0680",
+          "seed": 73,
+          "delta_ticks": 1699915144,
+          "relative_percent": 0.1365627538568359,
+          "same_cpu": true,
+          "cpu": 8,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9960102893943865,
+          "baseline_cpu_wall_ratio": 0.9956701266805498,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g1200",
+          "seed": 79,
+          "delta_ticks": -891794523,
+          "relative_percent": -0.1010924996424945,
+          "same_cpu": true,
+          "cpu": 9,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9955369309607442,
+          "baseline_cpu_wall_ratio": 0.9953314891676632,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g0680",
+          "seed": 71,
+          "delta_ticks": 159384495,
+          "relative_percent": 0.012794763797924949,
+          "same_cpu": true,
+          "cpu": 10,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9972770230859301,
+          "baseline_cpu_wall_ratio": 0.9977226116980529,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 71,
+          "delta_ticks": -199616714,
+          "relative_percent": -0.01581140048034043,
+          "same_cpu": true,
+          "cpu": 12,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9962858372801378,
+          "baseline_cpu_wall_ratio": 0.9960215227426996,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 73,
+          "delta_ticks": -1126876227,
+          "relative_percent": -0.08923847727381616,
+          "same_cpu": true,
+          "cpu": 13,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9973223142136821,
+          "baseline_cpu_wall_ratio": 0.9958151741132363,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g1800",
+          "seed": 71,
+          "delta_ticks": 1278659029,
+          "relative_percent": 0.18693844958294095,
+          "same_cpu": true,
+          "cpu": 14,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9957449487491787,
+          "baseline_cpu_wall_ratio": 0.9955992220994547,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g0340",
+          "seed": 79,
+          "delta_ticks": -122724517,
+          "relative_percent": -0.007560269072090435,
+          "same_cpu": true,
+          "cpu": 15,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.996401569232246,
+          "baseline_cpu_wall_ratio": 0.9970747274316242,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g1800",
+          "seed": 79,
+          "delta_ticks": -428884010,
+          "relative_percent": -0.06294423076019395,
+          "same_cpu": true,
+          "cpu": 16,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9959644638488536,
+          "baseline_cpu_wall_ratio": 0.9969596429819407,
+          "both_resource_qualified": true
+        },
+        {
+          "graph": "g1200",
+          "seed": 73,
+          "delta_ticks": -235880335,
+          "relative_percent": -0.02667994485043843,
+          "same_cpu": true,
+          "cpu": 17,
+          "target_before_baseline": false,
+          "target_cpu_wall_ratio": 0.9939923955848085,
+          "baseline_cpu_wall_ratio": 0.994141659067189,
+          "both_resource_qualified": true
+        }
+      ],
+      "scope": "Arithmetic mean over the prespecified paired graph-seed blocks; one reused physical mother source"
+    }
+  },
+  "events": {
+    "full": {
+      "counts": {
+        "event_pair_gate": 4348,
+        "full_pair_gate": 4348,
+        "partial_gate": 0,
+        "positive_witness_gate": 589,
+        "full_two_exchange_complete": 4348,
+        "full_two_exchange_zero_certificate": 3759,
+        "motif_class_complete": 0,
+        "motif_class_zero_certificate": 0,
+        "event_pair_commit": 589,
+        "committed_witnesses": 589,
+        "genuine_joint_commits": 589,
+        "positive_singleton_commits": 0,
+        "refined_commits": 589
+      },
+      "sums": {
+        "gate_pair_visits": 14163188964,
+        "gate_unique_pairs": 6108503576,
+        "gate_upper_rejects": 6067119442,
+        "gate_conflict_rejects": 30746903,
+        "gate_exact_pairs": 10637231,
+        "gate_positive_pairs": 967,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 86.93571715000002,
+        "committed_witness_gain_ticks": 19397286554,
+        "committed_gain_ticks": 20082823144,
+        "committed_extra_ticks": 685536590
+      },
+      "examples": [
+        {
+          "cell_id": "ablation_ablation_011_00",
+          "graph": "g0340",
+          "seed": 73,
+          "epoch": 9,
+          "event_line": 8,
+          "outside": [
+            9524,
+            11008
+          ],
+          "unary_gains_ticks": [
+            -59224056,
+            -474061677
+          ],
+          "witness_gain_ticks": 1830942,
+          "gain_ticks": 1830942,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_011_00/events.jsonl",
+          "file_sha256": "8eed913d8017689034a55d67101b9d45f8314eafa02756f1683b39e67eda6e45",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_011_00",
+          "graph": "g0340",
+          "seed": 73,
+          "epoch": 10,
+          "event_line": 10,
+          "outside": [
+            9524,
+            11008
+          ],
+          "unary_gains_ticks": [
+            -59224056,
+            -474061677
+          ],
+          "witness_gain_ticks": 1830942,
+          "gain_ticks": 1830942,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_011_00/events.jsonl",
+          "file_sha256": "8eed913d8017689034a55d67101b9d45f8314eafa02756f1683b39e67eda6e45",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_011_00",
+          "graph": "g0340",
+          "seed": 73,
+          "epoch": 11,
+          "event_line": 12,
+          "outside": [
+            6321,
+            33612
+          ],
+          "unary_gains_ticks": [
+            -376384584,
+            -3256086
+          ],
+          "witness_gain_ticks": 143635554,
+          "gain_ticks": 143635554,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_011_00/events.jsonl",
+          "file_sha256": "8eed913d8017689034a55d67101b9d45f8314eafa02756f1683b39e67eda6e45",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_011_00",
+          "graph": "g0340",
+          "seed": 73,
+          "epoch": 12,
+          "event_line": 14,
+          "outside": [
+            5297,
+            10571
+          ],
+          "unary_gains_ticks": [
+            -265144370,
+            -82026988
+          ],
+          "witness_gain_ticks": 138530370,
+          "gain_ticks": 138530370,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_011_00/events.jsonl",
+          "file_sha256": "8eed913d8017689034a55d67101b9d45f8314eafa02756f1683b39e67eda6e45",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_011_00",
+          "graph": "g0340",
+          "seed": 73,
+          "epoch": 13,
+          "event_line": 16,
+          "outside": [
+            5629,
+            16266
+          ],
+          "unary_gains_ticks": [
+            -359187520,
+            -8215668
+          ],
+          "witness_gain_ticks": 123215545,
+          "gain_ticks": 123215545,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_011_00/events.jsonl",
+          "file_sha256": "8eed913d8017689034a55d67101b9d45f8314eafa02756f1683b39e67eda6e45",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_011_00",
+          "graph": "g0340",
+          "seed": 73,
+          "epoch": 14,
+          "event_line": 18,
+          "outside": [
+            3195,
+            25034
+          ],
+          "unary_gains_ticks": [
+            -511736160,
+            -1693880
+          ],
+          "witness_gain_ticks": 43945310,
+          "gain_ticks": 43945310,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_011_00/events.jsonl",
+          "file_sha256": "8eed913d8017689034a55d67101b9d45f8314eafa02756f1683b39e67eda6e45",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_011_00",
+          "graph": "g0340",
+          "seed": 73,
+          "epoch": 15,
+          "event_line": 20,
+          "outside": [
+            8223,
+            22005
+          ],
+          "unary_gains_ticks": [
+            -417185645,
+            -414418058
+          ],
+          "witness_gain_ticks": 71235029,
+          "gain_ticks": 71235029,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_011_00/events.jsonl",
+          "file_sha256": "8eed913d8017689034a55d67101b9d45f8314eafa02756f1683b39e67eda6e45",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_011_00",
+          "graph": "g0340",
+          "seed": 73,
+          "epoch": 17,
+          "event_line": 23,
+          "outside": [
+            6542,
+            20212
+          ],
+          "unary_gains_ticks": [
+            -28470058,
+            -478885905
+          ],
+          "witness_gain_ticks": 45190152,
+          "gain_ticks": 96312858,
+          "extra_ticks": 51122706,
+          "file": "results/ablation/ablation_ablation_011_00/events.jsonl",
+          "file_sha256": "8eed913d8017689034a55d67101b9d45f8314eafa02756f1683b39e67eda6e45",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_008_00",
+          "graph": "g0340",
+          "seed": 71,
+          "epoch": 2,
+          "event_line": 3,
+          "outside": [
+            9449,
+            23552
+          ],
+          "unary_gains_ticks": [
+            -12983891,
+            -368086189
+          ],
+          "witness_gain_ticks": 53737284,
+          "gain_ticks": 53737284,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_008_00/events.jsonl",
+          "file_sha256": "ff849fa9f8a71d39848bf2abec53745d0732954cbf762a9975c06eb4bc6968c5",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_008_00",
+          "graph": "g0340",
+          "seed": 71,
+          "epoch": 8,
+          "event_line": 10,
+          "outside": [
+            1014,
+            24401
+          ],
+          "unary_gains_ticks": [
+            -5124249,
+            -379066733
+          ],
+          "witness_gain_ticks": 54239882,
+          "gain_ticks": 54239882,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_008_00/events.jsonl",
+          "file_sha256": "ff849fa9f8a71d39848bf2abec53745d0732954cbf762a9975c06eb4bc6968c5",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_008_00",
+          "graph": "g0340",
+          "seed": 71,
+          "epoch": 9,
+          "event_line": 12,
+          "outside": [
+            8239,
+            22020
+          ],
+          "unary_gains_ticks": [
+            -484038119,
+            -477888355
+          ],
+          "witness_gain_ticks": 45175175,
+          "gain_ticks": 45175175,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_008_00/events.jsonl",
+          "file_sha256": "ff849fa9f8a71d39848bf2abec53745d0732954cbf762a9975c06eb4bc6968c5",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "ablation_ablation_008_00",
+          "graph": "g0340",
+          "seed": 71,
+          "epoch": 10,
+          "event_line": 14,
+          "outside": [
+            10622,
+            26374
+          ],
+          "unary_gains_ticks": [
+            -501065454,
+            -523107353
+          ],
+          "witness_gain_ticks": 15829069,
+          "gain_ticks": 15829069,
+          "extra_ticks": 0,
+          "file": "results/ablation/ablation_ablation_008_00/events.jsonl",
+          "file_sha256": "ff849fa9f8a71d39848bf2abec53745d0732954cbf762a9975c06eb4bc6968c5",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        }
+      ],
+      "event_files": [
+        {
+          "cell_id": "ablation_ablation_011_00",
+          "sha256": "8eed913d8017689034a55d67101b9d45f8314eafa02756f1683b39e67eda6e45"
+        },
+        {
+          "cell_id": "ablation_ablation_008_00",
+          "sha256": "ff849fa9f8a71d39848bf2abec53745d0732954cbf762a9975c06eb4bc6968c5"
+        },
+        {
+          "cell_id": "ablation_ablation_006_00",
+          "sha256": "4f9b69f07acd5f785c261e56c25ee46c55e87d9b489ba2ba67e330ef82e56e55"
+        },
+        {
+          "cell_id": "ablation_ablation_005_00",
+          "sha256": "0e886c980b9ee720e094e50a22a33cba7768dc3eb61096615cb7a1f358eb1d44"
+        },
+        {
+          "cell_id": "ablation_ablation_000_00",
+          "sha256": "303b09ccc1c264314723b2c47446e620d4f36f5af96a13df1227ed8efd88938e"
+        },
+        {
+          "cell_id": "ablation_ablation_001_00",
+          "sha256": "9dbcaf9b2c36725b2ea2c624afbc6bae7da795f88e0d2a0a890183afc5687826"
+        },
+        {
+          "cell_id": "ablation_ablation_004_00",
+          "sha256": "e8ec6b7331ac11e5bf6e9e970f539bdcc1dfd6d4e13f6b754f8486a5189d8c1a"
+        },
+        {
+          "cell_id": "ablation_ablation_010_00",
+          "sha256": "06e77e60606284a75290c6d0cae11d322970580933075ae1b165eb463e3b2249"
+        },
+        {
+          "cell_id": "ablation_ablation_007_00",
+          "sha256": "fb20181ac07e39901b631073b1e6df0ab9901d0e7ecece35822d8d1bf7f2fbc0"
+        },
+        {
+          "cell_id": "ablation_ablation_009_00",
+          "sha256": "cf924071092c6dfa4ac9cc978329eec9640e2c707105df66bc64d0b82c7a46d4"
+        },
+        {
+          "cell_id": "ablation_ablation_002_00",
+          "sha256": "6b651ce42bf07328bb6cb71a6075aa6418fd789e1cddd402733b3e22d754a8fc"
+        },
+        {
+          "cell_id": "ablation_ablation_003_00",
+          "sha256": "277f899ccf70239d95ee18027e95f3719515dc050800c68944db8bc7cbb892e4"
+        },
+        {
+          "cell_id": "ablation_ablation_021_01",
+          "sha256": "687a0239599bdf60425f14c70668451fc00e2bbb2c3b6b1cc18bc1ac79fe7dff"
+        },
+        {
+          "cell_id": "ablation_ablation_017_01",
+          "sha256": "af839208e03c336b540ddb8f6d36f1633c66da6276caa81d4319a6b813a14534"
+        },
+        {
+          "cell_id": "ablation_ablation_023_01",
+          "sha256": "54867ecbfa8491c8f08ca2336f4522168f2767c4301e059ac2ae405a1366a2fd"
+        },
+        {
+          "cell_id": "ablation_ablation_018_01",
+          "sha256": "81ec1cc1b2a0e73bcec928942b539a96f75e1bbefb4d803ede740d122c092364"
+        },
+        {
+          "cell_id": "ablation_ablation_012_01",
+          "sha256": "47be9609f948c1710267e0915bfcd3766e1504a8d48b52da1e51ccf37d6f87b0"
+        },
+        {
+          "cell_id": "ablation_ablation_013_01",
+          "sha256": "7c57790d5574f79129af6531f23c91a52137dc3e7031b6ef9479a961e617009e"
+        },
+        {
+          "cell_id": "ablation_ablation_019_01",
+          "sha256": "ee1a3d738890046ad10078ce3c121962f16c309115fdf5f9b65ea330b0127410"
+        },
+        {
+          "cell_id": "ablation_ablation_020_01",
+          "sha256": "80af06e48683cf845d418925ee3173ae8a207cafc5224643c55b2d5496ad1565"
+        },
+        {
+          "cell_id": "ablation_ablation_014_01",
+          "sha256": "b74cd747727fc44b6f663ce00d0288743e3e01253baa1ba15c1ce72db93c0800"
+        },
+        {
+          "cell_id": "ablation_ablation_016_01",
+          "sha256": "fd6953a421cf955b245a411050c3c4aea1438ec5b946626d8156b607ed377d44"
+        },
+        {
+          "cell_id": "ablation_ablation_015_01",
+          "sha256": "364cf930ee2b94fc3fc9a30c7aa96dfd2639e167c2fe5fa955cb99da678a2e29"
+        },
+        {
+          "cell_id": "ablation_ablation_022_01",
+          "sha256": "030748021bcfc5ee1cb529502e7e86012f2280a27e057cba744b43afb223da73"
+        }
+      ],
+      "scope": "Full pair certificates cover at most two insertions only under their native completion/one-optimal conditions. Motif certificates cover the blocker-count{1,2} leaf-bridge class only. Neither is a global optimum certificate.",
+      "gain_sum_note": "Commit gains refer to changing states and different population members; they do not sum to the retained final quality improvement."
+    },
+    "pulse-only": {
+      "counts": {
+        "event_pulse_ablation_gate": 15739,
+        "pulse_policy_events": 15739,
+        "pulse_fusion_events": 1825
+      },
+      "sums": {
+        "pulse_fusion_calls": 1825,
+        "pulse_fusion_seconds": 15.101991846999999,
+        "pulse_gate_seconds": 29.12279046199999
+      },
+      "examples": [],
+      "event_files": [
+        {
+          "cell_id": "ablation_ablation_008_01",
+          "sha256": "a763711a23e84a099fd9fbd2284622a79066d640e92e5e8eedf5c22a872fbafc"
+        },
+        {
+          "cell_id": "ablation_ablation_011_01",
+          "sha256": "aa74fd42c4f80262ae9a70db428367e014ca7a6776f1f14f1f0498bbef5846af"
+        },
+        {
+          "cell_id": "ablation_ablation_006_01",
+          "sha256": "0cc82d57db989998968eb0ffcf0f4d02d4973d8602a52b380dc301b4bac562eb"
+        },
+        {
+          "cell_id": "ablation_ablation_000_01",
+          "sha256": "1339f766c95662ec62dcb2020a06dc83b28102e471afc0202eb1913a2a827f4f"
+        },
+        {
+          "cell_id": "ablation_ablation_005_01",
+          "sha256": "feaf9cf6a40a857d7430aa3fbe5d68b6adcfb23bb85c7d2d121a6d2c27490581"
+        },
+        {
+          "cell_id": "ablation_ablation_001_01",
+          "sha256": "d4becee370a791ba0df33962687a1a627e44ea90241375dab2f8a472ad7ac226"
+        },
+        {
+          "cell_id": "ablation_ablation_004_01",
+          "sha256": "d580a9aebbb374cf816da112e7c1a425b70bbaa3db2c5eb16485412dc7b727b2"
+        },
+        {
+          "cell_id": "ablation_ablation_010_01",
+          "sha256": "4bb717185c2c1c9c96133435a477755a7ac01f76dc7d28eb2c3d79f3fdf92834"
+        },
+        {
+          "cell_id": "ablation_ablation_007_01",
+          "sha256": "efaeba1f2fe44626f207083b9a51b9ae94dcfd5300a083da56dc9896d4882593"
+        },
+        {
+          "cell_id": "ablation_ablation_009_01",
+          "sha256": "820d03dfe5622a5ddfdb88d548cf6b430fd49c038cf665146af3a2c2452b4af3"
+        },
+        {
+          "cell_id": "ablation_ablation_002_01",
+          "sha256": "81036d55b660d88c6ffd7bdc62f773213a4e3f78dbea287af2dce21603a3b83f"
+        },
+        {
+          "cell_id": "ablation_ablation_003_01",
+          "sha256": "c9bf6da076cb21ce9f3eecf4a46c276c345c283cd8d0d85ad91dac84a9b6380e"
+        },
+        {
+          "cell_id": "ablation_ablation_023_00",
+          "sha256": "e2fcf17ac29c5d54b9771222ddae14459b8c8767e82d692e60df956f4f6be004"
+        },
+        {
+          "cell_id": "ablation_ablation_018_00",
+          "sha256": "47145bd684fb8da3efc5aab723cf021c9585318609cbe4dc09bbeb99e59367fa"
+        },
+        {
+          "cell_id": "ablation_ablation_017_00",
+          "sha256": "f5c398d49a5f7c41eee04ce92daca779e1384515c78a26442602d4073a855c57"
+        },
+        {
+          "cell_id": "ablation_ablation_020_00",
+          "sha256": "33d8001820c6eadec4b84efbca33883d9ff18d86a98d7a8494f1afe9f0d8b8fb"
+        },
+        {
+          "cell_id": "ablation_ablation_012_00",
+          "sha256": "441d053995fba33b91baadb6d8ef05897b04f53afc37b0a9a68ee2c21f02651d"
+        },
+        {
+          "cell_id": "ablation_ablation_021_00",
+          "sha256": "0b4a7a232461f5e77fa8d64cabfb80361db1c7fb215b5057a3a3c24872ce7aa1"
+        },
+        {
+          "cell_id": "ablation_ablation_013_00",
+          "sha256": "3ed1a9a96a548f2c1a4caca87680799865be58ff2aaf4627cc7e5a8057d693e0"
+        },
+        {
+          "cell_id": "ablation_ablation_019_00",
+          "sha256": "93d1c29d2f709d2caddc5619eef266c04818c6d21be54b4c3e8f85945256f507"
+        },
+        {
+          "cell_id": "ablation_ablation_016_00",
+          "sha256": "f156f60a9035f349c745ae3354d7ef48e2f45ab8ce619ac8894123f04330cf0f"
+        },
+        {
+          "cell_id": "ablation_ablation_014_00",
+          "sha256": "2c6ab1a289e765fa93d6cddd59c401d12dc442641a4abb7cadcac8ebb8e37a18"
+        },
+        {
+          "cell_id": "ablation_ablation_022_00",
+          "sha256": "7553a87ab6e3c44b7ffde4d4c1ff6da1706b0243079b9ca63c25ea69f4377e89"
+        },
+        {
+          "cell_id": "ablation_ablation_015_00",
+          "sha256": "ba8f9143cde76fe4223d309824c47b2f4fd268b1a1cc9cfe1df8037bb494e055"
+        }
+      ],
+      "scope": "Full pair certificates cover at most two insertions only under their native completion/one-optimal conditions. Motif certificates cover the blocker-count{1,2} leaf-bridge class only. Neither is a global optimum certificate.",
+      "gain_sum_note": "Commit gains refer to changing states and different population members; they do not sum to the retained final quality improvement."
+    }
+  },
+  "event_errors": [],
+  "resource_policy": "All quality results retained regardless of native CPU/wall qualification; failure/incomplete full-frame means are unavailable",
+  "mean_weighting_note": "Ablation means weight all 24 prespecified graph-seed blocks equally; each of eight graph configurations has three fresh seeds. Diagnostics are separate.",
+  "inference_scope": "Engineering observations from one reused AU-L002 physical mother source; neither graph configurations nor random seeds create independent physical sources",
+  "actual_timestamps": {
+    "first_started_utc": "2026-10-07T13:15:40.357796+00:00",
+    "last_completed_utc": "2026-10-07T13:39:45.731084+00:00",
+    "registration_utc": "2026-10-07T13:15:38.973274+00:00",
+    "completion_utc": "2026-10-07T13:39:46.778838+00:00"
+  },
+  "native_budget_definition": "360 native wall seconds, population4, one pinned native CPU/thread; actual native CPU/wall is separately measured",
+  "cpu_quota": "1200000 100000",
+  "cpu_stat_start": "usage_usec 192620004060\nuser_usec 190726175625\nsystem_usec 1893828435\nnr_periods 549622\nnr_throttled 41946\nthrottled_usec 347256808\n",
+  "cpu_stat_end": "usage_usec 209944497717\nuser_usec 207998358446\nsystem_usec 1946139270\nnr_periods 564100\nnr_throttled 50398\nthrottled_usec 430148361\n",
+  "resource_unqualified": 0
+}

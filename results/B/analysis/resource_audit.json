@@ -1,0 +1,8 @@
+{
+  "pass_all": true,
+  "errors": [],
+  "diagnostic_completion_barrier": true,
+  "timelines_checked": 12,
+  "same_cpu_overlap_policy": "Every actual cell interval retained, including preparation and validation",
+  "resource_policy": "Measured CPU/wall <.95 is descriptive and retained, never a quality exclusion"
+}

@@ -1,0 +1,464 @@
+{
+  "schema": "barr_v04BC_frozen_confirmation_v3",
+  "phase": "confirmation",
+  "role": "fresh_seed_frozen_confirmation",
+  "seconds": 360.0,
+  "cpus": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "coordinator_cpu": 11,
+  "arms": [
+    {
+      "id": "local",
+      "source": "BARR_v0.3",
+      "mode": "local",
+      "options": {},
+      "binary_sha256": "038574ec816000f9aea7b4b638ba4464d67816f20bd627400ce0820d8ef1f0a3",
+      "trace": false,
+      "role": "fresh_seed_frozen_confirmation"
+    },
+    {
+      "id": "fusion",
+      "source": "BARR_v0.3",
+      "mode": "fusion",
+      "options": {},
+      "binary_sha256": "038574ec816000f9aea7b4b638ba4464d67816f20bd627400ce0820d8ef1f0a3",
+      "trace": false,
+      "role": "fresh_seed_frozen_confirmation"
+    },
+    {
+      "id": "barr-v03",
+      "source": "BARR_v0.3",
+      "mode": "barr",
+      "options": {},
+      "binary_sha256": "038574ec816000f9aea7b4b638ba4464d67816f20bd627400ce0820d8ef1f0a3",
+      "trace": false,
+      "role": "fresh_seed_frozen_confirmation"
+    },
+    {
+      "id": "candidate-A",
+      "source": "BARR_v0.4",
+      "mode": "selective",
+      "trace": false,
+      "role": "fresh_seed_frozen_confirmation",
+      "options": {
+        "gate": "value",
+        "gate-fraction": 0.05,
+        "gate-cooldown": 0.25,
+        "gate-warmup": 30.0,
+        "event-stale": 8,
+        "explore-every": 8,
+        "gate-trials": 8
+      },
+      "binary_sha256": "0e56dc86518fcaf8b86ef483d5fbbffa581317faabf92fcc51c0edb23d19886d"
+    },
+    {
+      "id": "CHILS-p16",
+      "source": "chils",
+      "mode": "CHILS-p16",
+      "options": {},
+      "binary_sha256": "134b238004b3f7ca7fc0ee1b424c9a6826139b86656156e8adc4ecc0acd68736",
+      "trace": false,
+      "role": "fresh_seed_frozen_confirmation",
+      "engine": "original_int64_cc_run",
+      "native_population": 16,
+      "native_threads": 1,
+      "step_seconds": 10.0,
+      "callback": false
+    },
+    {
+      "id": "selected-B-or-C",
+      "source": "BARR_v0.4B",
+      "mode": "pair",
+      "options": {
+        "gate-fraction": 0.05,
+        "gate-warmup": 30,
+        "gate-cooldown": 0.5,
+        "event-stale": 8,
+        "pair-slice": 0.5,
+        "pair-max-seeds": 0,
+        "pair-fusion-every": 4,
+        "challengers": 12,
+        "kernel-nodes": 128,
+        "kernel-seconds": 0.03,
+        "local-iterations": 64,
+        "local-seconds": 0.025,
+        "pair-policy": "fusion-refine"
+      },
+      "binary_sha256": "fb56e65a09f59762ee6b5c538ab091f0f435bfc939de195dd0737b389ae86cf1",
+      "trace": false,
+      "role": "fresh_seed_frozen_confirmation",
+      "selected_development_arm": "pair-fusion",
+      "kernel_snapshots": false,
+      "sketch_snapshots": false
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "confirm_000",
+      "graph": "gW1200_gE0340_s0150",
+      "seed": 41,
+      "cpu": 5,
+      "arm_order": [
+        "local",
+        "fusion",
+        "barr-v03",
+        "candidate-A",
+        "CHILS-p16",
+        "selected-B-or-C"
+      ]
+    },
+    {
+      "block_id": "confirm_001",
+      "graph": "gW1200_gE0680_s0150",
+      "seed": 31,
+      "cpu": 6,
+      "arm_order": [
+        "fusion",
+        "barr-v03",
+        "candidate-A",
+        "CHILS-p16",
+        "selected-B-or-C",
+        "local"
+      ]
+    },
+    {
+      "block_id": "confirm_002",
+      "graph": "g1200",
+      "seed": 31,
+      "cpu": 7,
+      "arm_order": [
+        "barr-v03",
+        "candidate-A",
+        "CHILS-p16",
+        "selected-B-or-C",
+        "local",
+        "fusion"
+      ]
+    },
+    {
+      "block_id": "confirm_003",
+      "graph": "g1800",
+      "seed": 37,
+      "cpu": 8,
+      "arm_order": [
+        "candidate-A",
+        "CHILS-p16",
+        "selected-B-or-C",
+        "local",
+        "fusion",
+        "barr-v03"
+      ]
+    },
+    {
+      "block_id": "confirm_004",
+      "graph": "gW0680_gE1200_s0150",
+      "seed": 31,
+      "cpu": 9,
+      "arm_order": [
+        "CHILS-p16",
+        "selected-B-or-C",
+        "local",
+        "fusion",
+        "barr-v03",
+        "candidate-A"
+      ]
+    },
+    {
+      "block_id": "confirm_005",
+      "graph": "gW0340_gE1200_s0150",
+      "seed": 37,
+      "cpu": 10,
+      "arm_order": [
+        "selected-B-or-C",
+        "local",
+        "fusion",
+        "barr-v03",
+        "candidate-A",
+        "CHILS-p16"
+      ]
+    },
+    {
+      "block_id": "confirm_006",
+      "graph": "g0680",
+      "seed": 41,
+      "cpu": 12,
+      "arm_order": [
+        "selected-B-or-C",
+        "CHILS-p16",
+        "candidate-A",
+        "barr-v03",
+        "fusion",
+        "local"
+      ]
+    },
+    {
+      "block_id": "confirm_007",
+      "graph": "gW0680_gE1200_s0150",
+      "seed": 41,
+      "cpu": 13,
+      "arm_order": [
+        "local",
+        "selected-B-or-C",
+        "CHILS-p16",
+        "candidate-A",
+        "barr-v03",
+        "fusion"
+      ]
+    },
+    {
+      "block_id": "confirm_008",
+      "graph": "g0340",
+      "seed": 31,
+      "cpu": 14,
+      "arm_order": [
+        "fusion",
+        "local",
+        "selected-B-or-C",
+        "CHILS-p16",
+        "candidate-A",
+        "barr-v03"
+      ]
+    },
+    {
+      "block_id": "confirm_009",
+      "graph": "gW1200_gE0680_s0150",
+      "seed": 41,
+      "cpu": 15,
+      "arm_order": [
+        "barr-v03",
+        "fusion",
+        "local",
+        "selected-B-or-C",
+        "CHILS-p16",
+        "candidate-A"
+      ]
+    },
+    {
+      "block_id": "confirm_010",
+      "graph": "gW1200_gE0680_s0150",
+      "seed": 37,
+      "cpu": 16,
+      "arm_order": [
+        "candidate-A",
+        "barr-v03",
+        "fusion",
+        "local",
+        "selected-B-or-C",
+        "CHILS-p16"
+      ]
+    },
+    {
+      "block_id": "confirm_011",
+      "graph": "g0340",
+      "seed": 37,
+      "cpu": 17,
+      "arm_order": [
+        "CHILS-p16",
+        "candidate-A",
+        "barr-v03",
+        "fusion",
+        "local",
+        "selected-B-or-C"
+      ]
+    },
+    {
+      "block_id": "confirm_012",
+      "graph": "gW0340_gE1200_s0150",
+      "seed": 31,
+      "cpu": 5,
+      "arm_order": [
+        "local",
+        "fusion",
+        "barr-v03",
+        "candidate-A",
+        "CHILS-p16",
+        "selected-B-or-C"
+      ]
+    },
+    {
+      "block_id": "confirm_013",
+      "graph": "gW0340_gE1200_s0150",
+      "seed": 41,
+      "cpu": 6,
+      "arm_order": [
+        "fusion",
+        "barr-v03",
+        "candidate-A",
+        "CHILS-p16",
+        "selected-B-or-C",
+        "local"
+      ]
+    },
+    {
+      "block_id": "confirm_014",
+      "graph": "gW0680_gE1200_s0150",
+      "seed": 37,
+      "cpu": 7,
+      "arm_order": [
+        "barr-v03",
+        "candidate-A",
+        "CHILS-p16",
+        "selected-B-or-C",
+        "local",
+        "fusion"
+      ]
+    },
+    {
+      "block_id": "confirm_015",
+      "graph": "g0680",
+      "seed": 37,
+      "cpu": 8,
+      "arm_order": [
+        "candidate-A",
+        "CHILS-p16",
+        "selected-B-or-C",
+        "local",
+        "fusion",
+        "barr-v03"
+      ]
+    },
+    {
+      "block_id": "confirm_016",
+      "graph": "g1200",
+      "seed": 41,
+      "cpu": 9,
+      "arm_order": [
+        "CHILS-p16",
+        "selected-B-or-C",
+        "local",
+        "fusion",
+        "barr-v03",
+        "candidate-A"
+      ]
+    },
+    {
+      "block_id": "confirm_017",
+      "graph": "g0680",
+      "seed": 31,
+      "cpu": 10,
+      "arm_order": [
+        "selected-B-or-C",
+        "local",
+        "fusion",
+        "barr-v03",
+        "candidate-A",
+        "CHILS-p16"
+      ]
+    },
+    {
+      "block_id": "confirm_018",
+      "graph": "gW1200_gE0340_s0150",
+      "seed": 31,
+      "cpu": 12,
+      "arm_order": [
+        "selected-B-or-C",
+        "CHILS-p16",
+        "candidate-A",
+        "barr-v03",
+        "fusion",
+        "local"
+      ]
+    },
+    {
+      "block_id": "confirm_019",
+      "graph": "gW1200_gE0340_s0150",
+      "seed": 37,
+      "cpu": 13,
+      "arm_order": [
+        "local",
+        "selected-B-or-C",
+        "CHILS-p16",
+        "candidate-A",
+        "barr-v03",
+        "fusion"
+      ]
+    },
+    {
+      "block_id": "confirm_020",
+      "graph": "g1800",
+      "seed": 31,
+      "cpu": 14,
+      "arm_order": [
+        "fusion",
+        "local",
+        "selected-B-or-C",
+        "CHILS-p16",
+        "candidate-A",
+        "barr-v03"
+      ]
+    },
+    {
+      "block_id": "confirm_021",
+      "graph": "g0340",
+      "seed": 41,
+      "cpu": 15,
+      "arm_order": [
+        "barr-v03",
+        "fusion",
+        "local",
+        "selected-B-or-C",
+        "CHILS-p16",
+        "candidate-A"
+      ]
+    },
+    {
+      "block_id": "confirm_022",
+      "graph": "g1800",
+      "seed": 41,
+      "cpu": 16,
+      "arm_order": [
+        "candidate-A",
+        "barr-v03",
+        "fusion",
+        "local",
+        "selected-B-or-C",
+        "CHILS-p16"
+      ]
+    },
+    {
+      "block_id": "confirm_023",
+      "graph": "g1200",
+      "seed": 37,
+      "cpu": 17,
+      "arm_order": [
+        "CHILS-p16",
+        "candidate-A",
+        "barr-v03",
+        "fusion",
+        "local",
+        "selected-B-or-C"
+      ]
+    }
+  ],
+  "extra_calibration_paths": [
+    "full_capacity_recovery_calibration.json"
+  ],
+  "selection_sha256": "b2a11bf7f6cf49341260783a9ee1ba98920a1ee5f98672194af3dfaf1566903c",
+  "fresh_seeds": [
+    31,
+    37,
+    41
+  ],
+  "order_seed": 20261007,
+  "positions": 144,
+  "native_threads": 1,
+  "common_initialization": "Same copied normalized initial_mask for all arms on each graph",
+  "order_protocol": "Six cyclic shifts and their six reversals, repeated twice; each arm occurs four times in each position and every method pair appears before/after 12:12",
+  "core_protocol": "24 entire paired blocks, two per each of twelve calibrated CPUs; no simultaneous methods within one block or CPU",
+  "resource_policy": "Native CPU/wall <.95 flagged and retained; no automatic performance reruns or exclusion",
+  "diagnostic_barrier": "Both separate diagnostic native trajectories must finish and audit before confirmation starts",
+  "source_policy": "Copied v0.3 anchors, unchanged candidate-A, and the single frozen selected B/C definition; no tuning on fresh-seed outcomes",
+  "inference_scope": "Eight configurations of one reused physical mother source; no claim of eight independent datasets"
+}

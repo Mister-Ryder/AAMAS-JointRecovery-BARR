@@ -1,0 +1,2328 @@
+{
+  "checked_utc": "2026-10-08T12:01:55.643764+00:00",
+  "complete": true,
+  "records": 290,
+  "checks": [
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_000_00",
+      "objective_ticks": 1258927119157,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "04d2707ace29eedb18ba029fa80baaf9b5b7afa3da2243159e3ddcda034c3258"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_000_01",
+      "objective_ticks": 1259362926001,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "392b356770658a6e4fffa67cd325c20f956a9e7cff1911cb7a1b5ac8f4c4f44d"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_000_02",
+      "objective_ticks": 1258899244100,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "215ecd677f0e9c7b069c16917aa20b361d085da05b2091de24f66ff03dc9363e"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_000_03",
+      "objective_ticks": 1259920609136,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "c90ecb7d47c64ff07ec97d753b3757c629792dcb5f04405ca91d2b3cdd25438f"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_000_04",
+      "objective_ticks": 1264537211943,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ecd30fb35e7cff1b7505a93acaac5b4306cf91f4cc32b093b16906293b6558fe"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_000_05",
+      "objective_ticks": 1260959705745,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ef81a60daadb6194d372fc00dad92d516fba86d9cd74af4d8347dc21551bd973"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_001_00",
+      "objective_ticks": 1064849043586,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "4d186513562d021e4851eed7eab4ca1d663e8c26a25d421fe2534209cc1b04e1"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_001_01",
+      "objective_ticks": 1062466022297,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "7992f20f4ce8a8487231f3e0dd2599ebd84eb5fbe17b703632d98630ac284796"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_001_02",
+      "objective_ticks": 1063385021907,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "7c0dacc00d05d074e530b7da31f3df036fe8860b04d507db37bab5dc90b30b98"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_001_03",
+      "objective_ticks": 1064271172498,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6ab670593d3117bac7cd1dfb2b1b46a7871d12dd987e35044191b6aaffd46b2d"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_001_04",
+      "objective_ticks": 1066388272076,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "83e135b104f0d9bbee884b0a5008bcd64daac7af414a813603757e77ff8ec0ba"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_001_05",
+      "objective_ticks": 1063462036980,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3c761509ee2c64f8015339fbfd1743931b322fcec75049d239853ccb4004de28"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_002_00",
+      "objective_ticks": 881578949130,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "347d686552090e305f896b7e6dd83b1cce99780255e642e17486cf4b976b3528"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_002_01",
+      "objective_ticks": 880284048644,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "11c811d9664028f68ae1d05c9b26e970ce894fc08de0090618ba1eb7a63d0184"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_002_02",
+      "objective_ticks": 880520289465,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "82135ee638a4bd57a319bed9a3f9cc03223326203e6c245ed2a6b3f0f743d468"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_002_03",
+      "objective_ticks": 883018670699,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "57a023b4b1c7bba0712ab879ae41df32c3d76aa05af1fe0305f388e65eaa8e31"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_002_04",
+      "objective_ticks": 880254954006,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "58de05d5953eba19847ef389d43e937a7023cfb20ec357373f729749b220c267"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_002_05",
+      "objective_ticks": 881168689362,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "85d6d0dd34a5fc3d91c2819172db32b6a2f44b1eb54aaaa4e9840f79ebd2a912"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_003_00",
+      "objective_ticks": 680293589128,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "5749ecd2522be97541f6ae390f55f18375e8d6c566956bafe5700aaf46b007bd"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_003_01",
+      "objective_ticks": 682934764178,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "e23d27b2334d1994066142334cf82c41afb7f0d75dfd68028ee4e324672ede9a"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_003_02",
+      "objective_ticks": 682055078920,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "2ffb7889df861b03954a759d2335b47664fc4ec15bce73119dbb3f0f95d3cb16"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_003_03",
+      "objective_ticks": 680380462675,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "163e1fb8492b592c33246579ce11b1fc5c5d784c10b3d45b23b328062b712590"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_003_04",
+      "objective_ticks": 682059725873,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f418b4516e17713217b12a9b57b155f213872d12c13f13476f990ff56108289c"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_003_05",
+      "objective_ticks": 679625411513,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "13fd9828c4b9833630d342e63092b9ffe8aaf482edfcd7946b235a2e3beb8c24"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_004_00",
+      "objective_ticks": 1066258742852,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a4d4881cc7a8172ec3d189e5bdf4f31f2af7bc4e7d43b6ed13b3cb82e3848917"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_004_01",
+      "objective_ticks": 1069857930844,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b5f6425d2353fd3b45b2d439af68597e8bbda14dae745fae00d311b53f507af6"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_004_02",
+      "objective_ticks": 1066639557500,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3b8289a7797bb16948c3d7808a08b3de3c8e618f2d87aa54212e104787e8dbb1"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_004_03",
+      "objective_ticks": 1066403499679,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b7cce6bc40b067fc4e15564ea77d30d9b3975233b79e3efd563c98adf1a6e0ba"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_004_04",
+      "objective_ticks": 1065369744944,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "99697e7a1b8de7dbe77c63cce44b495c7386d5da7be549d604b25b93daaa7d0f"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_004_05",
+      "objective_ticks": 1066550580762,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "625326cff09b89171c844ca9b1b310c62e85e56610e6706e91dc2878c3a7acb2"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_005_00",
+      "objective_ticks": 1261376854797,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "01c8959afc292ec1c0a56db1e8d510682853df224e0234cda39100908cdc67bf"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_005_01",
+      "objective_ticks": 1258198016211,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f6a733306675a1a9f2f425990b0617ad2f73badda8c47681e6d55c1b86719f6c"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_005_02",
+      "objective_ticks": 1257334234451,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "d3c78da4d8e9f901eaf7213f0098f08f3142ac989b4512cb46b9ceb4909eaf02"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_005_03",
+      "objective_ticks": 1257282200304,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "1b6990232cda0dbb296fe30d1d6738b2a1961a2f32954ffad5f998a8d6aa8172"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_005_04",
+      "objective_ticks": 1258512440160,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "1bbfc537c8ed181ed28003ed5cd5ba9be7433d8f6dd4f2f618679df97c6d44e9"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_005_05",
+      "objective_ticks": 1262182287228,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b7ffbbd4bdf2b8f254c40c996325e848fa9f75206cc1992b4cd6b2dfbbff1b8e"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_006_00",
+      "objective_ticks": 1246399424290,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "49149824d5a401bca45a249c800968a5de4d9f30a8561d0bd9b58d2bbfc5299f"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_006_01",
+      "objective_ticks": 1248670643483,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "d4d7cfe28e49f3962b0ac1280cd6d766a920596e6f5555b4a5cf969e2d2f0791"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_006_02",
+      "objective_ticks": 1245061160230,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "889de03b1eed0730bf4503abf0b63cf8978d1f44d11dde06c3da4484891a811d"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_006_03",
+      "objective_ticks": 1240637267404,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "bdeb5c18a7ad45f3088e2da7442742f27d72208bdb89c2c6ef014b14ccf1060e"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_006_04",
+      "objective_ticks": 1244830621621,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "0fc8118da0b74b26fc0765ab3c9b04f788b7a0411b405f5ac953592b50f8a184"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_006_05",
+      "objective_ticks": 1244869951390,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "87c2df98c922026659516cd9f960c98f739ed7e1af5f612ec002fe04af6a1bb8"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_007_00",
+      "objective_ticks": 1062992293995,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6554e3a38ab5094117d5f6217f4aae1d9282adcb491b58c30f44aa9b52c7d3e3"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_007_01",
+      "objective_ticks": 1064091291415,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "23eecc1a3d5d11b7bed092e5ca186e8268fadb06661a6b10ebe06e00eb3bf06b"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_007_02",
+      "objective_ticks": 1065170740861,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6f417dc8222c4cf2103de91ae5aed43deb1fc1fefb893adfa1541336d9e4b6a3"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_007_03",
+      "objective_ticks": 1062392339944,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "dc53cb1f47855eec6ad82d7efdb2e6f3fbaeade6248f0ad7e308ad270a9d030a"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_007_04",
+      "objective_ticks": 1062358830847,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6bcc2b0f26c1b206baaa80b48cfee2cd247e3496c740d1a621c259c1058bc0f0"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_007_05",
+      "objective_ticks": 1063037818007,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3fe23fff5373f237ae968c7c39797093f54103e39a2cdc33a5a4feb8f36b8f86"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_008_00",
+      "objective_ticks": 1620331216271,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ddadd0bb6960a966e471563428f58cf84dba2454af7ae413b95ddeaacb2dd787"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_008_01",
+      "objective_ticks": 1619743442414,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "20c95b153e65546b5b052b58fe7b14242e6dd363cff140ce36142286e7f6c856"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_008_02",
+      "objective_ticks": 1621358050431,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "4f750885741351359498c7f1f3a3bea28ac3bd93878720b4a73822f8c7ed42e4"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_008_03",
+      "objective_ticks": 1627767656072,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "45e40bea215bdd3b20ea711ce6783d5145684f47e059b2d004d2e73f0775226d"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_008_04",
+      "objective_ticks": 1619694040153,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "654c7d670fd6304d3d971987ec3a128a94c24392ab43ff0bc82d38e528d82e36"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_008_05",
+      "objective_ticks": 1618437428722,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "4e6df39802b2ab2105fd53a5094dfb8a0f8dac0599f8b7e41a570e30e28f5643"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_009_00",
+      "objective_ticks": 1063682099245,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "497f06e1ec2ba34b0c1477f6cac1289d1e970ad4f6056fb7becf7182a86b404f"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_009_01",
+      "objective_ticks": 1062662420396,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "df69aed255946a55c9c1740ceb66abbcfeb94aa8e266aff5e458b298d6b158f7"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_009_02",
+      "objective_ticks": 1061174511547,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ab32a062cf11bbeaf52bd796fa37e42ea73fd82b95d952062b9f1d6b325d0517"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_009_03",
+      "objective_ticks": 1061318299497,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f3b91ea672c076d12ebabebb84a1e0ed9cab534baa9661a06c78b7b3053704f7"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_009_04",
+      "objective_ticks": 1066229945549,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "1f4e1e3ab3fa78d8e12dce8205c812656f54a27f82873a75c44b6fc0c84d6a8a"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_009_05",
+      "objective_ticks": 1061277890738,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3bd22be192d0b72cb64ea562c3e47c86a5b79c426d98464a7b98eaa576e27a7b"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_010_00",
+      "objective_ticks": 1061347439908,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "9777e6896ac77d3fd4941fe6c4489ccdddf8e3bfbf00a2d4fe27c6fc9bc4bcb7"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_010_01",
+      "objective_ticks": 1061442376951,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "cbcdecf928ed8ebd35b32b0ee5c05fb55f4165f816f93f4dea46153d09514744"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_010_02",
+      "objective_ticks": 1063180418355,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "639a221ef811ef3215740b3b9a157e2839ae627fdc393e2a7b5de2667da9d023"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_010_03",
+      "objective_ticks": 1061507399387,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "2a02505988a098b9658540b0f3e3d712b0a308c56228349aa45ab5d154b85306"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_010_04",
+      "objective_ticks": 1065951553849,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "850c9b86890063c7569cfc108be7ca07b86bef8ec5a8f5b2c1522b8e63e26bbc"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_010_05",
+      "objective_ticks": 1064450408815,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "86e0dfade43d65f43cd077981d8fabc5eeb3d3aa7c991daa331e7cb1048c9ced"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_011_00",
+      "objective_ticks": 1629166894981,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "1a4097f7b5cd9f22a35164e1aa6b89bc195e4b819fe1b90e85a733385194a4c7"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_011_01",
+      "objective_ticks": 1619875840000,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "680239efee8498eb552641c8cc5a9de3d3cf6fa503ed1023166d2cda16aedb0d"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_011_02",
+      "objective_ticks": 1619303347705,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ee88ad5b043658ca5129ef865cf47db9618becbb4d371a24bc4438bcb75a9665"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_011_03",
+      "objective_ticks": 1620295719384,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "31995f2af7dc2162d13329c3a5dd389d81a0a4264f7903106d91d772da72aa77"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_011_04",
+      "objective_ticks": 1620361005810,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "d8eb6e160c55d8415044a97bf5b6ee593ecf2e29fc8588f24235233807104fd5"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_011_05",
+      "objective_ticks": 1623236885480,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "0813aea73ad9d336d9d03425304bbe416a6ccd61439f001a1f0e5420f3d5c96c"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_012_00",
+      "objective_ticks": 1258269411472,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "aadb6eb3495d2f0a28d53c9658fb15551f7ddf447c1e512ae6ff2c4727d2f539"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_012_01",
+      "objective_ticks": 1259846562654,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "5f0af6ee7ec5429e1abec4616390fedab711728f9eca5450e5640a1e64629a3b"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_012_02",
+      "objective_ticks": 1257098983706,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "06a3b45367137cb8c9a1ffcd53b2c64489260e06f47b3a51697a58d99fe8fb8f"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_012_03",
+      "objective_ticks": 1258156454094,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "cd9956c0fdabec7527bb8f2c276482b98974e1065964db99758ef04112547863"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_012_04",
+      "objective_ticks": 1262942331230,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "9695d3f90df64bb2e919339150d30494bf41a3413b32821df5c368893cd7567f"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_012_05",
+      "objective_ticks": 1260703724919,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f14a2db750fae148935599ae2ca458b982f8b97fe248dcd74528b55da7eb043a"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_013_00",
+      "objective_ticks": 1259164338201,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ea282457fe0c0757ffa5172c6fe0d4e7e5fb0dd361487baaeacc6b8674cbb97b"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_013_01",
+      "objective_ticks": 1255109856819,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "9a0e09b2d5e34e3acca902d4aaaef42cdaba51b5e4856c9a2780128902f839da"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_013_02",
+      "objective_ticks": 1258091022541,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "7a23038eb3e834c6919a8edd588fbfe20d32840d46e462f2c29764ccaed8cdbd"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_013_03",
+      "objective_ticks": 1261586358929,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f950e62d8c8063a40f67d413859cd4ea29aaf6f25ee7adda273cbb2a4adba5a8"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_013_04",
+      "objective_ticks": 1260634989318,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "bf28006163b11d0a3c98daa2eb3bc8dd9821db0336cedecbb768755f1c84f361"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_013_05",
+      "objective_ticks": 1258161897525,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "93c7f8439f62e57a457b35140e8b85334bae81aa1851a8d336da9a6e259151ac"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_014_00",
+      "objective_ticks": 1064167921999,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "706cbf63e41aaa1b4cc80dd19d3f135219df4591f8823be67b864c340425219a"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_014_01",
+      "objective_ticks": 1062818089513,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "2e92d4541a0fb2a38b88f734b0ea38f351f4d8032da5681c285ffeb4a6a61a34"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_014_02",
+      "objective_ticks": 1066741836637,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "11446c47f4a572a7762d932b3656360e440f117485a1ed79a4640de0ced874b6"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_014_03",
+      "objective_ticks": 1065200750344,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a213614aee8a3f32ad63071a1058689f7e4536f80f81cf770340391559074bd0"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_014_04",
+      "objective_ticks": 1063076277416,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "08d0d40570f9f081ca45f89a2964d85ba935eae41cbb5abc65dbe169a4f20a4f"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_014_05",
+      "objective_ticks": 1065928308309,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "7837fd0ab3f934faec370dff296e7a10a701b9328344da75237e5f7f4506c183"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_015_00",
+      "objective_ticks": 1242486931237,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a7a32f0896ad71f6571836a4c1939da25ab4fc1451f6dfc257db17067885beb4"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_015_01",
+      "objective_ticks": 1248460876379,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "704185f092fbe1bc81439d367aeb93e218d37004f9b228467c447b12d49df83f"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_015_02",
+      "objective_ticks": 1244833563747,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "933b5634b715c3cad91fc278f5c09472556e23bc1330da79d72d0f001acce8da"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_015_03",
+      "objective_ticks": 1242841566972,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "03135b04bb440c2ca4a1c1512cc478db681a3a7e0e7ee2e47f5b01d36e3f98d4"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_015_04",
+      "objective_ticks": 1241855000377,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3e8b87a9c757042baa4bd0d143a8348b3f88fbb0a274d141054c1b96ba2ebd17"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_015_05",
+      "objective_ticks": 1241478762514,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "d4d7374d28f82c8e4e0e510405a3660d135a6c1b0c427d0150d8ba6f9384d815"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_016_00",
+      "objective_ticks": 881354602379,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "600aa947f01e566db82f2379043f792888cf71048672616eb008cd13327d8afd"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_016_01",
+      "objective_ticks": 884377152433,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "2a58d371b2b0354de97b61ef743f04b19cc991a004cbb07a6fa32ebda13bc461"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_016_02",
+      "objective_ticks": 880337385685,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "25bb6eb2b976d4924b6c73b4dc3a035a73a72505874109d283958b9a1503b08d"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_016_03",
+      "objective_ticks": 882724762633,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a1fe3b93c21014df5e1b20c50bd04fe76b76a9dc7cd84393319cdeb1edd384f8"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_016_04",
+      "objective_ticks": 880890431950,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "04920f8844ab2b11eec6ba57a5cd519e3af91a25013c79a732cbe9c62d8c2fa1"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_016_05",
+      "objective_ticks": 880211187433,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "9f38f3abb7cda84d1ea75ad0afc2bcd0c924b7bc355034e8c86c383bf1c2bb5b"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_017_00",
+      "objective_ticks": 1244766223589,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b225fe70a2a1ab8e2e41eaa0593a7cce4cc4c6b044c8774b708fa68efb35b5eb"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_017_01",
+      "objective_ticks": 1243264166437,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "925a414d42c6b6c95dcddcdc8fcc4e230db63343b93d878804e3d13c3fd30e22"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_017_02",
+      "objective_ticks": 1244715983657,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "05153a9933e8d69704a3b8854bf327d411098527601185c78708bfd14c979010"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_017_03",
+      "objective_ticks": 1242414219114,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ab817e62bd14f02d38f622aabe75e8a512e8017b6ad077efaaf117d24eda4c02"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_017_04",
+      "objective_ticks": 1243264166437,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a3cea38d64f0add2b8cf75ca2732c8e39181cf6ebffdd7b3dc1670047e6d0139"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_017_05",
+      "objective_ticks": 1249619864105,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "61a396567cec70dacccb4a4ad46990af278c9d98590d03a470a6edb572a386d7"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_018_00",
+      "objective_ticks": 1263157191309,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "214f8f9aa0ae1e9b4a74e6911971d1e24aab2ac6c345ceccb0fd5482c2add890"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_018_01",
+      "objective_ticks": 1263594844718,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3aeccb95679a304b2ac868309f248014aecb6de4a7f4937d0eb31e455f67cd27"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_018_02",
+      "objective_ticks": 1259559309642,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "2fa3c54de4811a960834e38a15ab7f67faabc108ca6dd95947e79e2af537bc89"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_018_03",
+      "objective_ticks": 1257688949071,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "371760356977ab3ff611eeab04f01ad686418bc7e08f6725a99e561256b76a20"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_018_04",
+      "objective_ticks": 1261390190879,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "5024e30ab55620109924bc8358d470bc6674a04dfdd3a5be37bd80c32237828d"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_018_05",
+      "objective_ticks": 1258886920042,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a315b998214c3b17ad093b26c31e73f8e17754c4044eb60617261983065ee67b"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_019_00",
+      "objective_ticks": 1260875298181,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "5c161817623e35a02760af598e5f759cbeabd23e0eb82f1bfe2cfd6f81a9504e"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_019_01",
+      "objective_ticks": 1261612574330,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "8d0e190e836136b4b6a8fec58c66becd27e83a93ddef50630234357de0200255"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_019_02",
+      "objective_ticks": 1263382529400,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "329276a9f98788a5fe655fced1f4aff8cd19d73564c3e5727ae55a756d7711ca"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_019_03",
+      "objective_ticks": 1260875298181,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "19fc66e5de8b3399aa54f83a8e304b8ddaece31ab84b94cc8ccac2d28f562152"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_019_04",
+      "objective_ticks": 1258660949458,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "33b6d382bf481968f8600b0c7dc6204df9986cec6b2c20e4466f2ad9fe60001d"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_019_05",
+      "objective_ticks": 1261121800850,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "0837e58f36a88a36d6296778f52657a916b9050a6114476d491b9c92c485c6ec"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_020_00",
+      "objective_ticks": 681666520816,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "fdfa9ed707c13e585350c755ca3418f5669381a6c1f562aef3f92f823bfe71ee"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_020_01",
+      "objective_ticks": 679108231533,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "0c19c39bec730f3b4d491acbf166be19f1d98f8f62892e4f34ecd3b3580cd0a1"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_020_02",
+      "objective_ticks": 684014613065,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "9251ee850b7ff4779780905d8ea9546366d81d43a0662e4bcb594e0f0966e244"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_020_03",
+      "objective_ticks": 682166687373,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "9d71c142f1a85406dd360546920967402886f019dbe150404ba181e3230ac772"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_020_04",
+      "objective_ticks": 679064081815,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "fd76dda6d69bf0c2da983618e57b725de66f0e38a07c88f59470d419d37a56c6"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_020_05",
+      "objective_ticks": 681519847279,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "e27974771451c69bc294617e3f9488044d82c2516c2fffd69cf8281ed6f4a329"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_021_00",
+      "objective_ticks": 1618144937721,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "2f1826f51328e0be0c6fe7a668d2d0984a34c71a254f1c6ae1aad4bed5f40803"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_021_01",
+      "objective_ticks": 1622776772130,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "2fd129c5877d549e766e7d45dceba70348ea236f0148cd21d04303dddf7fa078"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_021_02",
+      "objective_ticks": 1620629430858,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "eb491cb8a4cfea41e5c398dde3cabb1056995f73f9aa69fd183e5d56541ea215"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_021_03",
+      "objective_ticks": 1625111377169,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "8ac0d3ae446a08661960f0b2ac214c00b9f84ee75db65521a9230601af166b18"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_021_04",
+      "objective_ticks": 1629188922337,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a60558b705de27b0f7620059f963fbf651e6eda966080fcdca780bd59afae80b"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_021_05",
+      "objective_ticks": 1620612188162,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "afa247512a97a8936bd928d80c687d9534023dc286162deb5d03edbe325d13d8"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_022_00",
+      "objective_ticks": 679380720770,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "536dc3e8b7970d295817de93d76146421552191c794e77c2b7cd011cefeaeccb"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_022_01",
+      "objective_ticks": 677866274356,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "37c46571748bb8633baff9594f8eea525109cc444507b71c74a5c71b06224914"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_022_02",
+      "objective_ticks": 681534318059,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "8ed59132914c77c3b190f94220f03d8943fe8e5306d684d9f3c689e361d7005b"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_022_03",
+      "objective_ticks": 679420935941,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "eeccd16e5446ca9fc1ee742fae999fd7f194d7136923d36b7d1c340c8673658c"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_022_04",
+      "objective_ticks": 680953581539,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "03690676586af6e6c9a2da29d40d068e61cda8bed7210cfbb2c4a870f8cf892b"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_022_05",
+      "objective_ticks": 682409418656,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "629fe7f713a77d370303ec2a80cb5862e28fff0e4e9c3cf94f2eea07b2c0cf71"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_023_00",
+      "objective_ticks": 880693529152,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3d275cfb698f640ed33c05de9f46eb63afcbb8ef8b02db258f499ebbbee8d756"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_023_01",
+      "objective_ticks": 879176518881,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "29b58b5398657c5c961fdc2db1ae6c0a156d2ccc85a683eca36a37ae8846f713"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_023_02",
+      "objective_ticks": 880182644849,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a3927fe048b97fc4dc4b3d532e706418c1106469720527d8621576203e3473fa"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_023_03",
+      "objective_ticks": 880343552922,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "cde5be772dc893ff705e54caac7765afa461ee512fd8ba626c964ea3d56a950a"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_023_04",
+      "objective_ticks": 879178896933,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "067e2ecca596b1de57bc433b20e4368079372c757c4bf65f9e327a792c4b55d1"
+    },
+    {
+      "batch": "B",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_023_05",
+      "objective_ticks": 881019217713,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "730fa8d4c6710fadfdad667274402d7ade0bc3a385ec2f6e114103ee90358fa1"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_000_00",
+      "objective_ticks": 1620749778020,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ce2708d1a05495a1f7ea4946ee7156b0eff11360ca879e193f0eb12f1430b394"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_000_01",
+      "objective_ticks": 1620634885834,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "0c381f4103d7eb24c050eb962d7b6a614cb3fce29e9faf36b28b4a88e9d44d27"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_000_02",
+      "objective_ticks": 1620240905657,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "76bc5b415a304bd6bbfe3498f7a0d97151eaeab259c101382478138f69b63f18"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_000_03",
+      "objective_ticks": 1623477541631,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "7fc111eb01de272239d16e61b739838d29e2a7fdad82e5e4b527ff062cf2674a"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_000_04",
+      "objective_ticks": 1620634885834,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "5484fac29aab64f50fe428e1efae54a2aa95b4e880960e65640a6f089e107d9d"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_001_00",
+      "objective_ticks": 1244526001764,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "300b0aff02d93c0664a73ebf9aa8d58e8301e0c1c2ec3a516815e6a3dfc7c646"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_001_01",
+      "objective_ticks": 1244656227259,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6c56cee9bfddbe1ab577c930925d05c7490be11d828bc71e2a766b26839e8a6e"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_001_02",
+      "objective_ticks": 1245491809440,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "624b55a751facda18050f462cea0d0b97b2ccf8d7e29c1307425cc1bf341c220"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_001_03",
+      "objective_ticks": 1244835309348,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "c03a75b2599ca18e1f871daaa74256946f78ddcf55231fadbb65a92052081213"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_001_04",
+      "objective_ticks": 1244603748707,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3a948a1d2f302755a921d2f352775677bd5996f2ebc02861f450687986e598b5"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_002_00",
+      "objective_ticks": 883198016014,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b88bb9f157f953414b5f1c24f4a3e19a2a8b9924794c3829d706108f3ddb54a7"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_002_01",
+      "objective_ticks": 884145976876,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ece2b564341baecf5dc8974511361a1d11c3a384a7ac9109b94d5b30d4846898"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_002_02",
+      "objective_ticks": 883257490551,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "dc18a502ce6fd01a1e7a8ab3d7a8f14f845c5b9db894879bfe40d223d9b0d908"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_002_03",
+      "objective_ticks": 883291647654,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "293ee7d49e765b29bf526daae578ee6a29102947b82b9fbe6922b65fd0f63015"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_002_04",
+      "objective_ticks": 883198016014,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "51d6dba5c5d3a7f4af2adbf90ec3569968f7d208de40193fcbf29e549d803959"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_003_00",
+      "objective_ticks": 680373138235,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "5a75273065f8aca8eefdc6780fbad93d4cff1d8e3b0fcd7ab8047dfbdf361d5a"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_003_01",
+      "objective_ticks": 680687935296,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "022b99882cbf64ab5643c24de983359da698b4d50e5b9a0da926af9559241960"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_003_02",
+      "objective_ticks": 680373138235,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a2a00b0d6a02a31ef53129fed60f0553e9859b5a83c18861479da820b9ae45d6"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_003_03",
+      "objective_ticks": 680373138235,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "4e3aca0986e323908fe1dfead27d483fe1e2aa81cfb039967f5946ae767fab0b"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_003_04",
+      "objective_ticks": 680687935296,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b379753f74a4897319a54f3b7219db01e06fe1afa1f2867112df7e21638dbcfb"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_004_00",
+      "objective_ticks": 1063463547996,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6d972e952708923269b1d69abd19504533cc1a936e43ddab62be27185a4cc2a2"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_004_01",
+      "objective_ticks": 1063520344169,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "7748f659fbb57e7c47a5eba80e8baa33c2b39757660580ec10c8bc480551b6c7"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_004_02",
+      "objective_ticks": 1063633320153,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6e6b4eb1ad507520f514080a3a953653332d799b5043a255407bc07eaeba4779"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_004_03",
+      "objective_ticks": 1063633320153,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "8cc9afe0acb66cada4f1ac36f5022f06b31c045c55ba26323bb5a9266130961d"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_004_04",
+      "objective_ticks": 1064611632582,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "49b5817d4bb8206d24958447f4d3d1799c0192901633c3920a7e21c5c9292f59"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_005_00",
+      "objective_ticks": 1258184199558,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ad42635157114cb5ace09fa2504a915ff320fdb9503fd0841fb4ada2a9d13060"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_005_01",
+      "objective_ticks": 1259532421401,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6836244fbc9b30e9bf44d00901f9eae8f2165a7db9da7c3280748a6a64845042"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_005_02",
+      "objective_ticks": 1258239577609,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "9322abad0bfd3e75a6f2acdc1702294db317b43b45f7133d3bc178ba8d068761"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_005_03",
+      "objective_ticks": 1258704352714,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "44c419eb0707e30f05f03f5c19433fea88805dcd7fe4a8ecf97b4416e5272a68"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_005_04",
+      "objective_ticks": 1258504403485,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "cf2f8413ecfaf2f289841f478a00c22f57a0bc9bbb5406f1c166d2132a6fa902"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_006_00",
+      "objective_ticks": 1260366558972,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "86a112d9643f6bbd8cb7488524fb5145d74bcbe704dee53b2f266108d2e8cda1"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_006_01",
+      "objective_ticks": 1260532723353,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "4a74b842b9ebbf38eb5c66bdba004c3ddfff8519516dca1596a803fd9812d017"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_006_02",
+      "objective_ticks": 1261751156258,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a00a0a4823d407a458f49f323cce65993362e1356c7979ed011466e1d3f77f6f"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_006_03",
+      "objective_ticks": 1260529288835,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "15bfe444b71a892a899ea74abae3c5ea624281f4e982cabf59e442c4893677fe"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_006_04",
+      "objective_ticks": 1260728702775,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "896c6dadc97044bb0b50d12df7ab6dc0957a1267ae06d2398dd47ad689322d46"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_007_00",
+      "objective_ticks": 1061915169639,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "eeb9ad92dfc6913c990b91267e65ef579cbdbeb2d3376a2471c56eed9f37a816"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_007_01",
+      "objective_ticks": 1062587069714,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "716bbf77e492bb79101953ca6381102d3b8d75261624e7380911c3957bf4accc"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_007_02",
+      "objective_ticks": 1062616089375,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "49f1d35d3c6b512b0681f0c2262001f7d1ded134f41abfa583f0b93fbaa859ae"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_007_03",
+      "objective_ticks": 1062559516800,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f301a3c6d7d5ede8eb95e129b9ca050f2aa64a5696d8fcd321b315481448cfbd"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_007_04",
+      "objective_ticks": 1062388191941,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6b03ff6f5f2b8a086c26239acc0b75dd2405905d1a06d3436f1ee17334b3fdc7"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_008_00",
+      "objective_ticks": 880681759996,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "40d87d4993a42741937fb5ca016e3552908bbe686a0d568a74b888107518203f"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_008_01",
+      "objective_ticks": 880681759996,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "1a8540f73e3393cfa27fd82a6076d01118e48a84f222d20ff389f04f466d056d"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_008_02",
+      "objective_ticks": 880876058795,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "8d0cb4002cc048615edd6e34e4be14ef2c81c413fe1a5898f32db326796a6aea"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_008_03",
+      "objective_ticks": 880731024208,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "704277662d3b0e97d69328fa4d568176b3b1b1c887abdd26d67e65dca116ad9d"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_008_04",
+      "objective_ticks": 883761575431,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f6088cb2cd69726e08d3d7499de2778b4591a3d672bbfeffd81dd560390980ba"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_009_00",
+      "objective_ticks": 1624177107070,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "9eaa5016114ec229cff18cca89fdc551f9c4da394f759105a574f4cbfa720e26"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_009_01",
+      "objective_ticks": 1621039458106,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "21a47d4d669ef1a4461f8f275df1ab5e3a3ef197ddd0355f38f03ac7b8b31cd2"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_009_02",
+      "objective_ticks": 1620882321476,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "e591e77ef2a8d4b3e73d11a919139bcf30cc869ecb615b70b0973029b3e60241"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_009_03",
+      "objective_ticks": 1621573415516,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "02ebd1e1f0bd46d56082c38c46a2ab40480cc71559104af98ab3d7fc57840a01"
+    },
+    {
+      "batch": "B",
+      "phase": "pilot",
+      "cell_id": "pilot_pilot_009_04",
+      "objective_ticks": 1621509543371,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a149ede95a86a35fc2a59de3682a23f6d34fdf37a6a1c854d82835345ed30ef9"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_000_00",
+      "objective_ticks": 1260033462988,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "39b22bbd4da331a7bbe3f4cccbd8c4367fbac0dd9c9542b92ae998a0e9313bf7"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_000_01",
+      "objective_ticks": 1260443049816,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "4a5ddca39f37c40f17ebe64b705947698eb43205aebbcf5c4f1065fef4063fbb"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_001_00",
+      "objective_ticks": 1065961744762,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "4b9c3eed7e8a68851f09728cdc8de90538e2d649e745980a6eb3d154155647b0"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_001_01",
+      "objective_ticks": 1065093603939,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "2bddbc1df17388eb8386c60e37944c09093b0ac892ea93ac53c54ae0dd90a28d"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_002_00",
+      "objective_ticks": 882286905328,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b8008591aad78200163486c94d94c1e34d0657babf15a8925477fb56b4ab7d74"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_002_01",
+      "objective_ticks": 882830350297,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "feec1c2fb024a1cae644a13ca965be2f7942357be33062818da69e9ebdc40de2"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_003_00",
+      "objective_ticks": 681016680728,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b4b81d510e8fd296b074b8a8e1e38948ea51ff412527fa107452f8132153c8b9"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_003_01",
+      "objective_ticks": 680988484289,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "478de56a6f2f669f515d5ffe9e80b5d7250e88cc0149b8394b27bd90c703f79a"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_004_00",
+      "objective_ticks": 1064067945497,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "739d52d6c9e2e7bcac70e5b3d14bc6db750ee9be92b306bdc6461baa07c34227"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_004_01",
+      "objective_ticks": 1064572955492,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b1421f88a134435949609ab172804ee05455f22c9872f4e671d16468757ac06e"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_005_00",
+      "objective_ticks": 1260979681042,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "1592251e7cc3e9bb7eb999b33f306b573d799c0a0f80b282ad844565fe7d62a3"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_005_01",
+      "objective_ticks": 1260493041857,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "1e3257ee340a2af52a3e58110904b26b45953a6f9c0e5ab6db5f4868d97118af"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_006_00",
+      "objective_ticks": 1243754215522,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3e85a88976e726062d67723ff56d26d7075cb02e7d29a6e2316d17fa7367958b"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_006_01",
+      "objective_ticks": 1244269823962,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "5c0e18bb117bcc20c1db154c21b8fda2381ecae9963da79f6e6ce2b4ce0d85f1"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_007_00",
+      "objective_ticks": 1065687697924,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a6c22b2cb976d4d72657001447b79baf9268dedc35feff6e727ee65911e5356b"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_007_01",
+      "objective_ticks": 1065479553143,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "04980cd1b7912dda24fd351ed366d0b88bbbded2770487506ff7ed9c7155b06f"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_008_00",
+      "objective_ticks": 1622538192935,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "71938ea8c7a4799137e423241edaf66a95e66ef10fd0aa60d99fde8aef90bf8b"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_008_01",
+      "objective_ticks": 1622671040939,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "947ca2793df68c2a6234f098692102b30f71b94c54825fd7f224eef777904877"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_009_00",
+      "objective_ticks": 1064977596161,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "41ad954204e666b02f405292a9cf21ab30c3414ce3b6024c519b5fa3da6e53cb"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_009_01",
+      "objective_ticks": 1065757036201,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "86522fc28b96b61775fb01a4a78993ab70c29b406443a8b42215ad532c99893e"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_010_00",
+      "objective_ticks": 1064651840697,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b6f45e52978fdf0ac77146d6bea5b7fe70eafc5eb87200adc2aecf2d5e436285"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_010_01",
+      "objective_ticks": 1064671961279,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "0f464d8aa67c24f1d97517fde72eea5194c56d47d9fbac7f40b5fbaffddbc292"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_011_00",
+      "objective_ticks": 1622956791486,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "bd5bbf93df730445f5213cfd159ed63bf61920091b4efba0b83ff28d01910f46"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_011_01",
+      "objective_ticks": 1624095802221,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "efeacadb6b3b9c8a3e5f98f41adeb80df4999b68896ef5d22f6baa599cfdc1bd"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_012_00",
+      "objective_ticks": 1260097174149,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a688d096d06c9ca73af4bfab7b046a5b7f712cd66bc17f7c043b963836860370"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_012_01",
+      "objective_ticks": 1259817913503,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "edb8ec01408549047770d3c1745d8da800a990bc1cbc1de6397c5a4e0bd84a5a"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_013_00",
+      "objective_ticks": 1261057168248,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "faa66f85c81c80179a5d015ade09f1707d9c53a274727375f29e48180066a229"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_013_01",
+      "objective_ticks": 1261191638637,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "e2ea66cd7bf0deacc709700308707cd64f57b23fbf60fa277d7c6ae55864e9c9"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_014_00",
+      "objective_ticks": 1064593283227,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "487106e965145fc55980154b348984d270d7754ee66979b8571fa43e8e7af5a1"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_014_01",
+      "objective_ticks": 1064783003180,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3ea2058a9e5d76efbf02a75363d4fbecfd3f49148c43051361f255dc6f1cf599"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_015_00",
+      "objective_ticks": 1244786807523,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "5c8765a1576a01f49f02ef160b3c5c8b0d6a916700556d42098c52a27850c9a8"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_015_01",
+      "objective_ticks": 1246486722667,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "52ac2469581f1a5cc8920fa5b54a1c00383403f24946a7fa074e159fc0b75f4c"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_016_00",
+      "objective_ticks": 882156961351,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "afa91e67f9a799d8fb2aad7e0d30ec946640544ebdcc6eb44e5b4fa1ee197a72"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_016_01",
+      "objective_ticks": 881265166828,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "685be2202e24e92c9a1708f130877fdda6061f9e9b2a9cc20ea76368db7e9b50"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_017_00",
+      "objective_ticks": 1245700956401,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6fb58beceacebdc67bfd2eb28cb6eac1a55d664c6ee631a6b5f01baa224a9e9e"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_017_01",
+      "objective_ticks": 1245860340896,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b8a184a272a2578dd7333997d3721dbe2708d9b88744370c2fd261cd9a1d40fa"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_018_00",
+      "objective_ticks": 1262485978065,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3c34fed3829c825eac5ca290897035d174a6235adaac4d22e61c840cab7049d5"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_018_01",
+      "objective_ticks": 1262286361351,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "581e46377229215c3cdffbb2acaf30360cd8d8114104ef217dd0d1c2bfcc29da"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_019_00",
+      "objective_ticks": 1262769448141,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "4ebe827d406722ba15145a8688214a59764cd43fcedec8e8944228d4dd1d890d"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_019_01",
+      "objective_ticks": 1261642571914,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "eacbb7e95928b0ef3e02512fe3ef7028664cd2c6c408db649daa42377d48e0ed"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_020_00",
+      "objective_ticks": 684000018109,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "71d81eb135cd4e7375a6e6525adc5c8a23c2f401fdc53243a91fade1b41012a6"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_020_01",
+      "objective_ticks": 685278677138,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "c0c27cf10fba94a6e050ec398bec77e9b66fd4a5358e189fd73d527a60527a0e"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_021_00",
+      "objective_ticks": 1623282396827,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "d56ff7ce60f0c8765a4e79dff622123a172ede40dc327085ffdf3d356548b9be"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_021_01",
+      "objective_ticks": 1623159672310,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "194b9c30a71caa411e3c23022d56bd0ab58eccdd5178c6c9fc100bd73e6bd851"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_022_00",
+      "objective_ticks": 681371437573,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "4934027bffecc8db91a7733d96401f96b246d939d4b50c31daa804e0f160f9c1"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_022_01",
+      "objective_ticks": 680942553563,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b83f3c7594f83b5849df4e5b12f44d219d7de56970aa98381d6e87e805d48b3c"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_023_00",
+      "objective_ticks": 884111029173,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "831d5b0636417076d6565fb888ba950d202e2494602ed25cc5d6e8f84b19088f"
+    },
+    {
+      "batch": "E",
+      "phase": "ablation",
+      "cell_id": "ablation_ablation_023_01",
+      "objective_ticks": 883875148838,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "fca4b4857990295f8165e131105d3252e4075b63c0e7ca18dd20f6657638d071"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_000_00",
+      "objective_ticks": 1262219577433,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ec4866355bebef739424fa776ac76198a65b12c291f3ae10dd40344ba399b811"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_000_01",
+      "objective_ticks": 1260086114875,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "29058824805b1fc567fbc45dfe862f889c9898c6a79d922a38a923184bc661e5"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_001_00",
+      "objective_ticks": 1063635108762,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "437751632bcb692cf8817022709a44b4cb85074169d13c5858270c726cbc797f"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_001_01",
+      "objective_ticks": 1062178367685,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "83a4231ee67fdf52457205c2695ea87bfde5e05e04a9242e12be290160f8d1d5"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_002_00",
+      "objective_ticks": 881603627332,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "856e1c34754a9a21460c72dee69ff36073108b0f1dc16d6826bbf7a2cfd653b2"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_002_01",
+      "objective_ticks": 880288029271,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f3cac6c45ff20b5b029b0ac2f45b9f4bb98472c0b9d2771e9bd34c1eaf7f3a22"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_003_00",
+      "objective_ticks": 681667672522,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b912fe47cb4785709323d7e3684a8d4d8700f1e3f6d1629e931fc5534054993e"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_003_01",
+      "objective_ticks": 681582361022,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "be195d0b0af63decd360fc6e717ba5232313068e27e0b4fe2e598700507eeb32"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_004_00",
+      "objective_ticks": 1065204645692,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "d77353997a6d00d4586ae7996b73215bed5071160d21f968df6a8661608aed41"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_004_01",
+      "objective_ticks": 1062005796252,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f9c7f9915370d48c06abe862d563be1cd780ce18d888a6107022f93893b22e6d"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_005_00",
+      "objective_ticks": 1262044677517,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f133b7149909ef30c42b71eafb1ed1905d853297ea93843783ffed05a0d92dfc"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_005_01",
+      "objective_ticks": 1258234470969,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "3c84600a70091d51ec8a738ff512123ea9a9e6f39609aba71e2874578c1bf2aa"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_006_00",
+      "objective_ticks": 1246973627532,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6daf05b06bd4d60843bb73b804454e2e36238107d6f25bcd10285a94e5526a99"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_006_01",
+      "objective_ticks": 1245381710094,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "7a02e27b75e5f6a125fe5df2d7950e4b3102617455b9f8dff1795730630e0cc8"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_007_00",
+      "objective_ticks": 1065346121870,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "9525ad3e773a47a8ae2896dd5cbd551944cdbba4b37d280bf1a9d1b8c4457d74"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_007_01",
+      "objective_ticks": 1063340481320,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "37f48746225f861ae81fa6a077e025b406ee5d807636501e4a5abefdbc2dd4a1"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_008_00",
+      "objective_ticks": 1622357113040,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "f5030fb472b130f257bdb848c8d032a1760cf539f500aef79276b18e7347e425"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_008_01",
+      "objective_ticks": 1624371853269,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "64b14851464d0cc247b90aa1a60b007e68332a855addd263f1df36e2a573fe3a"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_009_00",
+      "objective_ticks": 1066106961147,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ab371cddcc16a026601c810e6385a50cbd5f40c61304ccb6eb579ea002f21a57"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_009_01",
+      "objective_ticks": 1060744874628,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "0b84c62a2bff8845a4373655f530aee656b54fb9ff24a0951f334b7487b54d17"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_010_00",
+      "objective_ticks": 1065644722442,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "a4af49989530196a4dae1b8a2251d43509ab275425d9cec842ed98d6010c1787"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_010_01",
+      "objective_ticks": 1060830198133,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "b2d83ba80acb225ad910f8cb1e71a229f553acf9233299c63210a247ab6d64f0"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_011_00",
+      "objective_ticks": 1623434935286,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "2967c3f80c5f9445fcf80df883ec68326080c89898561cdb089be01ab248fdac"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_011_01",
+      "objective_ticks": 1624152321351,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "89c462a5ab1a0f91ab7f5580b489848d73005f3f1b30613ecd0e80f4d0961dc1"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_012_00",
+      "objective_ticks": 1259652828104,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "39e02b16c5e02bc210a53ff0bcc93beac1c6e58a7efb91c61726c97b781872b7"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_012_01",
+      "objective_ticks": 1261626822263,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "ba5949c7bb329e460eb4e24c3faebbc416209eceb24c93f381657070ead5d4ed"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_013_00",
+      "objective_ticks": 1259285385748,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6836c7b608dd783f08a1a93243666c4315e198baae76a39af39668bdb5197455"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_013_01",
+      "objective_ticks": 1262008009994,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "43fa440dd00189abcf8cc9d62b318d778b8d38d44b084baa836ad3f1152b7576"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_014_00",
+      "objective_ticks": 1063942598292,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "391bf32aa82ca12a32a6205efedce5ab70b5a9142061cb4dedf6c9589c4fba02"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_014_01",
+      "objective_ticks": 1063731901519,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "eb180a5fceafdea7ce7f79488d04b39f3935a024d734ed3e73afcd49f2f50740"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_015_00",
+      "objective_ticks": 1249830910187,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "121e0d8ced812f33f37d1ad10d8c7fb912231c2cc4fb118a515cce6d65960eba"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_015_01",
+      "objective_ticks": 1246049674344,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "985493a772e90ff6b2429074bdc65692074a813d691dc1770edbe3e2fd8fd0f7"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_016_00",
+      "objective_ticks": 878663963703,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "911914e7f84715ea58e067c1a36397d95f4eace2bd8185bfb9deee2bc64d64ca"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_016_01",
+      "objective_ticks": 882563157057,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "aefea51923bcd0aa2e62dca4068ca758bc5a669974e9f0bbf70a3e8dce157cd4"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_017_00",
+      "objective_ticks": 1244087561949,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "5fa36581ed29a5e3c1a036edb3b5e44b5296dbbc4e63e896de009c2ccbe4e8ba"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_017_01",
+      "objective_ticks": 1242421136344,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "8752b68113b8d2986600285d49a7c75208a30480e4a768721a9c1c6fe6e953ae"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_018_00",
+      "objective_ticks": 1260458662385,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "24677641fc73f49b29b070649f6730d7bd854111186261498e965df8bea74107"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_018_01",
+      "objective_ticks": 1260926591267,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "1b550fc4e144ff1bac58779be15e8b1283ee6d165deb4373b68caa598c8a3185"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_019_00",
+      "objective_ticks": 1262441051054,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "c09f393871e54f0118fb64808249b6df2ec6c83fad15491bdc7bf66092739ce3"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_019_01",
+      "objective_ticks": 1263229537830,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "d36084fdaeb89efdcdc2ebeca54a92b7b22df23345ba0e9ecc1330ec6958c71c"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_020_00",
+      "objective_ticks": 681843936320,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "6f7fdf358d858a23d7dad647fad95668ee78931d618c3ab8d76cca161deb8f76"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_020_01",
+      "objective_ticks": 682805125192,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "66e47240bd3d4a4a0468d2689daf7f7a6e21f7ef808d4b7b6a57f1dc9b4df206"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_021_00",
+      "objective_ticks": 1625268182912,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "10960f06d33656ee0e2113d1a36f2822d842accd627e3cf9eab3171c53f421eb"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_021_01",
+      "objective_ticks": 1623276034765,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "30407cec1bc3e054d44dcf541d27abb17f26bbcc5da3350d967a79fd739b40d0"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_022_00",
+      "objective_ticks": 682627884817,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "72552b606ba2c2b1762c489473dfc2890b6c2260ce92950314085facd7d508bb"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_022_01",
+      "objective_ticks": 681958579083,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "c54978c35be8f685f619fc71a5f41d11a85b4d779e6f45a91900623eac98e4e8"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_023_00",
+      "objective_ticks": 880096204374,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "dfe2fb25f997be8c4c04e20c7f2e3fa4f59b1ca5c918821dc8500b47a19cac54"
+    },
+    {
+      "batch": "F",
+      "phase": "confirmation",
+      "cell_id": "confirmation_confirm_023_01",
+      "objective_ticks": 883409027296,
+      "full_graph_and_both_resource_timelines_pass": true,
+      "original_result_sha256": "09ceee3845030893be8d4676fa78682820215db6c8b644f8509fc7c6fc85e81b"
+    }
+  ],
+  "new_performance_searches": 0
+}

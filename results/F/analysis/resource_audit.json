@@ -1,0 +1,8 @@
+{
+  "pass_all": true,
+  "errors": [],
+  "timelines_checked": 12,
+  "resource_unqualified": 0,
+  "cost_definition": "BARR native child CPU plus controller CPU; CHILS native CPU is inside controller process and is subtracted only to report controller-only CPU",
+  "quality_policy": "Resource flags are descriptive and all quality directions are retained"
+}

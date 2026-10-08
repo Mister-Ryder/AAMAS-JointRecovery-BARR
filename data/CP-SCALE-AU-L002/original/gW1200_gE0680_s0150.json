@@ -1,0 +1,128 @@
+{
+  "version": "cipheur-scaleup-benchmark-graphs-v1",
+  "source_id": "CP-SCALE-AU-L002",
+  "source_group": "CP-SCALE-L002",
+  "split": "benchmark",
+  "config_id": "gW1200_gE0680_s0150",
+  "family": "unseen_mixed",
+  "factorial_aliases": [],
+  "station_gap_mode": "per_antenna",
+  "station_gap_by_antenna_seconds": {
+    "GS01-A1": 1200,
+    "GS02-A1": 1200,
+    "GS03-A1": 1200,
+    "GS04-A1": 680,
+    "GS05-A1": 680,
+    "GS06-A1": 680,
+    "GS07-A1": 1200,
+    "GS08-A1": 1200,
+    "GS09-A1": 1200,
+    "GS10-A1": 680,
+    "GS11-A1": 680,
+    "GS12-A1": 680
+  },
+  "antenna_group": {
+    "GS01-A1": "west",
+    "GS02-A1": "west",
+    "GS03-A1": "west",
+    "GS04-A1": "east",
+    "GS05-A1": "east",
+    "GS06-A1": "east",
+    "GS07-A1": "west",
+    "GS08-A1": "west",
+    "GS09-A1": "west",
+    "GS10-A1": "east",
+    "GS11-A1": "east",
+    "GS12-A1": "east"
+  },
+  "west_gap_seconds": 1200,
+  "east_gap_seconds": 680,
+  "satellite_gap_seconds": 150,
+  "node_mapping_sha256": "7a4d1c857eb28aa0e004bf0774fb5bf1f5716a6d2092cb2ccb02af677d7bfc00",
+  "weight_ticks_sha256": "369e1f648ea09d41f7da9a63fa3c7eaed1666f36607ba20deb35ec7a1b46856d",
+  "raw_contacts_sha256": "075902a3e8442b66b3e73d6389e980fbfcf5e183a241ed5d2c8dcad77b125368",
+  "raw_manifest_sha256": "b60e56ea29fe83ea8bb7788dd0305fe4f57cab9d6200974c4cdb1a4ad3018165",
+  "configuration_declaration_sha256": "8b48863b445d509ddda0a038346096fbdfad46a974193e2cc29a1be06afdf799",
+  "builder_sha256": "cfebc8f3bd4eeed6aec719562ab4355d60f3e6eb1b4abeb3b1163575a515692f",
+  "parent_p0_builder_sha256": "c09951e3c615ca5462066d666f834f08a3006a7a86e72b9ccf34000b2856ca56",
+  "parent_heterogeneous_builder_sha256": "de20a2da82efb0ca927caafc39d9ee92b55fb9c948df1c90ee64b0b44cb29d32",
+  "edge_arrays_sha256": "47579699ffe540d42f27a85de4ff3d3bc4995ef1c051ba9c15d3135b51bb28a7",
+  "npz_sha256": "97eed4ff2c5b4a84d1d1b8e9645e81fe0d40ff8e9fc4daac45e73da590f4615c",
+  "edge_mask": {
+    "ground": 1,
+    "satellite": 2,
+    "overlap": 4,
+    "gap_only": 8
+  },
+  "stats": {
+    "n": 37421,
+    "m": 747934,
+    "near_boundary_diagnostics": {
+      "ground": {
+        "resource_field": "antenna_id",
+        "gap_mode": "per_antenna",
+        "gap_by_antenna_ticks": {
+          "GS01-A1": 1200000000,
+          "GS02-A1": 1200000000,
+          "GS03-A1": 1200000000,
+          "GS04-A1": 680000000,
+          "GS05-A1": 680000000,
+          "GS06-A1": 680000000,
+          "GS07-A1": 1200000000,
+          "GS08-A1": 1200000000,
+          "GS09-A1": 1200000000,
+          "GS10-A1": 680000000,
+          "GS11-A1": 680000000,
+          "GS12-A1": 680000000
+        },
+        "near_boundary_radius_ticks": 2000,
+        "near_boundary_pair_count": 3,
+        "near_conflicting_pairs": 0,
+        "near_compatible_pairs": 3,
+        "closest_pair": {
+          "absolute_margin_ticks": 734,
+          "signed_margin_ticks": 734,
+          "earlier_contact": "CP-SCALE-AU-L002:S-P17-S03:GS09:p0001",
+          "later_contact": "CP-SCALE-AU-L002:S-P11-S03:GS09:p0001",
+          "resource_id": "GS09-A1",
+          "resource_gap_ticks": 1200000000
+        },
+        "examples": [
+          {
+            "earlier_contact": "CP-SCALE-AU-L002:S-P08-S09:GS03:p0008",
+            "later_contact": "CP-SCALE-AU-L002:S-P01-S10:GS03:p0007",
+            "resource_id": "GS03-A1",
+            "resource_gap_ticks": 1200000000,
+            "signed_margin_ticks": 828,
+            "resource_conflict": false
+          },
+          {
+            "earlier_contact": "CP-SCALE-AU-L002:S-P17-S02:GS07:p0007",
+            "later_contact": "CP-SCALE-AU-L002:S-P11-S02:GS07:p0007",
+            "resource_id": "GS07-A1",
+            "resource_gap_ticks": 1200000000,
+            "signed_margin_ticks": 1579,
+            "resource_conflict": false
+          },
+          {
+            "earlier_contact": "CP-SCALE-AU-L002:S-P17-S03:GS09:p0001",
+            "later_contact": "CP-SCALE-AU-L002:S-P11-S03:GS09:p0001",
+            "resource_id": "GS09-A1",
+            "resource_gap_ticks": 1200000000,
+            "signed_margin_ticks": 734,
+            "resource_conflict": false
+          }
+        ],
+        "interpretation": "Input timing-boundary QC only; no prior-source sensitivity receipt is transferred to this new physical source and no rigorous physical timing error bound is claimed."
+      }
+    }
+  },
+  "input_integrity_checks": {
+    "sorted_unique_nonself_edges": true,
+    "csr_degree_sum_equals_2m": true,
+    "all_edges_match_actual_resource_predicate": true,
+    "edge_reason_masks_match_predicate": true,
+    "frozen_duration_equals_endpoint_difference": true
+  },
+  "optimization_labels_or_scores_executed": false
+}

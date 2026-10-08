@@ -1,0 +1,5442 @@
+{
+  "by_arm": {
+    "full": {
+      "counts": {
+        "event_pair_gate": 4388,
+        "full_pair_gate": 4388,
+        "partial_gate": 1,
+        "positive_witness_gate": 548,
+        "full_two_exchange_complete": 4387,
+        "full_two_exchange_zero_certificate": 3839,
+        "event_pair_commit": 548,
+        "committed_witnesses": 548,
+        "genuine_joint_commits": 548,
+        "positive_singleton_commits": 0,
+        "refined_commits": 548,
+        "positive_refinement_benefit_commits": 32
+      },
+      "sums": {
+        "gate_pair_visits": 14354414507,
+        "gate_unique_pairs": 6191868169,
+        "gate_upper_rejects": 6149580829,
+        "gate_conflict_rejects": 31472642,
+        "gate_exact_pairs": 10814698,
+        "gate_positive_pairs": 869,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 88.808145868,
+        "committed_witness_gain_ticks": 19552565648,
+        "committed_gain_ticks": 20359356043,
+        "committed_extra_ticks": 806790395
+      },
+      "examples": [
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 4,
+          "event_line": 4,
+          "outside": [
+            555,
+            36382
+          ],
+          "unary_gains_ticks": [
+            -223306211,
+            -172869299
+          ],
+          "witness_gain_ticks": 124447006,
+          "gain_ticks": 124447006,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 5,
+          "event_line": 6,
+          "outside": [
+            6071,
+            6367
+          ],
+          "unary_gains_ticks": [
+            -38093712,
+            -320247487
+          ],
+          "witness_gain_ticks": 115995431,
+          "gain_ticks": 115995431,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 6,
+          "event_line": 8,
+          "outside": [
+            5766,
+            21225
+          ],
+          "unary_gains_ticks": [
+            -490873085,
+            -491538463
+          ],
+          "witness_gain_ticks": 67473856,
+          "gain_ticks": 67473856,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 10,
+          "event_line": 13,
+          "outside": [
+            22833,
+            36523
+          ],
+          "unary_gains_ticks": [
+            -461956534,
+            -46866087
+          ],
+          "witness_gain_ticks": 48165708,
+          "gain_ticks": 48165708,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 17,
+          "event_line": 19,
+          "outside": [
+            2567,
+            16187
+          ],
+          "unary_gains_ticks": [
+            -548630856,
+            -1353494
+          ],
+          "witness_gain_ticks": 7215606,
+          "gain_ticks": 7215606,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 24,
+          "event_line": 27,
+          "outside": [
+            23134,
+            36747
+          ],
+          "unary_gains_ticks": [
+            -482855751,
+            -485845318
+          ],
+          "witness_gain_ticks": 74015996,
+          "gain_ticks": 74015996,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 27,
+          "event_line": 31,
+          "outside": [
+            24761,
+            35056
+          ],
+          "unary_gains_ticks": [
+            -482272829,
+            -19468058
+          ],
+          "witness_gain_ticks": 30748569,
+          "gain_ticks": 30748569,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 31,
+          "event_line": 35,
+          "outside": [
+            4612,
+            6238
+          ],
+          "unary_gains_ticks": [
+            -518285322,
+            -15665395
+          ],
+          "witness_gain_ticks": 8606666,
+          "gain_ticks": 8606666,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 2,
+          "event_line": 3,
+          "outside": [
+            9846,
+            23781
+          ],
+          "unary_gains_ticks": [
+            -37310613,
+            -473655999
+          ],
+          "witness_gain_ticks": 39428589,
+          "gain_ticks": 39428589,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 3,
+          "event_line": 5,
+          "outside": [
+            414,
+            36239
+          ],
+          "unary_gains_ticks": [
+            -226217109,
+            -164722238
+          ],
+          "witness_gain_ticks": 128412780,
+          "gain_ticks": 128412780,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 4,
+          "event_line": 7,
+          "outside": [
+            18582,
+            32418
+          ],
+          "unary_gains_ticks": [
+            -507568000,
+            -523741621
+          ],
+          "witness_gain_ticks": 24329524,
+          "gain_ticks": 24329524,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 6,
+          "event_line": 10,
+          "outside": [
+            9261,
+            34898
+          ],
+          "unary_gains_ticks": [
+            -494530885,
+            -514818857
+          ],
+          "witness_gain_ticks": 43563027,
+          "gain_ticks": 43563027,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "event_files": [
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b"
+        },
+        {
+          "cell_id": "confirmation_confirm_000_00",
+          "sha256": "3b76fefce820734fe2a4e58b5a13224120460e62e797faa4c5e5c13234799d7a"
+        },
+        {
+          "cell_id": "confirmation_confirm_005_00",
+          "sha256": "7f64d20c0b34db873ea00a83ece0cc83410ca221757d62a2c6db1e4ce97fc24a"
+        },
+        {
+          "cell_id": "confirmation_confirm_006_00",
+          "sha256": "36ebcbe390203be6465449e7f8d7d648870fe026cfbabd82b6378fce7a55ba39"
+        },
+        {
+          "cell_id": "confirmation_confirm_001_00",
+          "sha256": "f5ad804b0141a1a35e27a55f658ff7f5ae3be0249266b48eb736713b3295a7ef"
+        },
+        {
+          "cell_id": "confirmation_confirm_004_00",
+          "sha256": "d861200f70b950818a29fe630c1da05d3fda3e4852590c6a2a0d5218171353eb"
+        },
+        {
+          "cell_id": "confirmation_confirm_010_00",
+          "sha256": "2ffa2a7d378e63b6d21b1e4c8323457230c9ba1287d595e22a49eb0f326774f1"
+        },
+        {
+          "cell_id": "confirmation_confirm_009_00",
+          "sha256": "f6538db820a3782c8856aff60550a4a35088e153102a8711c8fd4eeb8570083d"
+        },
+        {
+          "cell_id": "confirmation_confirm_007_00",
+          "sha256": "16407abeaaebdb7a269abacd93c479c50537840b192d5bb3f3e25eefd1b9b0f5"
+        },
+        {
+          "cell_id": "confirmation_confirm_002_00",
+          "sha256": "792cdf49fd2a5a74fb5fb2222dee110326615be795b7ad7924a2905763b9e40c"
+        },
+        {
+          "cell_id": "confirmation_confirm_003_00",
+          "sha256": "6e4fc733d959cd0cf1a9552098bb73bf76f69c9ad5a254e82bc8b9e80038fad9"
+        },
+        {
+          "cell_id": "confirmation_confirm_021_01",
+          "sha256": "4d25a2b4ecc5faec310144b4a06ed2cbb975c87547113d22a98b32113e8b18b4"
+        },
+        {
+          "cell_id": "confirmation_confirm_023_01",
+          "sha256": "cb76b7e35f400c00d9249280f0055f07374951cc35e51bd42eaface71c8b1561"
+        },
+        {
+          "cell_id": "confirmation_confirm_017_01",
+          "sha256": "bbb6685fc77aaa38423c5c965ec17c5da6a5aedcdfaecd17d346b3ff22d22307"
+        },
+        {
+          "cell_id": "confirmation_confirm_012_01",
+          "sha256": "f0283a4611e1d335d9bfba68e57dd59bd7737111df62182dc80f838637756af2"
+        },
+        {
+          "cell_id": "confirmation_confirm_018_01",
+          "sha256": "6c0aaf06e28c1cbd0693e82636466f22755f6bf0710ae725a78e9608a5c8659e"
+        },
+        {
+          "cell_id": "confirmation_confirm_019_01",
+          "sha256": "51935b3ef666347ceeed65b2d3e9ae9fc6414beef841b9110d514e50d415a841"
+        },
+        {
+          "cell_id": "confirmation_confirm_013_01",
+          "sha256": "a20667631d79ff96a8dca92c1bb6270a6d93de75437ccd5371a43f8bfca52b36"
+        },
+        {
+          "cell_id": "confirmation_confirm_020_01",
+          "sha256": "f4710070237724bcf79bebf25cc954ea08ae82548945bd4b10266109b1f21119"
+        },
+        {
+          "cell_id": "confirmation_confirm_014_01",
+          "sha256": "3ed6d3311ff4bb7b85b3a035079c65e593740a8828427bc755c934738be0033f"
+        },
+        {
+          "cell_id": "confirmation_confirm_016_01",
+          "sha256": "b47b9133484bc29f27c786deb82ae5b0fdcab150b0153b0423b262ac0b1712c8"
+        },
+        {
+          "cell_id": "confirmation_confirm_015_01",
+          "sha256": "48d5bb4f9b71164b3d35b80cd9cfcf5c4b5e706a6b6f0bbd4d0b834f6f6ff5b2"
+        },
+        {
+          "cell_id": "confirmation_confirm_022_01",
+          "sha256": "c96699a026ff149f4bfc18ab3cf9875740eee3da71f370a95b562b7af54215e9"
+        }
+      ],
+      "recorded_cells": 24,
+      "availability": "available",
+      "scope": "Native full-pair certificates concern <=2 insertion exchanges under their completion and one-optimal conditions; they do not establish global optimality. CHILS has no corresponding event stream.",
+      "gain_sum_note": "Commit gains over changing states and population members do not sum to retained final quality improvement; refined marks invocation, positive_refinement_benefit_commits marks extra gain."
+    },
+    "chils-basic": {
+      "counts": {},
+      "sums": {},
+      "examples": [],
+      "event_files": [],
+      "recorded_cells": 0,
+      "availability": "not_recorded_NA",
+      "scope": "Native full-pair certificates concern <=2 insertion exchanges under their completion and one-optimal conditions; they do not establish global optimality. CHILS has no corresponding event stream.",
+      "gain_sum_note": "Commit gains over changing states and population members do not sum to retained final quality improvement; refined marks invocation, positive_refinement_benefit_commits marks extra gain."
+    }
+  },
+  "by_cell": {
+    "confirmation_confirm_011_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 229,
+        "full_pair_gate": 229,
+        "partial_gate": 0,
+        "positive_witness_gate": 24,
+        "full_two_exchange_complete": 229,
+        "full_two_exchange_zero_certificate": 205,
+        "event_pair_commit": 24,
+        "committed_witnesses": 24,
+        "genuine_joint_commits": 24,
+        "positive_singleton_commits": 0,
+        "refined_commits": 24,
+        "positive_refinement_benefit_commits": 1
+      },
+      "sums": {
+        "gate_pair_visits": 542708755,
+        "gate_unique_pairs": 236819718,
+        "gate_upper_rejects": 236039481,
+        "gate_conflict_rejects": 528698,
+        "gate_exact_pairs": 251539,
+        "gate_positive_pairs": 36,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 3.8188937770000013,
+        "committed_witness_gain_ticks": 1193221517,
+        "committed_gain_ticks": 1251550600,
+        "committed_extra_ticks": 58329083
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 4,
+          "event_line": 4,
+          "outside": [
+            555,
+            36382
+          ],
+          "unary_gains_ticks": [
+            -223306211,
+            -172869299
+          ],
+          "witness_gain_ticks": 124447006,
+          "gain_ticks": 124447006,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 5,
+          "event_line": 6,
+          "outside": [
+            6071,
+            6367
+          ],
+          "unary_gains_ticks": [
+            -38093712,
+            -320247487
+          ],
+          "witness_gain_ticks": 115995431,
+          "gain_ticks": 115995431,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 6,
+          "event_line": 8,
+          "outside": [
+            5766,
+            21225
+          ],
+          "unary_gains_ticks": [
+            -490873085,
+            -491538463
+          ],
+          "witness_gain_ticks": 67473856,
+          "gain_ticks": 67473856,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 10,
+          "event_line": 13,
+          "outside": [
+            22833,
+            36523
+          ],
+          "unary_gains_ticks": [
+            -461956534,
+            -46866087
+          ],
+          "witness_gain_ticks": 48165708,
+          "gain_ticks": 48165708,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 17,
+          "event_line": 19,
+          "outside": [
+            2567,
+            16187
+          ],
+          "unary_gains_ticks": [
+            -548630856,
+            -1353494
+          ],
+          "witness_gain_ticks": 7215606,
+          "gain_ticks": 7215606,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 24,
+          "event_line": 27,
+          "outside": [
+            23134,
+            36747
+          ],
+          "unary_gains_ticks": [
+            -482855751,
+            -485845318
+          ],
+          "witness_gain_ticks": 74015996,
+          "gain_ticks": 74015996,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 27,
+          "event_line": 31,
+          "outside": [
+            24761,
+            35056
+          ],
+          "unary_gains_ticks": [
+            -482272829,
+            -19468058
+          ],
+          "witness_gain_ticks": 30748569,
+          "gain_ticks": 30748569,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_011_00",
+          "graph": "g0340",
+          "seed": 89,
+          "epoch": 31,
+          "event_line": 35,
+          "outside": [
+            4612,
+            6238
+          ],
+          "unary_gains_ticks": [
+            -518285322,
+            -15665395
+          ],
+          "witness_gain_ticks": 8606666,
+          "gain_ticks": 8606666,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_011_00/events.jsonl",
+          "file_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "69367e45065a9a98ccde4f6fbbf07f96c5cb18034a6d72b1166aafe7ff9d5cad",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_008_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 195,
+        "full_pair_gate": 195,
+        "partial_gate": 0,
+        "positive_witness_gate": 15,
+        "full_two_exchange_complete": 195,
+        "full_two_exchange_zero_certificate": 180,
+        "event_pair_commit": 15,
+        "committed_witnesses": 15,
+        "genuine_joint_commits": 15,
+        "positive_singleton_commits": 0,
+        "refined_commits": 15,
+        "positive_refinement_benefit_commits": 1
+      },
+      "sums": {
+        "gate_pair_visits": 461134594,
+        "gate_unique_pairs": 201228464,
+        "gate_upper_rejects": 200561059,
+        "gate_conflict_rejects": 449295,
+        "gate_exact_pairs": 218110,
+        "gate_positive_pairs": 24,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 3.1678935129999997,
+        "committed_witness_gain_ticks": 858551666,
+        "committed_gain_ticks": 861701080,
+        "committed_extra_ticks": 3149414
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 2,
+          "event_line": 3,
+          "outside": [
+            9846,
+            23781
+          ],
+          "unary_gains_ticks": [
+            -37310613,
+            -473655999
+          ],
+          "witness_gain_ticks": 39428589,
+          "gain_ticks": 39428589,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 3,
+          "event_line": 5,
+          "outside": [
+            414,
+            36239
+          ],
+          "unary_gains_ticks": [
+            -226217109,
+            -164722238
+          ],
+          "witness_gain_ticks": 128412780,
+          "gain_ticks": 128412780,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 4,
+          "event_line": 7,
+          "outside": [
+            18582,
+            32418
+          ],
+          "unary_gains_ticks": [
+            -507568000,
+            -523741621
+          ],
+          "witness_gain_ticks": 24329524,
+          "gain_ticks": 24329524,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 6,
+          "event_line": 10,
+          "outside": [
+            9261,
+            34898
+          ],
+          "unary_gains_ticks": [
+            -494530885,
+            -514818857
+          ],
+          "witness_gain_ticks": 43563027,
+          "gain_ticks": 43563027,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 10,
+          "event_line": 15,
+          "outside": [
+            11630,
+            37159
+          ],
+          "unary_gains_ticks": [
+            -368534485,
+            -417782563
+          ],
+          "witness_gain_ticks": 106653500,
+          "gain_ticks": 106653500,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 11,
+          "event_line": 17,
+          "outside": [
+            6304,
+            20070
+          ],
+          "unary_gains_ticks": [
+            -476481523,
+            -434641903
+          ],
+          "witness_gain_ticks": 79774269,
+          "gain_ticks": 79774269,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 18,
+          "event_line": 25,
+          "outside": [
+            5138,
+            28866
+          ],
+          "unary_gains_ticks": [
+            -14597017,
+            -501745011
+          ],
+          "witness_gain_ticks": 35749111,
+          "gain_ticks": 35749111,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_008_00",
+          "graph": "g0340",
+          "seed": 83,
+          "epoch": 20,
+          "event_line": 28,
+          "outside": [
+            2833,
+            26669
+          ],
+          "unary_gains_ticks": [
+            -541035896,
+            -550833634
+          ],
+          "witness_gain_ticks": 4172871,
+          "gain_ticks": 4172871,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_008_00/events.jsonl",
+          "file_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "deafcff0d209f8237c8b4ea68ec801d7833a18cee893a19abf8853df3db1b74b",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_000_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 233,
+        "full_pair_gate": 233,
+        "partial_gate": 0,
+        "positive_witness_gate": 17,
+        "full_two_exchange_complete": 233,
+        "full_two_exchange_zero_certificate": 216,
+        "event_pair_commit": 17,
+        "committed_witnesses": 17,
+        "genuine_joint_commits": 17,
+        "positive_singleton_commits": 0,
+        "refined_commits": 17,
+        "positive_refinement_benefit_commits": 1
+      },
+      "sums": {
+        "gate_pair_visits": 730556464,
+        "gate_unique_pairs": 316383193,
+        "gate_upper_rejects": 314604673,
+        "gate_conflict_rejects": 1292929,
+        "gate_exact_pairs": 485591,
+        "gate_positive_pairs": 18,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.5697612319999985,
+        "committed_witness_gain_ticks": 542685894,
+        "committed_gain_ticks": 558353225,
+        "committed_extra_ticks": 15667331
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_000_00",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 97,
+          "epoch": 4,
+          "event_line": 4,
+          "outside": [
+            11131,
+            34817
+          ],
+          "unary_gains_ticks": [
+            -429128028,
+            -442643807
+          ],
+          "witness_gain_ticks": 113279817,
+          "gain_ticks": 113279817,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_000_00/events.jsonl",
+          "file_sha256": "3b76fefce820734fe2a4e58b5a13224120460e62e797faa4c5e5c13234799d7a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_000_00",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 97,
+          "epoch": 8,
+          "event_line": 7,
+          "outside": [
+            22502,
+            25560
+          ],
+          "unary_gains_ticks": [
+            -106218607,
+            -349086620
+          ],
+          "witness_gain_ticks": 103672628,
+          "gain_ticks": 103672628,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_000_00/events.jsonl",
+          "file_sha256": "3b76fefce820734fe2a4e58b5a13224120460e62e797faa4c5e5c13234799d7a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_000_00",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 97,
+          "epoch": 9,
+          "event_line": 9,
+          "outside": [
+            23212,
+            36945
+          ],
+          "unary_gains_ticks": [
+            -550204447,
+            -2709590
+          ],
+          "witness_gain_ticks": 6366701,
+          "gain_ticks": 6366701,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_000_00/events.jsonl",
+          "file_sha256": "3b76fefce820734fe2a4e58b5a13224120460e62e797faa4c5e5c13234799d7a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_000_00",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 97,
+          "epoch": 11,
+          "event_line": 12,
+          "outside": [
+            3559,
+            19048
+          ],
+          "unary_gains_ticks": [
+            -490970465,
+            -483482889
+          ],
+          "witness_gain_ticks": 42135718,
+          "gain_ticks": 42135718,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_000_00/events.jsonl",
+          "file_sha256": "3b76fefce820734fe2a4e58b5a13224120460e62e797faa4c5e5c13234799d7a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_000_00",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 97,
+          "epoch": 22,
+          "event_line": 22,
+          "outside": [
+            19687,
+            35210
+          ],
+          "unary_gains_ticks": [
+            -517609507,
+            -23342002
+          ],
+          "witness_gain_ticks": 9959513,
+          "gain_ticks": 9959513,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_000_00/events.jsonl",
+          "file_sha256": "3b76fefce820734fe2a4e58b5a13224120460e62e797faa4c5e5c13234799d7a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_000_00",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 97,
+          "epoch": 24,
+          "event_line": 24,
+          "outside": [
+            21014,
+            34687
+          ],
+          "unary_gains_ticks": [
+            -519915777,
+            -7566061
+          ],
+          "witness_gain_ticks": 31468441,
+          "gain_ticks": 31468441,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_000_00/events.jsonl",
+          "file_sha256": "3b76fefce820734fe2a4e58b5a13224120460e62e797faa4c5e5c13234799d7a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_000_00",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 97,
+          "epoch": 30,
+          "event_line": 29,
+          "outside": [
+            11081,
+            26675
+          ],
+          "unary_gains_ticks": [
+            -518038069,
+            -531078687
+          ],
+          "witness_gain_ticks": 24263766,
+          "gain_ticks": 24263766,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_000_00/events.jsonl",
+          "file_sha256": "3b76fefce820734fe2a4e58b5a13224120460e62e797faa4c5e5c13234799d7a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_000_00",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 97,
+          "epoch": 50,
+          "event_line": 46,
+          "outside": [
+            6354,
+            17884
+          ],
+          "unary_gains_ticks": [
+            -550081112,
+            -4826855
+          ],
+          "witness_gain_ticks": 4852429,
+          "gain_ticks": 4852429,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_000_00/events.jsonl",
+          "file_sha256": "3b76fefce820734fe2a4e58b5a13224120460e62e797faa4c5e5c13234799d7a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "3b76fefce820734fe2a4e58b5a13224120460e62e797faa4c5e5c13234799d7a",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_005_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 214,
+        "full_pair_gate": 214,
+        "partial_gate": 0,
+        "positive_witness_gate": 27,
+        "full_two_exchange_complete": 214,
+        "full_two_exchange_zero_certificate": 187,
+        "event_pair_commit": 27,
+        "committed_witnesses": 27,
+        "genuine_joint_commits": 27,
+        "positive_singleton_commits": 0,
+        "refined_commits": 27,
+        "positive_refinement_benefit_commits": 0
+      },
+      "sums": {
+        "gate_pair_visits": 671275464,
+        "gate_unique_pairs": 290049545,
+        "gate_upper_rejects": 288186788,
+        "gate_conflict_rejects": 1332237,
+        "gate_exact_pairs": 530520,
+        "gate_positive_pairs": 39,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.250777920999999,
+        "committed_witness_gain_ticks": 723168701,
+        "committed_gain_ticks": 723168701,
+        "committed_extra_ticks": 0
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 89,
+          "epoch": 2,
+          "event_line": 3,
+          "outside": [
+            13867,
+            24176
+          ],
+          "unary_gains_ticks": [
+            -401510872,
+            -470269434
+          ],
+          "witness_gain_ticks": 89721715,
+          "gain_ticks": 89721715,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_005_00/events.jsonl",
+          "file_sha256": "7f64d20c0b34db873ea00a83ece0cc83410ca221757d62a2c6db1e4ce97fc24a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 89,
+          "epoch": 3,
+          "event_line": 5,
+          "outside": [
+            1530,
+            1966
+          ],
+          "unary_gains_ticks": [
+            -309555654,
+            -211354543
+          ],
+          "witness_gain_ticks": 30713562,
+          "gain_ticks": 30713562,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_005_00/events.jsonl",
+          "file_sha256": "7f64d20c0b34db873ea00a83ece0cc83410ca221757d62a2c6db1e4ce97fc24a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 89,
+          "epoch": 4,
+          "event_line": 7,
+          "outside": [
+            21262,
+            33289
+          ],
+          "unary_gains_ticks": [
+            -531797359,
+            -521050082
+          ],
+          "witness_gain_ticks": 23199675,
+          "gain_ticks": 23199675,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_005_00/events.jsonl",
+          "file_sha256": "7f64d20c0b34db873ea00a83ece0cc83410ca221757d62a2c6db1e4ce97fc24a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 89,
+          "epoch": 8,
+          "event_line": 10,
+          "outside": [
+            14443,
+            15656
+          ],
+          "unary_gains_ticks": [
+            -545188138,
+            -2004703
+          ],
+          "witness_gain_ticks": 12083937,
+          "gain_ticks": 12083937,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_005_00/events.jsonl",
+          "file_sha256": "7f64d20c0b34db873ea00a83ece0cc83410ca221757d62a2c6db1e4ce97fc24a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 89,
+          "epoch": 42,
+          "event_line": 35,
+          "outside": [
+            12743,
+            13354
+          ],
+          "unary_gains_ticks": [
+            -480886454,
+            -19966325
+          ],
+          "witness_gain_ticks": 21512408,
+          "gain_ticks": 21512408,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_005_00/events.jsonl",
+          "file_sha256": "7f64d20c0b34db873ea00a83ece0cc83410ca221757d62a2c6db1e4ce97fc24a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 89,
+          "epoch": 45,
+          "event_line": 39,
+          "outside": [
+            12916,
+            28625
+          ],
+          "unary_gains_ticks": [
+            -522300551,
+            -494455661
+          ],
+          "witness_gain_ticks": 36488216,
+          "gain_ticks": 36488216,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_005_00/events.jsonl",
+          "file_sha256": "7f64d20c0b34db873ea00a83ece0cc83410ca221757d62a2c6db1e4ce97fc24a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 89,
+          "epoch": 46,
+          "event_line": 41,
+          "outside": [
+            14996,
+            28869
+          ],
+          "unary_gains_ticks": [
+            -37319909,
+            -501521258
+          ],
+          "witness_gain_ticks": 11584260,
+          "gain_ticks": 11584260,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_005_00/events.jsonl",
+          "file_sha256": "7f64d20c0b34db873ea00a83ece0cc83410ca221757d62a2c6db1e4ce97fc24a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 89,
+          "epoch": 48,
+          "event_line": 44,
+          "outside": [
+            4736,
+            28615
+          ],
+          "unary_gains_ticks": [
+            -534549332,
+            -526807542
+          ],
+          "witness_gain_ticks": 19740952,
+          "gain_ticks": 19740952,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_005_00/events.jsonl",
+          "file_sha256": "7f64d20c0b34db873ea00a83ece0cc83410ca221757d62a2c6db1e4ce97fc24a",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "7f64d20c0b34db873ea00a83ece0cc83410ca221757d62a2c6db1e4ce97fc24a",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_006_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 236,
+        "full_pair_gate": 236,
+        "partial_gate": 0,
+        "positive_witness_gate": 39,
+        "full_two_exchange_complete": 236,
+        "full_two_exchange_zero_certificate": 197,
+        "event_pair_commit": 39,
+        "committed_witnesses": 39,
+        "genuine_joint_commits": 39,
+        "positive_singleton_commits": 0,
+        "refined_commits": 39,
+        "positive_refinement_benefit_commits": 8
+      },
+      "sums": {
+        "gate_pair_visits": 709378525,
+        "gate_unique_pairs": 307557961,
+        "gate_upper_rejects": 306021410,
+        "gate_conflict_rejects": 1074737,
+        "gate_exact_pairs": 461814,
+        "gate_positive_pairs": 55,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.518133821999999,
+        "committed_witness_gain_ticks": 1306927292,
+        "committed_gain_ticks": 1444548076,
+        "committed_extra_ticks": 137620784
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_006_00",
+          "graph": "g0680",
+          "seed": 97,
+          "epoch": 4,
+          "event_line": 3,
+          "outside": [
+            8349,
+            13749
+          ],
+          "unary_gains_ticks": [
+            -102088580,
+            -60821130
+          ],
+          "witness_gain_ticks": 103779170,
+          "gain_ticks": 103779170,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_006_00/events.jsonl",
+          "file_sha256": "36ebcbe390203be6465449e7f8d7d648870fe026cfbabd82b6378fce7a55ba39",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_006_00",
+          "graph": "g0680",
+          "seed": 97,
+          "epoch": 5,
+          "event_line": 5,
+          "outside": [
+            3432,
+            16847
+          ],
+          "unary_gains_ticks": [
+            -196219524,
+            -262655752
+          ],
+          "witness_gain_ticks": 87104884,
+          "gain_ticks": 87104884,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_006_00/events.jsonl",
+          "file_sha256": "36ebcbe390203be6465449e7f8d7d648870fe026cfbabd82b6378fce7a55ba39",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_006_00",
+          "graph": "g0680",
+          "seed": 97,
+          "epoch": 6,
+          "event_line": 7,
+          "outside": [
+            11915,
+            25446
+          ],
+          "unary_gains_ticks": [
+            -235593311,
+            -233201593
+          ],
+          "witness_gain_ticks": 72297948,
+          "gain_ticks": 84601638,
+          "extra_ticks": 12303690,
+          "file": "results/confirmation/confirmation_confirm_006_00/events.jsonl",
+          "file_sha256": "36ebcbe390203be6465449e7f8d7d648870fe026cfbabd82b6378fce7a55ba39",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_006_00",
+          "graph": "g0680",
+          "seed": 97,
+          "epoch": 7,
+          "event_line": 9,
+          "outside": [
+            2611,
+            26292
+          ],
+          "unary_gains_ticks": [
+            -519284105,
+            -494345815
+          ],
+          "witness_gain_ticks": 7663708,
+          "gain_ticks": 7663708,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_006_00/events.jsonl",
+          "file_sha256": "36ebcbe390203be6465449e7f8d7d648870fe026cfbabd82b6378fce7a55ba39",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_006_00",
+          "graph": "g0680",
+          "seed": 97,
+          "epoch": 12,
+          "event_line": 14,
+          "outside": [
+            9233,
+            21665
+          ],
+          "unary_gains_ticks": [
+            -360301290,
+            -113749048
+          ],
+          "witness_gain_ticks": 85207263,
+          "gain_ticks": 85207263,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_006_00/events.jsonl",
+          "file_sha256": "36ebcbe390203be6465449e7f8d7d648870fe026cfbabd82b6378fce7a55ba39",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_006_00",
+          "graph": "g0680",
+          "seed": 97,
+          "epoch": 13,
+          "event_line": 16,
+          "outside": [
+            8148,
+            33702
+          ],
+          "unary_gains_ticks": [
+            -528632245,
+            -21676069
+          ],
+          "witness_gain_ticks": 3587746,
+          "gain_ticks": 3587746,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_006_00/events.jsonl",
+          "file_sha256": "36ebcbe390203be6465449e7f8d7d648870fe026cfbabd82b6378fce7a55ba39",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_006_00",
+          "graph": "g0680",
+          "seed": 97,
+          "epoch": 19,
+          "event_line": 22,
+          "outside": [
+            22155,
+            35947
+          ],
+          "unary_gains_ticks": [
+            -495495887,
+            -520276501
+          ],
+          "witness_gain_ticks": 9979659,
+          "gain_ticks": 9979659,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_006_00/events.jsonl",
+          "file_sha256": "36ebcbe390203be6465449e7f8d7d648870fe026cfbabd82b6378fce7a55ba39",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_006_00",
+          "graph": "g0680",
+          "seed": 97,
+          "epoch": 27,
+          "event_line": 30,
+          "outside": [
+            1005,
+            24599
+          ],
+          "unary_gains_ticks": [
+            -519750491,
+            -494963931
+          ],
+          "witness_gain_ticks": 8571361,
+          "gain_ticks": 8571361,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_006_00/events.jsonl",
+          "file_sha256": "36ebcbe390203be6465449e7f8d7d648870fe026cfbabd82b6378fce7a55ba39",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "36ebcbe390203be6465449e7f8d7d648870fe026cfbabd82b6378fce7a55ba39",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_001_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 192,
+        "full_pair_gate": 192,
+        "partial_gate": 0,
+        "positive_witness_gate": 34,
+        "full_two_exchange_complete": 192,
+        "full_two_exchange_zero_certificate": 158,
+        "event_pair_commit": 34,
+        "committed_witnesses": 34,
+        "genuine_joint_commits": 34,
+        "positive_singleton_commits": 0,
+        "refined_commits": 34,
+        "positive_refinement_benefit_commits": 2
+      },
+      "sums": {
+        "gate_pair_visits": 659923132,
+        "gate_unique_pairs": 284615754,
+        "gate_upper_rejects": 282482213,
+        "gate_conflict_rejects": 1566697,
+        "gate_exact_pairs": 566844,
+        "gate_positive_pairs": 57,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.063585350999999,
+        "committed_witness_gain_ticks": 1007290721,
+        "committed_gain_ticks": 1033200235,
+        "committed_extra_ticks": 25909514
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_001_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 83,
+          "epoch": 2,
+          "event_line": 3,
+          "outside": [
+            11119,
+            26723
+          ],
+          "unary_gains_ticks": [
+            -523753761,
+            -505698826
+          ],
+          "witness_gain_ticks": 22208867,
+          "gain_ticks": 22208867,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_001_00/events.jsonl",
+          "file_sha256": "f5ad804b0141a1a35e27a55f658ff7f5ae3be0249266b48eb736713b3295a7ef",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_001_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 83,
+          "epoch": 15,
+          "event_line": 11,
+          "outside": [
+            13350,
+            27258
+          ],
+          "unary_gains_ticks": [
+            -485115882,
+            -516048915
+          ],
+          "witness_gain_ticks": 7738407,
+          "gain_ticks": 7738407,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_001_00/events.jsonl",
+          "file_sha256": "f5ad804b0141a1a35e27a55f658ff7f5ae3be0249266b48eb736713b3295a7ef",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_001_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 83,
+          "epoch": 16,
+          "event_line": 13,
+          "outside": [
+            11076,
+            24994
+          ],
+          "unary_gains_ticks": [
+            -538439754,
+            -15844856
+          ],
+          "witness_gain_ticks": 1479992,
+          "gain_ticks": 1479992,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_001_00/events.jsonl",
+          "file_sha256": "f5ad804b0141a1a35e27a55f658ff7f5ae3be0249266b48eb736713b3295a7ef",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_001_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 83,
+          "epoch": 18,
+          "event_line": 16,
+          "outside": [
+            11076,
+            24994
+          ],
+          "unary_gains_ticks": [
+            -538439754,
+            -15844856
+          ],
+          "witness_gain_ticks": 1479992,
+          "gain_ticks": 1479992,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_001_00/events.jsonl",
+          "file_sha256": "f5ad804b0141a1a35e27a55f658ff7f5ae3be0249266b48eb736713b3295a7ef",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_001_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 83,
+          "epoch": 21,
+          "event_line": 20,
+          "outside": [
+            32262,
+            37093
+          ],
+          "unary_gains_ticks": [
+            -427952221,
+            -102431298
+          ],
+          "witness_gain_ticks": 29087846,
+          "gain_ticks": 29087846,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_001_00/events.jsonl",
+          "file_sha256": "f5ad804b0141a1a35e27a55f658ff7f5ae3be0249266b48eb736713b3295a7ef",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_001_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 83,
+          "epoch": 23,
+          "event_line": 22,
+          "outside": [
+            759,
+            24428
+          ],
+          "unary_gains_ticks": [
+            -486299442,
+            -478284671
+          ],
+          "witness_gain_ticks": 43571724,
+          "gain_ticks": 43571724,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_001_00/events.jsonl",
+          "file_sha256": "f5ad804b0141a1a35e27a55f658ff7f5ae3be0249266b48eb736713b3295a7ef",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_001_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 83,
+          "epoch": 24,
+          "event_line": 24,
+          "outside": [
+            917,
+            22467
+          ],
+          "unary_gains_ticks": [
+            -50074800,
+            -438847737
+          ],
+          "witness_gain_ticks": 26019289,
+          "gain_ticks": 26019289,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_001_00/events.jsonl",
+          "file_sha256": "f5ad804b0141a1a35e27a55f658ff7f5ae3be0249266b48eb736713b3295a7ef",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_001_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 83,
+          "epoch": 25,
+          "event_line": 26,
+          "outside": [
+            22456,
+            36157
+          ],
+          "unary_gains_ticks": [
+            -480263082,
+            -487573686
+          ],
+          "witness_gain_ticks": 43417186,
+          "gain_ticks": 43417186,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_001_00/events.jsonl",
+          "file_sha256": "f5ad804b0141a1a35e27a55f658ff7f5ae3be0249266b48eb736713b3295a7ef",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "f5ad804b0141a1a35e27a55f658ff7f5ae3be0249266b48eb736713b3295a7ef",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_004_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 228,
+        "full_pair_gate": 228,
+        "partial_gate": 0,
+        "positive_witness_gate": 27,
+        "full_two_exchange_complete": 228,
+        "full_two_exchange_zero_certificate": 201,
+        "event_pair_commit": 27,
+        "committed_witnesses": 27,
+        "genuine_joint_commits": 27,
+        "positive_singleton_commits": 0,
+        "refined_commits": 27,
+        "positive_refinement_benefit_commits": 2
+      },
+      "sums": {
+        "gate_pair_visits": 782312073,
+        "gate_unique_pairs": 337367316,
+        "gate_upper_rejects": 334803484,
+        "gate_conflict_rejects": 1908102,
+        "gate_exact_pairs": 655730,
+        "gate_positive_pairs": 43,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.835450044,
+        "committed_witness_gain_ticks": 1009889266,
+        "committed_gain_ticks": 1144175122,
+        "committed_extra_ticks": 134285856
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 83,
+          "epoch": 3,
+          "event_line": 3,
+          "outside": [
+            14508,
+            27863
+          ],
+          "unary_gains_ticks": [
+            -9906284,
+            -524984055
+          ],
+          "witness_gain_ticks": 24573299,
+          "gain_ticks": 24573299,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_004_00/events.jsonl",
+          "file_sha256": "d861200f70b950818a29fe630c1da05d3fda3e4852590c6a2a0d5218171353eb",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 83,
+          "epoch": 13,
+          "event_line": 10,
+          "outside": [
+            4093,
+            29629
+          ],
+          "unary_gains_ticks": [
+            -516960196,
+            -22869423
+          ],
+          "witness_gain_ticks": 11599669,
+          "gain_ticks": 11599669,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_004_00/events.jsonl",
+          "file_sha256": "d861200f70b950818a29fe630c1da05d3fda3e4852590c6a2a0d5218171353eb",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 83,
+          "epoch": 36,
+          "event_line": 24,
+          "outside": [
+            5052,
+            17048
+          ],
+          "unary_gains_ticks": [
+            -481242554,
+            -14657437
+          ],
+          "witness_gain_ticks": 61931862,
+          "gain_ticks": 61931862,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_004_00/events.jsonl",
+          "file_sha256": "d861200f70b950818a29fe630c1da05d3fda3e4852590c6a2a0d5218171353eb",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 83,
+          "epoch": 38,
+          "event_line": 27,
+          "outside": [
+            5052,
+            17048
+          ],
+          "unary_gains_ticks": [
+            -481242554,
+            -14657437
+          ],
+          "witness_gain_ticks": 61931862,
+          "gain_ticks": 61931862,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_004_00/events.jsonl",
+          "file_sha256": "d861200f70b950818a29fe630c1da05d3fda3e4852590c6a2a0d5218171353eb",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 83,
+          "epoch": 39,
+          "event_line": 29,
+          "outside": [
+            23280,
+            26816
+          ],
+          "unary_gains_ticks": [
+            -31154883,
+            -515814689
+          ],
+          "witness_gain_ticks": 3158978,
+          "gain_ticks": 3158978,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_004_00/events.jsonl",
+          "file_sha256": "d861200f70b950818a29fe630c1da05d3fda3e4852590c6a2a0d5218171353eb",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 83,
+          "epoch": 52,
+          "event_line": 39,
+          "outside": [
+            17226,
+            19285
+          ],
+          "unary_gains_ticks": [
+            -52629242,
+            -449500783
+          ],
+          "witness_gain_ticks": 40221962,
+          "gain_ticks": 40221962,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_004_00/events.jsonl",
+          "file_sha256": "d861200f70b950818a29fe630c1da05d3fda3e4852590c6a2a0d5218171353eb",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 83,
+          "epoch": 53,
+          "event_line": 41,
+          "outside": [
+            19439,
+            21243
+          ],
+          "unary_gains_ticks": [
+            -45266838,
+            -491997289
+          ],
+          "witness_gain_ticks": 2854002,
+          "gain_ticks": 27898605,
+          "extra_ticks": 25044603,
+          "file": "results/confirmation/confirmation_confirm_004_00/events.jsonl",
+          "file_sha256": "d861200f70b950818a29fe630c1da05d3fda3e4852590c6a2a0d5218171353eb",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 83,
+          "epoch": 55,
+          "event_line": 44,
+          "outside": [
+            33120,
+            33184
+          ],
+          "unary_gains_ticks": [
+            -14655044,
+            -488081876
+          ],
+          "witness_gain_ticks": 33055692,
+          "gain_ticks": 33055692,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_004_00/events.jsonl",
+          "file_sha256": "d861200f70b950818a29fe630c1da05d3fda3e4852590c6a2a0d5218171353eb",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "d861200f70b950818a29fe630c1da05d3fda3e4852590c6a2a0d5218171353eb",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_010_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 173,
+        "full_pair_gate": 173,
+        "partial_gate": 0,
+        "positive_witness_gate": 27,
+        "full_two_exchange_complete": 173,
+        "full_two_exchange_zero_certificate": 146,
+        "event_pair_commit": 27,
+        "committed_witnesses": 27,
+        "genuine_joint_commits": 27,
+        "positive_singleton_commits": 0,
+        "refined_commits": 27,
+        "positive_refinement_benefit_commits": 2
+      },
+      "sums": {
+        "gate_pair_visits": 593840110,
+        "gate_unique_pairs": 256300116,
+        "gate_upper_rejects": 254417546,
+        "gate_conflict_rejects": 1405017,
+        "gate_exact_pairs": 477553,
+        "gate_positive_pairs": 55,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 3.6456121369999996,
+        "committed_witness_gain_ticks": 1168873612,
+        "committed_gain_ticks": 1180398812,
+        "committed_extra_ticks": 11525200
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_010_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 89,
+          "epoch": 1,
+          "event_line": 2,
+          "outside": [
+            13615,
+            37173
+          ],
+          "unary_gains_ticks": [
+            -373878044,
+            -415843197
+          ],
+          "witness_gain_ticks": 90989937,
+          "gain_ticks": 90989937,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_010_00/events.jsonl",
+          "file_sha256": "2ffa2a7d378e63b6d21b1e4c8323457230c9ba1287d595e22a49eb0f326774f1",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_010_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 89,
+          "epoch": 2,
+          "event_line": 4,
+          "outside": [
+            1154,
+            26238
+          ],
+          "unary_gains_ticks": [
+            -462708340,
+            -11923229
+          ],
+          "witness_gain_ticks": 50106505,
+          "gain_ticks": 58359234,
+          "extra_ticks": 8252729,
+          "file": "results/confirmation/confirmation_confirm_010_00/events.jsonl",
+          "file_sha256": "2ffa2a7d378e63b6d21b1e4c8323457230c9ba1287d595e22a49eb0f326774f1",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_010_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 89,
+          "epoch": 5,
+          "event_line": 8,
+          "outside": [
+            1263,
+            12647
+          ],
+          "unary_gains_ticks": [
+            -552427783,
+            -5063212
+          ],
+          "witness_gain_ticks": 2122592,
+          "gain_ticks": 2122592,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_010_00/events.jsonl",
+          "file_sha256": "2ffa2a7d378e63b6d21b1e4c8323457230c9ba1287d595e22a49eb0f326774f1",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_010_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 89,
+          "epoch": 11,
+          "event_line": 14,
+          "outside": [
+            1478,
+            1915
+          ],
+          "unary_gains_ticks": [
+            -124169603,
+            -420204097
+          ],
+          "witness_gain_ticks": 11371262,
+          "gain_ticks": 11371262,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_010_00/events.jsonl",
+          "file_sha256": "2ffa2a7d378e63b6d21b1e4c8323457230c9ba1287d595e22a49eb0f326774f1",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_010_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 89,
+          "epoch": 12,
+          "event_line": 16,
+          "outside": [
+            3184,
+            16795
+          ],
+          "unary_gains_ticks": [
+            -386687797,
+            -38226544
+          ],
+          "witness_gain_ticks": 121728315,
+          "gain_ticks": 121728315,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_010_00/events.jsonl",
+          "file_sha256": "2ffa2a7d378e63b6d21b1e4c8323457230c9ba1287d595e22a49eb0f326774f1",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_010_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 89,
+          "epoch": 13,
+          "event_line": 18,
+          "outside": [
+            476,
+            27324
+          ],
+          "unary_gains_ticks": [
+            -358500931,
+            -106821573
+          ],
+          "witness_gain_ticks": 93949988,
+          "gain_ticks": 93949988,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_010_00/events.jsonl",
+          "file_sha256": "2ffa2a7d378e63b6d21b1e4c8323457230c9ba1287d595e22a49eb0f326774f1",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_010_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 89,
+          "epoch": 14,
+          "event_line": 20,
+          "outside": [
+            3213,
+            15158
+          ],
+          "unary_gains_ticks": [
+            -28047916,
+            -470766345
+          ],
+          "witness_gain_ticks": 52946000,
+          "gain_ticks": 52946000,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_010_00/events.jsonl",
+          "file_sha256": "2ffa2a7d378e63b6d21b1e4c8323457230c9ba1287d595e22a49eb0f326774f1",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_010_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 89,
+          "epoch": 15,
+          "event_line": 22,
+          "outside": [
+            2248,
+            25990
+          ],
+          "unary_gains_ticks": [
+            -520979018,
+            -525078391
+          ],
+          "witness_gain_ticks": 30534682,
+          "gain_ticks": 30534682,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_010_00/events.jsonl",
+          "file_sha256": "2ffa2a7d378e63b6d21b1e4c8323457230c9ba1287d595e22a49eb0f326774f1",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "2ffa2a7d378e63b6d21b1e4c8323457230c9ba1287d595e22a49eb0f326774f1",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_009_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 194,
+        "full_pair_gate": 194,
+        "partial_gate": 0,
+        "positive_witness_gate": 26,
+        "full_two_exchange_complete": 194,
+        "full_two_exchange_zero_certificate": 168,
+        "event_pair_commit": 26,
+        "committed_witnesses": 26,
+        "genuine_joint_commits": 26,
+        "positive_singleton_commits": 0,
+        "refined_commits": 26,
+        "positive_refinement_benefit_commits": 0
+      },
+      "sums": {
+        "gate_pair_visits": 666759327,
+        "gate_unique_pairs": 287508206,
+        "gate_upper_rejects": 285440359,
+        "gate_conflict_rejects": 1550070,
+        "gate_exact_pairs": 517777,
+        "gate_positive_pairs": 48,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.109007334,
+        "committed_witness_gain_ticks": 949569214,
+        "committed_gain_ticks": 949569214,
+        "committed_extra_ticks": 0
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_009_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 97,
+          "epoch": 4,
+          "event_line": 4,
+          "outside": [
+            11295,
+            23263
+          ],
+          "unary_gains_ticks": [
+            -455888953,
+            -14197825
+          ],
+          "witness_gain_ticks": 87105455,
+          "gain_ticks": 87105455,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_009_00/events.jsonl",
+          "file_sha256": "f6538db820a3782c8856aff60550a4a35088e153102a8711c8fd4eeb8570083d",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_009_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 97,
+          "epoch": 5,
+          "event_line": 6,
+          "outside": [
+            12153,
+            26013
+          ],
+          "unary_gains_ticks": [
+            -6042851,
+            -542433042
+          ],
+          "witness_gain_ticks": 10020478,
+          "gain_ticks": 10020478,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_009_00/events.jsonl",
+          "file_sha256": "f6538db820a3782c8856aff60550a4a35088e153102a8711c8fd4eeb8570083d",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_009_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 97,
+          "epoch": 6,
+          "event_line": 8,
+          "outside": [
+            12804,
+            26205
+          ],
+          "unary_gains_ticks": [
+            -7572949,
+            -548389048
+          ],
+          "witness_gain_ticks": 4043344,
+          "gain_ticks": 4043344,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_009_00/events.jsonl",
+          "file_sha256": "f6538db820a3782c8856aff60550a4a35088e153102a8711c8fd4eeb8570083d",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_009_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 97,
+          "epoch": 7,
+          "event_line": 10,
+          "outside": [
+            13994,
+            25701
+          ],
+          "unary_gains_ticks": [
+            -16063329,
+            -420937284
+          ],
+          "witness_gain_ticks": 111814999,
+          "gain_ticks": 111814999,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_009_00/events.jsonl",
+          "file_sha256": "f6538db820a3782c8856aff60550a4a35088e153102a8711c8fd4eeb8570083d",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_009_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 97,
+          "epoch": 9,
+          "event_line": 13,
+          "outside": [
+            9080,
+            22424
+          ],
+          "unary_gains_ticks": [
+            -490115389,
+            -10415443
+          ],
+          "witness_gain_ticks": 45697855,
+          "gain_ticks": 45697855,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_009_00/events.jsonl",
+          "file_sha256": "f6538db820a3782c8856aff60550a4a35088e153102a8711c8fd4eeb8570083d",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_009_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 97,
+          "epoch": 11,
+          "event_line": 16,
+          "outside": [
+            11976,
+            25916
+          ],
+          "unary_gains_ticks": [
+            -488049596,
+            -517429024
+          ],
+          "witness_gain_ticks": 7995062,
+          "gain_ticks": 7995062,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_009_00/events.jsonl",
+          "file_sha256": "f6538db820a3782c8856aff60550a4a35088e153102a8711c8fd4eeb8570083d",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_009_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 97,
+          "epoch": 16,
+          "event_line": 21,
+          "outside": [
+            16521,
+            32061
+          ],
+          "unary_gains_ticks": [
+            -383043829,
+            -385494899
+          ],
+          "witness_gain_ticks": 87549699,
+          "gain_ticks": 87549699,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_009_00/events.jsonl",
+          "file_sha256": "f6538db820a3782c8856aff60550a4a35088e153102a8711c8fd4eeb8570083d",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_009_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 97,
+          "epoch": 17,
+          "event_line": 23,
+          "outside": [
+            15250,
+            27173
+          ],
+          "unary_gains_ticks": [
+            -8061610,
+            -476096533
+          ],
+          "witness_gain_ticks": 75750980,
+          "gain_ticks": 75750980,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_009_00/events.jsonl",
+          "file_sha256": "f6538db820a3782c8856aff60550a4a35088e153102a8711c8fd4eeb8570083d",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "f6538db820a3782c8856aff60550a4a35088e153102a8711c8fd4eeb8570083d",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_007_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 204,
+        "full_pair_gate": 204,
+        "partial_gate": 0,
+        "positive_witness_gate": 22,
+        "full_two_exchange_complete": 204,
+        "full_two_exchange_zero_certificate": 182,
+        "event_pair_commit": 22,
+        "committed_witnesses": 22,
+        "genuine_joint_commits": 22,
+        "positive_singleton_commits": 0,
+        "refined_commits": 22,
+        "positive_refinement_benefit_commits": 1
+      },
+      "sums": {
+        "gate_pair_visits": 701350261,
+        "gate_unique_pairs": 302845743,
+        "gate_upper_rejects": 300700547,
+        "gate_conflict_rejects": 1606299,
+        "gate_exact_pairs": 538897,
+        "gate_positive_pairs": 29,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.2551807319999995,
+        "committed_witness_gain_ticks": 513482748,
+        "committed_gain_ticks": 532780399,
+        "committed_extra_ticks": 19297651
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_007_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 97,
+          "epoch": 4,
+          "event_line": 4,
+          "outside": [
+            19557,
+            29830
+          ],
+          "unary_gains_ticks": [
+            -3518568,
+            -491897750
+          ],
+          "witness_gain_ticks": 30860568,
+          "gain_ticks": 50158219,
+          "extra_ticks": 19297651,
+          "file": "results/confirmation/confirmation_confirm_007_00/events.jsonl",
+          "file_sha256": "16407abeaaebdb7a269abacd93c479c50537840b192d5bb3f3e25eefd1b9b0f5",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_007_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 97,
+          "epoch": 14,
+          "event_line": 13,
+          "outside": [
+            1934,
+            17491
+          ],
+          "unary_gains_ticks": [
+            -500572542,
+            -522400653
+          ],
+          "witness_gain_ticks": 9103762,
+          "gain_ticks": 9103762,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_007_00/events.jsonl",
+          "file_sha256": "16407abeaaebdb7a269abacd93c479c50537840b192d5bb3f3e25eefd1b9b0f5",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_007_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 97,
+          "epoch": 16,
+          "event_line": 16,
+          "outside": [
+            16752,
+            30074
+          ],
+          "unary_gains_ticks": [
+            -3657795,
+            -546068051
+          ],
+          "witness_gain_ticks": 9867038,
+          "gain_ticks": 9867038,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_007_00/events.jsonl",
+          "file_sha256": "16407abeaaebdb7a269abacd93c479c50537840b192d5bb3f3e25eefd1b9b0f5",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_007_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 97,
+          "epoch": 17,
+          "event_line": 18,
+          "outside": [
+            30730,
+            31322
+          ],
+          "unary_gains_ticks": [
+            -538376926,
+            -14456158
+          ],
+          "witness_gain_ticks": 5297385,
+          "gain_ticks": 5297385,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_007_00/events.jsonl",
+          "file_sha256": "16407abeaaebdb7a269abacd93c479c50537840b192d5bb3f3e25eefd1b9b0f5",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_007_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 97,
+          "epoch": 20,
+          "event_line": 21,
+          "outside": [
+            18674,
+            29029
+          ],
+          "unary_gains_ticks": [
+            -512569819,
+            -7836432
+          ],
+          "witness_gain_ticks": 7937649,
+          "gain_ticks": 7937649,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_007_00/events.jsonl",
+          "file_sha256": "16407abeaaebdb7a269abacd93c479c50537840b192d5bb3f3e25eefd1b9b0f5",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_007_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 97,
+          "epoch": 21,
+          "event_line": 23,
+          "outside": [
+            23280,
+            26816
+          ],
+          "unary_gains_ticks": [
+            -31154883,
+            -515814689
+          ],
+          "witness_gain_ticks": 3158978,
+          "gain_ticks": 3158978,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_007_00/events.jsonl",
+          "file_sha256": "16407abeaaebdb7a269abacd93c479c50537840b192d5bb3f3e25eefd1b9b0f5",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_007_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 97,
+          "epoch": 23,
+          "event_line": 26,
+          "outside": [
+            12850,
+            14995
+          ],
+          "unary_gains_ticks": [
+            -424305497,
+            -126453618
+          ],
+          "witness_gain_ticks": 8033765,
+          "gain_ticks": 8033765,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_007_00/events.jsonl",
+          "file_sha256": "16407abeaaebdb7a269abacd93c479c50537840b192d5bb3f3e25eefd1b9b0f5",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_007_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 97,
+          "epoch": 24,
+          "event_line": 28,
+          "outside": [
+            10362,
+            24104
+          ],
+          "unary_gains_ticks": [
+            -439844822,
+            -497573679
+          ],
+          "witness_gain_ticks": 61689835,
+          "gain_ticks": 61689835,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_007_00/events.jsonl",
+          "file_sha256": "16407abeaaebdb7a269abacd93c479c50537840b192d5bb3f3e25eefd1b9b0f5",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "16407abeaaebdb7a269abacd93c479c50537840b192d5bb3f3e25eefd1b9b0f5",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_002_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 129,
+        "full_pair_gate": 129,
+        "partial_gate": 0,
+        "positive_witness_gate": 8,
+        "full_two_exchange_complete": 129,
+        "full_two_exchange_zero_certificate": 121,
+        "event_pair_commit": 8,
+        "committed_witnesses": 8,
+        "genuine_joint_commits": 8,
+        "positive_singleton_commits": 0,
+        "refined_commits": 8,
+        "positive_refinement_benefit_commits": 0
+      },
+      "sums": {
+        "gate_pair_visits": 496688093,
+        "gate_unique_pairs": 213222192,
+        "gate_upper_rejects": 210994356,
+        "gate_conflict_rejects": 1709473,
+        "gate_exact_pairs": 518363,
+        "gate_positive_pairs": 16,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 2.975603744000002,
+        "committed_witness_gain_ticks": 329073490,
+        "committed_gain_ticks": 329073490,
+        "committed_extra_ticks": 0
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_002_00",
+          "graph": "g1200",
+          "seed": 83,
+          "epoch": 1,
+          "event_line": 2,
+          "outside": [
+            6525,
+            6623
+          ],
+          "unary_gains_ticks": [
+            -530461678,
+            -1898177
+          ],
+          "witness_gain_ticks": 26781521,
+          "gain_ticks": 26781521,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_002_00/events.jsonl",
+          "file_sha256": "792cdf49fd2a5a74fb5fb2222dee110326615be795b7ad7924a2905763b9e40c",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_002_00",
+          "graph": "g1200",
+          "seed": 83,
+          "epoch": 2,
+          "event_line": 4,
+          "outside": [
+            2243,
+            17726
+          ],
+          "unary_gains_ticks": [
+            -507390890,
+            -513256771
+          ],
+          "witness_gain_ticks": 34755222,
+          "gain_ticks": 34755222,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_002_00/events.jsonl",
+          "file_sha256": "792cdf49fd2a5a74fb5fb2222dee110326615be795b7ad7924a2905763b9e40c",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_002_00",
+          "graph": "g1200",
+          "seed": 83,
+          "epoch": 30,
+          "event_line": 13,
+          "outside": [
+            11630,
+            35819
+          ],
+          "unary_gains_ticks": [
+            -26365316,
+            -456050892
+          ],
+          "witness_gain_ticks": 68385171,
+          "gain_ticks": 68385171,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_002_00/events.jsonl",
+          "file_sha256": "792cdf49fd2a5a74fb5fb2222dee110326615be795b7ad7924a2905763b9e40c",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_002_00",
+          "graph": "g1200",
+          "seed": 83,
+          "epoch": 31,
+          "event_line": 15,
+          "outside": [
+            88,
+            15477
+          ],
+          "unary_gains_ticks": [
+            -514038163,
+            -485278810
+          ],
+          "witness_gain_ticks": 3443400,
+          "gain_ticks": 3443400,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_002_00/events.jsonl",
+          "file_sha256": "792cdf49fd2a5a74fb5fb2222dee110326615be795b7ad7924a2905763b9e40c",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_002_00",
+          "graph": "g1200",
+          "seed": 83,
+          "epoch": 32,
+          "event_line": 17,
+          "outside": [
+            3449,
+            14930
+          ],
+          "unary_gains_ticks": [
+            -487484664,
+            -19000645
+          ],
+          "witness_gain_ticks": 48526083,
+          "gain_ticks": 48526083,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_002_00/events.jsonl",
+          "file_sha256": "792cdf49fd2a5a74fb5fb2222dee110326615be795b7ad7924a2905763b9e40c",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_002_00",
+          "graph": "g1200",
+          "seed": 83,
+          "epoch": 36,
+          "event_line": 21,
+          "outside": [
+            12708,
+            28366
+          ],
+          "unary_gains_ticks": [
+            -383264763,
+            -438868726
+          ],
+          "witness_gain_ticks": 107453718,
+          "gain_ticks": 107453718,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_002_00/events.jsonl",
+          "file_sha256": "792cdf49fd2a5a74fb5fb2222dee110326615be795b7ad7924a2905763b9e40c",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_002_00",
+          "graph": "g1200",
+          "seed": 83,
+          "epoch": 157,
+          "event_line": 46,
+          "outside": [
+            22871,
+            33059
+          ],
+          "unary_gains_ticks": [
+            -17368222,
+            -482704861
+          ],
+          "witness_gain_ticks": 32068770,
+          "gain_ticks": 32068770,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_002_00/events.jsonl",
+          "file_sha256": "792cdf49fd2a5a74fb5fb2222dee110326615be795b7ad7924a2905763b9e40c",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_002_00",
+          "graph": "g1200",
+          "seed": 83,
+          "epoch": 473,
+          "event_line": 112,
+          "outside": [
+            2281,
+            5200
+          ],
+          "unary_gains_ticks": [
+            -3790341,
+            -548368449
+          ],
+          "witness_gain_ticks": 7659605,
+          "gain_ticks": 7659605,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_002_00/events.jsonl",
+          "file_sha256": "792cdf49fd2a5a74fb5fb2222dee110326615be795b7ad7924a2905763b9e40c",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "792cdf49fd2a5a74fb5fb2222dee110326615be795b7ad7924a2905763b9e40c",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_003_00": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 78,
+        "full_pair_gate": 78,
+        "partial_gate": 0,
+        "positive_witness_gate": 14,
+        "full_two_exchange_complete": 78,
+        "full_two_exchange_zero_certificate": 64,
+        "event_pair_commit": 14,
+        "committed_witnesses": 14,
+        "genuine_joint_commits": 14,
+        "positive_singleton_commits": 0,
+        "refined_commits": 14,
+        "positive_refinement_benefit_commits": 0
+      },
+      "sums": {
+        "gate_pair_visits": 380607618,
+        "gate_unique_pairs": 160353321,
+        "gate_upper_rejects": 158743414,
+        "gate_conflict_rejects": 1271732,
+        "gate_exact_pairs": 338175,
+        "gate_positive_pairs": 32,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 2.176076564,
+        "committed_witness_gain_ticks": 303627788,
+        "committed_gain_ticks": 303627788,
+        "committed_extra_ticks": 0
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_003_00",
+          "graph": "g1800",
+          "seed": 89,
+          "epoch": 1,
+          "event_line": 2,
+          "outside": [
+            8181,
+            20914
+          ],
+          "unary_gains_ticks": [
+            -551177048,
+            -3489784
+          ],
+          "witness_gain_ticks": 5106196,
+          "gain_ticks": 5106196,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_003_00/events.jsonl",
+          "file_sha256": "6e4fc733d959cd0cf1a9552098bb73bf76f69c9ad5a254e82bc8b9e80038fad9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_003_00",
+          "graph": "g1800",
+          "seed": 89,
+          "epoch": 2,
+          "event_line": 4,
+          "outside": [
+            6471,
+            20320
+          ],
+          "unary_gains_ticks": [
+            -411216,
+            -495327628
+          ],
+          "witness_gain_ticks": 60890004,
+          "gain_ticks": 60890004,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_003_00/events.jsonl",
+          "file_sha256": "6e4fc733d959cd0cf1a9552098bb73bf76f69c9ad5a254e82bc8b9e80038fad9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_003_00",
+          "graph": "g1800",
+          "seed": 89,
+          "epoch": 3,
+          "event_line": 6,
+          "outside": [
+            11156,
+            23934
+          ],
+          "unary_gains_ticks": [
+            -535400117,
+            -4349903
+          ],
+          "witness_gain_ticks": 19588276,
+          "gain_ticks": 19588276,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_003_00/events.jsonl",
+          "file_sha256": "6e4fc733d959cd0cf1a9552098bb73bf76f69c9ad5a254e82bc8b9e80038fad9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_003_00",
+          "graph": "g1800",
+          "seed": 89,
+          "epoch": 4,
+          "event_line": 8,
+          "outside": [
+            5021,
+            18833
+          ],
+          "unary_gains_ticks": [
+            -519799724,
+            -6146187
+          ],
+          "witness_gain_ticks": 18520738,
+          "gain_ticks": 18520738,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_003_00/events.jsonl",
+          "file_sha256": "6e4fc733d959cd0cf1a9552098bb73bf76f69c9ad5a254e82bc8b9e80038fad9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_003_00",
+          "graph": "g1800",
+          "seed": 89,
+          "epoch": 5,
+          "event_line": 10,
+          "outside": [
+            10145,
+            32896
+          ],
+          "unary_gains_ticks": [
+            -2064701,
+            -548794424
+          ],
+          "witness_gain_ticks": 8337419,
+          "gain_ticks": 8337419,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_003_00/events.jsonl",
+          "file_sha256": "6e4fc733d959cd0cf1a9552098bb73bf76f69c9ad5a254e82bc8b9e80038fad9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_003_00",
+          "graph": "g1800",
+          "seed": 89,
+          "epoch": 7,
+          "event_line": 13,
+          "outside": [
+            14188,
+            25106
+          ],
+          "unary_gains_ticks": [
+            -6005345,
+            -551725027
+          ],
+          "witness_gain_ticks": 276360,
+          "gain_ticks": 276360,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_003_00/events.jsonl",
+          "file_sha256": "6e4fc733d959cd0cf1a9552098bb73bf76f69c9ad5a254e82bc8b9e80038fad9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_003_00",
+          "graph": "g1800",
+          "seed": 89,
+          "epoch": 8,
+          "event_line": 15,
+          "outside": [
+            23628,
+            26530
+          ],
+          "unary_gains_ticks": [
+            -529490904,
+            -10240584
+          ],
+          "witness_gain_ticks": 1081565,
+          "gain_ticks": 1081565,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_003_00/events.jsonl",
+          "file_sha256": "6e4fc733d959cd0cf1a9552098bb73bf76f69c9ad5a254e82bc8b9e80038fad9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_003_00",
+          "graph": "g1800",
+          "seed": 89,
+          "epoch": 9,
+          "event_line": 17,
+          "outside": [
+            10853,
+            37412
+          ],
+          "unary_gains_ticks": [
+            -864989,
+            -552648332
+          ],
+          "witness_gain_ticks": 6355091,
+          "gain_ticks": 6355091,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_003_00/events.jsonl",
+          "file_sha256": "6e4fc733d959cd0cf1a9552098bb73bf76f69c9ad5a254e82bc8b9e80038fad9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "6e4fc733d959cd0cf1a9552098bb73bf76f69c9ad5a254e82bc8b9e80038fad9",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_008_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_011_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_000_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_005_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_006_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_004_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_007_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_010_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_009_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_001_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_002_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_003_01": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_023_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_012_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_020_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_017_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_021_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_018_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_019_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_013_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_016_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_014_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_022_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_015_00": {
+      "arm": "chils-basic",
+      "counts": {},
+      "sums": {},
+      "genuine_joint_examples": [],
+      "events_sha256": null,
+      "event_recording_available": false
+    },
+    "confirmation_confirm_021_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 208,
+        "full_pair_gate": 208,
+        "partial_gate": 0,
+        "positive_witness_gate": 25,
+        "full_two_exchange_complete": 208,
+        "full_two_exchange_zero_certificate": 183,
+        "event_pair_commit": 25,
+        "committed_witnesses": 25,
+        "genuine_joint_commits": 25,
+        "positive_singleton_commits": 0,
+        "refined_commits": 25,
+        "positive_refinement_benefit_commits": 2
+      },
+      "sums": {
+        "gate_pair_visits": 491244697,
+        "gate_unique_pairs": 214438823,
+        "gate_upper_rejects": 213703150,
+        "gate_conflict_rejects": 486411,
+        "gate_exact_pairs": 249262,
+        "gate_positive_pairs": 32,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 3.338112197000001,
+        "committed_witness_gain_ticks": 959951459,
+        "committed_gain_ticks": 1076971948,
+        "committed_extra_ticks": 117020489
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_021_01",
+          "graph": "g0340",
+          "seed": 97,
+          "epoch": 1,
+          "event_line": 2,
+          "outside": [
+            640,
+            24302
+          ],
+          "unary_gains_ticks": [
+            -506217045,
+            -512028195
+          ],
+          "witness_gain_ticks": 35275375,
+          "gain_ticks": 35275375,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_021_01/events.jsonl",
+          "file_sha256": "4d25a2b4ecc5faec310144b4a06ed2cbb975c87547113d22a98b32113e8b18b4",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_021_01",
+          "graph": "g0340",
+          "seed": 97,
+          "epoch": 2,
+          "event_line": 4,
+          "outside": [
+            25850,
+            32681
+          ],
+          "unary_gains_ticks": [
+            -217703026,
+            -62115382
+          ],
+          "witness_gain_ticks": 30724391,
+          "gain_ticks": 30724391,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_021_01/events.jsonl",
+          "file_sha256": "4d25a2b4ecc5faec310144b4a06ed2cbb975c87547113d22a98b32113e8b18b4",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_021_01",
+          "graph": "g0340",
+          "seed": 97,
+          "epoch": 4,
+          "event_line": 7,
+          "outside": [
+            4410,
+            30067
+          ],
+          "unary_gains_ticks": [
+            -480592781,
+            -506161037
+          ],
+          "witness_gain_ticks": 30973485,
+          "gain_ticks": 30973485,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_021_01/events.jsonl",
+          "file_sha256": "4d25a2b4ecc5faec310144b4a06ed2cbb975c87547113d22a98b32113e8b18b4",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_021_01",
+          "graph": "g0340",
+          "seed": 97,
+          "epoch": 12,
+          "event_line": 15,
+          "outside": [
+            77,
+            3290
+          ],
+          "unary_gains_ticks": [
+            -132755423,
+            -363978508
+          ],
+          "witness_gain_ticks": 62765603,
+          "gain_ticks": 62765603,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_021_01/events.jsonl",
+          "file_sha256": "4d25a2b4ecc5faec310144b4a06ed2cbb975c87547113d22a98b32113e8b18b4",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_021_01",
+          "graph": "g0340",
+          "seed": 97,
+          "epoch": 13,
+          "event_line": 17,
+          "outside": [
+            18824,
+            32494
+          ],
+          "unary_gains_ticks": [
+            -435431483,
+            -496023494
+          ],
+          "witness_gain_ticks": 63195158,
+          "gain_ticks": 63195158,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_021_01/events.jsonl",
+          "file_sha256": "4d25a2b4ecc5faec310144b4a06ed2cbb975c87547113d22a98b32113e8b18b4",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_021_01",
+          "graph": "g0340",
+          "seed": 97,
+          "epoch": 14,
+          "event_line": 19,
+          "outside": [
+            2766,
+            17953
+          ],
+          "unary_gains_ticks": [
+            -267472823,
+            -219494441
+          ],
+          "witness_gain_ticks": 54281545,
+          "gain_ticks": 54281545,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_021_01/events.jsonl",
+          "file_sha256": "4d25a2b4ecc5faec310144b4a06ed2cbb975c87547113d22a98b32113e8b18b4",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_021_01",
+          "graph": "g0340",
+          "seed": 97,
+          "epoch": 24,
+          "event_line": 29,
+          "outside": [
+            35917,
+            37378
+          ],
+          "unary_gains_ticks": [
+            -162923416,
+            -320949789
+          ],
+          "witness_gain_ticks": 41232553,
+          "gain_ticks": 132666569,
+          "extra_ticks": 91434016,
+          "file": "results/confirmation/confirmation_confirm_021_01/events.jsonl",
+          "file_sha256": "4d25a2b4ecc5faec310144b4a06ed2cbb975c87547113d22a98b32113e8b18b4",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_021_01",
+          "graph": "g0340",
+          "seed": 97,
+          "epoch": 25,
+          "event_line": 31,
+          "outside": [
+            15112,
+            25412
+          ],
+          "unary_gains_ticks": [
+            -494762131,
+            -16281052
+          ],
+          "witness_gain_ticks": 21378064,
+          "gain_ticks": 21378064,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_021_01/events.jsonl",
+          "file_sha256": "4d25a2b4ecc5faec310144b4a06ed2cbb975c87547113d22a98b32113e8b18b4",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "4d25a2b4ecc5faec310144b4a06ed2cbb975c87547113d22a98b32113e8b18b4",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_023_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 194,
+        "full_pair_gate": 194,
+        "partial_gate": 0,
+        "positive_witness_gate": 26,
+        "full_two_exchange_complete": 194,
+        "full_two_exchange_zero_certificate": 168,
+        "event_pair_commit": 26,
+        "committed_witnesses": 26,
+        "genuine_joint_commits": 26,
+        "positive_singleton_commits": 0,
+        "refined_commits": 26,
+        "positive_refinement_benefit_commits": 0
+      },
+      "sums": {
+        "gate_pair_visits": 747052171,
+        "gate_unique_pairs": 320635193,
+        "gate_upper_rejects": 317399643,
+        "gate_conflict_rejects": 2513517,
+        "gate_exact_pairs": 722033,
+        "gate_positive_pairs": 42,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.4208532950000015,
+        "committed_witness_gain_ticks": 889517256,
+        "committed_gain_ticks": 889517256,
+        "committed_extra_ticks": 0
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_023_01",
+          "graph": "g1200",
+          "seed": 89,
+          "epoch": 4,
+          "event_line": 5,
+          "outside": [
+            15982,
+            28264
+          ],
+          "unary_gains_ticks": [
+            -1536485,
+            -541259187
+          ],
+          "witness_gain_ticks": 10629209,
+          "gain_ticks": 10629209,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_023_01/events.jsonl",
+          "file_sha256": "cb76b7e35f400c00d9249280f0055f07374951cc35e51bd42eaface71c8b1561",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_023_01",
+          "graph": "g1200",
+          "seed": 89,
+          "epoch": 5,
+          "event_line": 7,
+          "outside": [
+            10484,
+            22567
+          ],
+          "unary_gains_ticks": [
+            -7425506,
+            -512603259
+          ],
+          "witness_gain_ticks": 24891223,
+          "gain_ticks": 24891223,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_023_01/events.jsonl",
+          "file_sha256": "cb76b7e35f400c00d9249280f0055f07374951cc35e51bd42eaface71c8b1561",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_023_01",
+          "graph": "g1200",
+          "seed": 89,
+          "epoch": 6,
+          "event_line": 9,
+          "outside": [
+            8216,
+            22010
+          ],
+          "unary_gains_ticks": [
+            -11736006,
+            -510921265
+          ],
+          "witness_gain_ticks": 36654114,
+          "gain_ticks": 36654114,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_023_01/events.jsonl",
+          "file_sha256": "cb76b7e35f400c00d9249280f0055f07374951cc35e51bd42eaface71c8b1561",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_023_01",
+          "graph": "g1200",
+          "seed": 89,
+          "epoch": 9,
+          "event_line": 13,
+          "outside": [
+            22296,
+            37160
+          ],
+          "unary_gains_ticks": [
+            -554766285,
+            -3345899
+          ],
+          "witness_gain_ticks": 875169,
+          "gain_ticks": 875169,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_023_01/events.jsonl",
+          "file_sha256": "cb76b7e35f400c00d9249280f0055f07374951cc35e51bd42eaface71c8b1561",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_023_01",
+          "graph": "g1200",
+          "seed": 89,
+          "epoch": 10,
+          "event_line": 15,
+          "outside": [
+            11809,
+            35618
+          ],
+          "unary_gains_ticks": [
+            -535144217,
+            -528985119
+          ],
+          "witness_gain_ticks": 18721800,
+          "gain_ticks": 18721800,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_023_01/events.jsonl",
+          "file_sha256": "cb76b7e35f400c00d9249280f0055f07374951cc35e51bd42eaface71c8b1561",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_023_01",
+          "graph": "g1200",
+          "seed": 89,
+          "epoch": 33,
+          "event_line": 32,
+          "outside": [
+            13638,
+            26849
+          ],
+          "unary_gains_ticks": [
+            -553648481,
+            -1524771
+          ],
+          "witness_gain_ticks": 4047741,
+          "gain_ticks": 4047741,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_023_01/events.jsonl",
+          "file_sha256": "cb76b7e35f400c00d9249280f0055f07374951cc35e51bd42eaface71c8b1561",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_023_01",
+          "graph": "g1200",
+          "seed": 89,
+          "epoch": 44,
+          "event_line": 42,
+          "outside": [
+            742,
+            15613
+          ],
+          "unary_gains_ticks": [
+            -551485086,
+            -525214
+          ],
+          "witness_gain_ticks": 6950859,
+          "gain_ticks": 6950859,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_023_01/events.jsonl",
+          "file_sha256": "cb76b7e35f400c00d9249280f0055f07374951cc35e51bd42eaface71c8b1561",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_023_01",
+          "graph": "g1200",
+          "seed": 89,
+          "epoch": 97,
+          "event_line": 56,
+          "outside": [
+            13354,
+            25452
+          ],
+          "unary_gains_ticks": [
+            -56158143,
+            -463999565
+          ],
+          "witness_gain_ticks": 38399297,
+          "gain_ticks": 38399297,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_023_01/events.jsonl",
+          "file_sha256": "cb76b7e35f400c00d9249280f0055f07374951cc35e51bd42eaface71c8b1561",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "cb76b7e35f400c00d9249280f0055f07374951cc35e51bd42eaface71c8b1561",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_017_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 132,
+        "full_pair_gate": 132,
+        "partial_gate": 0,
+        "positive_witness_gate": 19,
+        "full_two_exchange_complete": 132,
+        "full_two_exchange_zero_certificate": 113,
+        "event_pair_commit": 19,
+        "committed_witnesses": 19,
+        "genuine_joint_commits": 19,
+        "positive_singleton_commits": 0,
+        "refined_commits": 19,
+        "positive_refinement_benefit_commits": 1
+      },
+      "sums": {
+        "gate_pair_visits": 396690265,
+        "gate_unique_pairs": 171975063,
+        "gate_upper_rejects": 171086220,
+        "gate_conflict_rejects": 628147,
+        "gate_exact_pairs": 260696,
+        "gate_positive_pairs": 27,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 2.432408854999999,
+        "committed_witness_gain_ticks": 386797077,
+        "committed_gain_ticks": 395394766,
+        "committed_extra_ticks": 8597689
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_017_01",
+          "graph": "g0680",
+          "seed": 83,
+          "epoch": 16,
+          "event_line": 12,
+          "outside": [
+            9071,
+            22784
+          ],
+          "unary_gains_ticks": [
+            -4080637,
+            -552745321
+          ],
+          "witness_gain_ticks": 2967268,
+          "gain_ticks": 2967268,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_017_01/events.jsonl",
+          "file_sha256": "bbb6685fc77aaa38423c5c965ec17c5da6a5aedcdfaecd17d346b3ff22d22307",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_017_01",
+          "graph": "g0680",
+          "seed": 83,
+          "epoch": 29,
+          "event_line": 24,
+          "outside": [
+            2126,
+            25799
+          ],
+          "unary_gains_ticks": [
+            -518889861,
+            -531439047
+          ],
+          "witness_gain_ticks": 24437151,
+          "gain_ticks": 24437151,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_017_01/events.jsonl",
+          "file_sha256": "bbb6685fc77aaa38423c5c965ec17c5da6a5aedcdfaecd17d346b3ff22d22307",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_017_01",
+          "graph": "g0680",
+          "seed": 83,
+          "epoch": 34,
+          "event_line": 30,
+          "outside": [
+            7160,
+            21352
+          ],
+          "unary_gains_ticks": [
+            -9121895,
+            -517355191
+          ],
+          "witness_gain_ticks": 22231203,
+          "gain_ticks": 22231203,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_017_01/events.jsonl",
+          "file_sha256": "bbb6685fc77aaa38423c5c965ec17c5da6a5aedcdfaecd17d346b3ff22d22307",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_017_01",
+          "graph": "g0680",
+          "seed": 83,
+          "epoch": 35,
+          "event_line": 32,
+          "outside": [
+            18080,
+            30116
+          ],
+          "unary_gains_ticks": [
+            -438073523,
+            -19920270
+          ],
+          "witness_gain_ticks": 22358894,
+          "gain_ticks": 22358894,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_017_01/events.jsonl",
+          "file_sha256": "bbb6685fc77aaa38423c5c965ec17c5da6a5aedcdfaecd17d346b3ff22d22307",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_017_01",
+          "graph": "g0680",
+          "seed": 83,
+          "epoch": 36,
+          "event_line": 34,
+          "outside": [
+            5835,
+            16155
+          ],
+          "unary_gains_ticks": [
+            -497632488,
+            -19475335
+          ],
+          "witness_gain_ticks": 15176903,
+          "gain_ticks": 15176903,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_017_01/events.jsonl",
+          "file_sha256": "bbb6685fc77aaa38423c5c965ec17c5da6a5aedcdfaecd17d346b3ff22d22307",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_017_01",
+          "graph": "g0680",
+          "seed": 83,
+          "epoch": 37,
+          "event_line": 36,
+          "outside": [
+            16634,
+            30416
+          ],
+          "unary_gains_ticks": [
+            -489404717,
+            -484654301
+          ],
+          "witness_gain_ticks": 44023286,
+          "gain_ticks": 44023286,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_017_01/events.jsonl",
+          "file_sha256": "bbb6685fc77aaa38423c5c965ec17c5da6a5aedcdfaecd17d346b3ff22d22307",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_017_01",
+          "graph": "g0680",
+          "seed": 83,
+          "epoch": 48,
+          "event_line": 46,
+          "outside": [
+            1715,
+            15351
+          ],
+          "unary_gains_ticks": [
+            -525496102,
+            -8845068
+          ],
+          "witness_gain_ticks": 24761052,
+          "gain_ticks": 24761052,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_017_01/events.jsonl",
+          "file_sha256": "bbb6685fc77aaa38423c5c965ec17c5da6a5aedcdfaecd17d346b3ff22d22307",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_017_01",
+          "graph": "g0680",
+          "seed": 83,
+          "epoch": 49,
+          "event_line": 48,
+          "outside": [
+            3933,
+            15995
+          ],
+          "unary_gains_ticks": [
+            -17496022,
+            -511228727
+          ],
+          "witness_gain_ticks": 2097943,
+          "gain_ticks": 2097943,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_017_01/events.jsonl",
+          "file_sha256": "bbb6685fc77aaa38423c5c965ec17c5da6a5aedcdfaecd17d346b3ff22d22307",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "bbb6685fc77aaa38423c5c965ec17c5da6a5aedcdfaecd17d346b3ff22d22307",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_012_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 223,
+        "full_pair_gate": 223,
+        "partial_gate": 0,
+        "positive_witness_gate": 20,
+        "full_two_exchange_complete": 223,
+        "full_two_exchange_zero_certificate": 203,
+        "event_pair_commit": 20,
+        "committed_witnesses": 20,
+        "genuine_joint_commits": 20,
+        "positive_singleton_commits": 0,
+        "refined_commits": 20,
+        "positive_refinement_benefit_commits": 0
+      },
+      "sums": {
+        "gate_pair_visits": 701134932,
+        "gate_unique_pairs": 303015836,
+        "gate_upper_rejects": 301276156,
+        "gate_conflict_rejects": 1253968,
+        "gate_exact_pairs": 485712,
+        "gate_positive_pairs": 31,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.331593646000001,
+        "committed_witness_gain_ticks": 829974803,
+        "committed_gain_ticks": 829974803,
+        "committed_extra_ticks": 0
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_012_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 83,
+          "epoch": 3,
+          "event_line": 4,
+          "outside": [
+            20232,
+            20828
+          ],
+          "unary_gains_ticks": [
+            -617286,
+            -539573668
+          ],
+          "witness_gain_ticks": 18845345,
+          "gain_ticks": 18845345,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_012_01/events.jsonl",
+          "file_sha256": "f0283a4611e1d335d9bfba68e57dd59bd7737111df62182dc80f838637756af2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_012_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 83,
+          "epoch": 10,
+          "event_line": 12,
+          "outside": [
+            16429,
+            28568
+          ],
+          "unary_gains_ticks": [
+            -469777659,
+            -425201299
+          ],
+          "witness_gain_ticks": 88452661,
+          "gain_ticks": 88452661,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_012_01/events.jsonl",
+          "file_sha256": "f0283a4611e1d335d9bfba68e57dd59bd7737111df62182dc80f838637756af2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_012_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 83,
+          "epoch": 11,
+          "event_line": 14,
+          "outside": [
+            6280,
+            19578
+          ],
+          "unary_gains_ticks": [
+            -10172126,
+            -548861708
+          ],
+          "witness_gain_ticks": 797412,
+          "gain_ticks": 797412,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_012_01/events.jsonl",
+          "file_sha256": "f0283a4611e1d335d9bfba68e57dd59bd7737111df62182dc80f838637756af2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_012_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 83,
+          "epoch": 15,
+          "event_line": 19,
+          "outside": [
+            9717,
+            33501
+          ],
+          "unary_gains_ticks": [
+            -12853517,
+            -518116384
+          ],
+          "witness_gain_ticks": 28008760,
+          "gain_ticks": 28008760,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_012_01/events.jsonl",
+          "file_sha256": "f0283a4611e1d335d9bfba68e57dd59bd7737111df62182dc80f838637756af2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_012_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 83,
+          "epoch": 16,
+          "event_line": 21,
+          "outside": [
+            11315,
+            36856
+          ],
+          "unary_gains_ticks": [
+            -435449864,
+            -362613593
+          ],
+          "witness_gain_ticks": 86662743,
+          "gain_ticks": 86662743,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_012_01/events.jsonl",
+          "file_sha256": "f0283a4611e1d335d9bfba68e57dd59bd7737111df62182dc80f838637756af2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_012_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 83,
+          "epoch": 17,
+          "event_line": 23,
+          "outside": [
+            7706,
+            31505
+          ],
+          "unary_gains_ticks": [
+            -491488690,
+            -7640937
+          ],
+          "witness_gain_ticks": 46774576,
+          "gain_ticks": 46774576,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_012_01/events.jsonl",
+          "file_sha256": "f0283a4611e1d335d9bfba68e57dd59bd7737111df62182dc80f838637756af2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_012_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 83,
+          "epoch": 48,
+          "event_line": 45,
+          "outside": [
+            12377,
+            26231
+          ],
+          "unary_gains_ticks": [
+            -454737003,
+            -480027956
+          ],
+          "witness_gain_ticks": 79926197,
+          "gain_ticks": 79926197,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_012_01/events.jsonl",
+          "file_sha256": "f0283a4611e1d335d9bfba68e57dd59bd7737111df62182dc80f838637756af2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_012_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 83,
+          "epoch": 49,
+          "event_line": 47,
+          "outside": [
+            10200,
+            23952
+          ],
+          "unary_gains_ticks": [
+            -523397575,
+            -507441499
+          ],
+          "witness_gain_ticks": 25621009,
+          "gain_ticks": 25621009,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_012_01/events.jsonl",
+          "file_sha256": "f0283a4611e1d335d9bfba68e57dd59bd7737111df62182dc80f838637756af2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "f0283a4611e1d335d9bfba68e57dd59bd7737111df62182dc80f838637756af2",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_018_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 179,
+        "full_pair_gate": 179,
+        "partial_gate": 1,
+        "positive_witness_gate": 24,
+        "full_two_exchange_complete": 178,
+        "full_two_exchange_zero_certificate": 154,
+        "event_pair_commit": 24,
+        "committed_witnesses": 24,
+        "genuine_joint_commits": 24,
+        "positive_singleton_commits": 0,
+        "refined_commits": 24,
+        "positive_refinement_benefit_commits": 4
+      },
+      "sums": {
+        "gate_pair_visits": 557461858,
+        "gate_unique_pairs": 241415956,
+        "gate_upper_rejects": 240009764,
+        "gate_conflict_rejects": 1026994,
+        "gate_exact_pairs": 379198,
+        "gate_positive_pairs": 39,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 3.482416177000001,
+        "committed_witness_gain_ticks": 885007057,
+        "committed_gain_ticks": 916883955,
+        "committed_extra_ticks": 31876898
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_018_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 83,
+          "epoch": 4,
+          "event_line": 4,
+          "outside": [
+            913,
+            12731
+          ],
+          "unary_gains_ticks": [
+            -384748522,
+            -450077481
+          ],
+          "witness_gain_ticks": 81865450,
+          "gain_ticks": 81865450,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_018_01/events.jsonl",
+          "file_sha256": "6c0aaf06e28c1cbd0693e82636466f22755f6bf0710ae725a78e9608a5c8659e",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_018_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 83,
+          "epoch": 5,
+          "event_line": 6,
+          "outside": [
+            1050,
+            11239
+          ],
+          "unary_gains_ticks": [
+            -437124070,
+            -15352938
+          ],
+          "witness_gain_ticks": 76774195,
+          "gain_ticks": 85001997,
+          "extra_ticks": 8227802,
+          "file": "results/confirmation/confirmation_confirm_018_01/events.jsonl",
+          "file_sha256": "6c0aaf06e28c1cbd0693e82636466f22755f6bf0710ae725a78e9608a5c8659e",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_018_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 83,
+          "epoch": 7,
+          "event_line": 9,
+          "outside": [
+            11229,
+            34986
+          ],
+          "unary_gains_ticks": [
+            -465416431,
+            -475005544
+          ],
+          "witness_gain_ticks": 47087284,
+          "gain_ticks": 47087284,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_018_01/events.jsonl",
+          "file_sha256": "6c0aaf06e28c1cbd0693e82636466f22755f6bf0710ae725a78e9608a5c8659e",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_018_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 83,
+          "epoch": 8,
+          "event_line": 11,
+          "outside": [
+            1419,
+            15109
+          ],
+          "unary_gains_ticks": [
+            -453863443,
+            -480839061
+          ],
+          "witness_gain_ticks": 78597828,
+          "gain_ticks": 78597828,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_018_01/events.jsonl",
+          "file_sha256": "6c0aaf06e28c1cbd0693e82636466f22755f6bf0710ae725a78e9608a5c8659e",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_018_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 83,
+          "epoch": 9,
+          "event_line": 13,
+          "outside": [
+            7710,
+            33296
+          ],
+          "unary_gains_ticks": [
+            -6488741,
+            -549358297
+          ],
+          "witness_gain_ticks": 3983166,
+          "gain_ticks": 3983166,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_018_01/events.jsonl",
+          "file_sha256": "6c0aaf06e28c1cbd0693e82636466f22755f6bf0710ae725a78e9608a5c8659e",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_018_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 83,
+          "epoch": 10,
+          "event_line": 15,
+          "outside": [
+            1419,
+            15109
+          ],
+          "unary_gains_ticks": [
+            -453863443,
+            -480839061
+          ],
+          "witness_gain_ticks": 78597828,
+          "gain_ticks": 78597828,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_018_01/events.jsonl",
+          "file_sha256": "6c0aaf06e28c1cbd0693e82636466f22755f6bf0710ae725a78e9608a5c8659e",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_018_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 83,
+          "epoch": 12,
+          "event_line": 18,
+          "outside": [
+            14048,
+            15563
+          ],
+          "unary_gains_ticks": [
+            -230940408,
+            -306680619
+          ],
+          "witness_gain_ticks": 12533288,
+          "gain_ticks": 13381588,
+          "extra_ticks": 848300,
+          "file": "results/confirmation/confirmation_confirm_018_01/events.jsonl",
+          "file_sha256": "6c0aaf06e28c1cbd0693e82636466f22755f6bf0710ae725a78e9608a5c8659e",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_018_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 83,
+          "epoch": 14,
+          "event_line": 21,
+          "outside": [
+            35178,
+            36737
+          ],
+          "unary_gains_ticks": [
+            -7010186,
+            -526635995
+          ],
+          "witness_gain_ticks": 5374893,
+          "gain_ticks": 5374893,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_018_01/events.jsonl",
+          "file_sha256": "6c0aaf06e28c1cbd0693e82636466f22755f6bf0710ae725a78e9608a5c8659e",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "6c0aaf06e28c1cbd0693e82636466f22755f6bf0710ae725a78e9608a5c8659e",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_019_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 249,
+        "full_pair_gate": 249,
+        "partial_gate": 0,
+        "positive_witness_gate": 39,
+        "full_two_exchange_complete": 249,
+        "full_two_exchange_zero_certificate": 210,
+        "event_pair_commit": 39,
+        "committed_witnesses": 39,
+        "genuine_joint_commits": 39,
+        "positive_singleton_commits": 0,
+        "refined_commits": 39,
+        "positive_refinement_benefit_commits": 3
+      },
+      "sums": {
+        "gate_pair_visits": 779431616,
+        "gate_unique_pairs": 337418940,
+        "gate_upper_rejects": 335379730,
+        "gate_conflict_rejects": 1464124,
+        "gate_exact_pairs": 575086,
+        "gate_positive_pairs": 59,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.878887900999999,
+        "committed_witness_gain_ticks": 1656104512,
+        "committed_gain_ticks": 1705758415,
+        "committed_extra_ticks": 49653903
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_019_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 89,
+          "epoch": 2,
+          "event_line": 3,
+          "outside": [
+            12885,
+            36565
+          ],
+          "unary_gains_ticks": [
+            -14379645,
+            -530373724
+          ],
+          "witness_gain_ticks": 13973491,
+          "gain_ticks": 13973491,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_019_01/events.jsonl",
+          "file_sha256": "51935b3ef666347ceeed65b2d3e9ae9fc6414beef841b9110d514e50d415a841",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_019_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 89,
+          "epoch": 5,
+          "event_line": 7,
+          "outside": [
+            306,
+            15774
+          ],
+          "unary_gains_ticks": [
+            -514550767,
+            -520097128
+          ],
+          "witness_gain_ticks": 32046668,
+          "gain_ticks": 32046668,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_019_01/events.jsonl",
+          "file_sha256": "51935b3ef666347ceeed65b2d3e9ae9fc6414beef841b9110d514e50d415a841",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_019_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 89,
+          "epoch": 12,
+          "event_line": 13,
+          "outside": [
+            12736,
+            26763
+          ],
+          "unary_gains_ticks": [
+            -478984802,
+            -482553973
+          ],
+          "witness_gain_ticks": 74525443,
+          "gain_ticks": 74525443,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_019_01/events.jsonl",
+          "file_sha256": "51935b3ef666347ceeed65b2d3e9ae9fc6414beef841b9110d514e50d415a841",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_019_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 89,
+          "epoch": 13,
+          "event_line": 15,
+          "outside": [
+            34354,
+            34932
+          ],
+          "unary_gains_ticks": [
+            -418434792,
+            -5558467
+          ],
+          "witness_gain_ticks": 133799261,
+          "gain_ticks": 133799261,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_019_01/events.jsonl",
+          "file_sha256": "51935b3ef666347ceeed65b2d3e9ae9fc6414beef841b9110d514e50d415a841",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_019_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 89,
+          "epoch": 18,
+          "event_line": 20,
+          "outside": [
+            10791,
+            26412
+          ],
+          "unary_gains_ticks": [
+            -424266450,
+            -450632899
+          ],
+          "witness_gain_ticks": 83677584,
+          "gain_ticks": 83677584,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_019_01/events.jsonl",
+          "file_sha256": "51935b3ef666347ceeed65b2d3e9ae9fc6414beef841b9110d514e50d415a841",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_019_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 89,
+          "epoch": 19,
+          "event_line": 22,
+          "outside": [
+            8396,
+            30499
+          ],
+          "unary_gains_ticks": [
+            -26331671,
+            -514843919
+          ],
+          "witness_gain_ticks": 12795220,
+          "gain_ticks": 12795220,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_019_01/events.jsonl",
+          "file_sha256": "51935b3ef666347ceeed65b2d3e9ae9fc6414beef841b9110d514e50d415a841",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_019_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 89,
+          "epoch": 22,
+          "event_line": 26,
+          "outside": [
+            4463,
+            29442
+          ],
+          "unary_gains_ticks": [
+            -556009371,
+            -3469758
+          ],
+          "witness_gain_ticks": 232202,
+          "gain_ticks": 232202,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_019_01/events.jsonl",
+          "file_sha256": "51935b3ef666347ceeed65b2d3e9ae9fc6414beef841b9110d514e50d415a841",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_019_01",
+          "graph": "gW1200_gE0340_s0150",
+          "seed": 89,
+          "epoch": 27,
+          "event_line": 32,
+          "outside": [
+            10791,
+            26412
+          ],
+          "unary_gains_ticks": [
+            -424266450,
+            -450632899
+          ],
+          "witness_gain_ticks": 83677584,
+          "gain_ticks": 83677584,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_019_01/events.jsonl",
+          "file_sha256": "51935b3ef666347ceeed65b2d3e9ae9fc6414beef841b9110d514e50d415a841",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "51935b3ef666347ceeed65b2d3e9ae9fc6414beef841b9110d514e50d415a841",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_013_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 213,
+        "full_pair_gate": 213,
+        "partial_gate": 0,
+        "positive_witness_gate": 21,
+        "full_two_exchange_complete": 213,
+        "full_two_exchange_zero_certificate": 192,
+        "event_pair_commit": 21,
+        "committed_witnesses": 21,
+        "genuine_joint_commits": 21,
+        "positive_singleton_commits": 0,
+        "refined_commits": 21,
+        "positive_refinement_benefit_commits": 3
+      },
+      "sums": {
+        "gate_pair_visits": 668214636,
+        "gate_unique_pairs": 289368801,
+        "gate_upper_rejects": 287808188,
+        "gate_conflict_rejects": 1148091,
+        "gate_exact_pairs": 412522,
+        "gate_positive_pairs": 26,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 4.184896906000001,
+        "committed_witness_gain_ticks": 962200192,
+        "committed_gain_ticks": 1147638352,
+        "committed_extra_ticks": 185438160
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_013_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 97,
+          "epoch": 4,
+          "event_line": 3,
+          "outside": [
+            12262,
+            17623
+          ],
+          "unary_gains_ticks": [
+            -25051793,
+            -216314396
+          ],
+          "witness_gain_ticks": 97916339,
+          "gain_ticks": 97916339,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_013_01/events.jsonl",
+          "file_sha256": "a20667631d79ff96a8dca92c1bb6270a6d93de75437ccd5371a43f8bfca52b36",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_013_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 97,
+          "epoch": 5,
+          "event_line": 5,
+          "outside": [
+            14192,
+            28006
+          ],
+          "unary_gains_ticks": [
+            -472979631,
+            -483040421
+          ],
+          "witness_gain_ticks": 75267157,
+          "gain_ticks": 75267157,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_013_01/events.jsonl",
+          "file_sha256": "a20667631d79ff96a8dca92c1bb6270a6d93de75437ccd5371a43f8bfca52b36",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_013_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 97,
+          "epoch": 6,
+          "event_line": 7,
+          "outside": [
+            2417,
+            28121
+          ],
+          "unary_gains_ticks": [
+            -130226012,
+            -412144451
+          ],
+          "witness_gain_ticks": 17137563,
+          "gain_ticks": 109110416,
+          "extra_ticks": 91972853,
+          "file": "results/confirmation/confirmation_confirm_013_01/events.jsonl",
+          "file_sha256": "a20667631d79ff96a8dca92c1bb6270a6d93de75437ccd5371a43f8bfca52b36",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_013_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 97,
+          "epoch": 12,
+          "event_line": 13,
+          "outside": [
+            10662,
+            32965
+          ],
+          "unary_gains_ticks": [
+            -114709930,
+            -19636704
+          ],
+          "witness_gain_ticks": 77622850,
+          "gain_ticks": 77622850,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_013_01/events.jsonl",
+          "file_sha256": "a20667631d79ff96a8dca92c1bb6270a6d93de75437ccd5371a43f8bfca52b36",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_013_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 97,
+          "epoch": 25,
+          "event_line": 24,
+          "outside": [
+            8782,
+            34303
+          ],
+          "unary_gains_ticks": [
+            -553508861,
+            -2836873
+          ],
+          "witness_gain_ticks": 3626700,
+          "gain_ticks": 3626700,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_013_01/events.jsonl",
+          "file_sha256": "a20667631d79ff96a8dca92c1bb6270a6d93de75437ccd5371a43f8bfca52b36",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_013_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 97,
+          "epoch": 37,
+          "event_line": 35,
+          "outside": [
+            9034,
+            31061
+          ],
+          "unary_gains_ticks": [
+            -361786355,
+            -25882544
+          ],
+          "witness_gain_ticks": 68742128,
+          "gain_ticks": 68742128,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_013_01/events.jsonl",
+          "file_sha256": "a20667631d79ff96a8dca92c1bb6270a6d93de75437ccd5371a43f8bfca52b36",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_013_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 97,
+          "epoch": 39,
+          "event_line": 37,
+          "outside": [
+            5197,
+            6662
+          ],
+          "unary_gains_ticks": [
+            -196351072,
+            -291481972
+          ],
+          "witness_gain_ticks": 69524461,
+          "gain_ticks": 69524461,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_013_01/events.jsonl",
+          "file_sha256": "a20667631d79ff96a8dca92c1bb6270a6d93de75437ccd5371a43f8bfca52b36",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_013_01",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 97,
+          "epoch": 43,
+          "event_line": 42,
+          "outside": [
+            22529,
+            32824
+          ],
+          "unary_gains_ticks": [
+            -479976932,
+            -68805728
+          ],
+          "witness_gain_ticks": 1334499,
+          "gain_ticks": 1334499,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_013_01/events.jsonl",
+          "file_sha256": "a20667631d79ff96a8dca92c1bb6270a6d93de75437ccd5371a43f8bfca52b36",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "a20667631d79ff96a8dca92c1bb6270a6d93de75437ccd5371a43f8bfca52b36",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_020_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 82,
+        "full_pair_gate": 82,
+        "partial_gate": 0,
+        "positive_witness_gate": 11,
+        "full_two_exchange_complete": 82,
+        "full_two_exchange_zero_certificate": 71,
+        "event_pair_commit": 11,
+        "committed_witnesses": 11,
+        "genuine_joint_commits": 11,
+        "positive_singleton_commits": 0,
+        "refined_commits": 11,
+        "positive_refinement_benefit_commits": 1
+      },
+      "sums": {
+        "gate_pair_visits": 401785927,
+        "gate_unique_pairs": 168934595,
+        "gate_upper_rejects": 167159869,
+        "gate_conflict_rejects": 1371643,
+        "gate_exact_pairs": 403083,
+        "gate_positive_pairs": 18,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 2.2114422460000003,
+        "committed_witness_gain_ticks": 232457596,
+        "committed_gain_ticks": 240876019,
+        "committed_extra_ticks": 8418423
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_020_01",
+          "graph": "g1800",
+          "seed": 83,
+          "epoch": 1,
+          "event_line": 2,
+          "outside": [
+            2408,
+            27205
+          ],
+          "unary_gains_ticks": [
+            -3030142,
+            -551358320
+          ],
+          "witness_gain_ticks": 5370630,
+          "gain_ticks": 5370630,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_020_01/events.jsonl",
+          "file_sha256": "f4710070237724bcf79bebf25cc954ea08ae82548945bd4b10266109b1f21119",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_020_01",
+          "graph": "g1800",
+          "seed": 83,
+          "epoch": 4,
+          "event_line": 6,
+          "outside": [
+            14103,
+            14700
+          ],
+          "unary_gains_ticks": [
+            -459040730,
+            -24747487
+          ],
+          "witness_gain_ticks": 68135482,
+          "gain_ticks": 68135482,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_020_01/events.jsonl",
+          "file_sha256": "f4710070237724bcf79bebf25cc954ea08ae82548945bd4b10266109b1f21119",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_020_01",
+          "graph": "g1800",
+          "seed": 83,
+          "epoch": 5,
+          "event_line": 8,
+          "outside": [
+            8984,
+            10673
+          ],
+          "unary_gains_ticks": [
+            -439483062,
+            -108013772
+          ],
+          "witness_gain_ticks": 11293620,
+          "gain_ticks": 11293620,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_020_01/events.jsonl",
+          "file_sha256": "f4710070237724bcf79bebf25cc954ea08ae82548945bd4b10266109b1f21119",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_020_01",
+          "graph": "g1800",
+          "seed": 83,
+          "epoch": 7,
+          "event_line": 11,
+          "outside": [
+            7177,
+            22823
+          ],
+          "unary_gains_ticks": [
+            -14790222,
+            -452180996
+          ],
+          "witness_gain_ticks": 92197711,
+          "gain_ticks": 92197711,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_020_01/events.jsonl",
+          "file_sha256": "f4710070237724bcf79bebf25cc954ea08ae82548945bd4b10266109b1f21119",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_020_01",
+          "graph": "g1800",
+          "seed": 83,
+          "epoch": 8,
+          "event_line": 13,
+          "outside": [
+            373,
+            25096
+          ],
+          "unary_gains_ticks": [
+            -3736048,
+            -551674252
+          ],
+          "witness_gain_ticks": 4097398,
+          "gain_ticks": 4097398,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_020_01/events.jsonl",
+          "file_sha256": "f4710070237724bcf79bebf25cc954ea08ae82548945bd4b10266109b1f21119",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_020_01",
+          "graph": "g1800",
+          "seed": 83,
+          "epoch": 9,
+          "event_line": 15,
+          "outside": [
+            1468,
+            24099
+          ],
+          "unary_gains_ticks": [
+            -550096286,
+            -2874917
+          ],
+          "witness_gain_ticks": 6269035,
+          "gain_ticks": 6269035,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_020_01/events.jsonl",
+          "file_sha256": "f4710070237724bcf79bebf25cc954ea08ae82548945bd4b10266109b1f21119",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_020_01",
+          "graph": "g1800",
+          "seed": 83,
+          "epoch": 11,
+          "event_line": 17,
+          "outside": [
+            10742,
+            26503
+          ],
+          "unary_gains_ticks": [
+            -11913588,
+            -533142180
+          ],
+          "witness_gain_ticks": 14227039,
+          "gain_ticks": 22645462,
+          "extra_ticks": 8418423,
+          "file": "results/confirmation/confirmation_confirm_020_01/events.jsonl",
+          "file_sha256": "f4710070237724bcf79bebf25cc954ea08ae82548945bd4b10266109b1f21119",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_020_01",
+          "graph": "g1800",
+          "seed": 83,
+          "epoch": 17,
+          "event_line": 22,
+          "outside": [
+            20129,
+            34883
+          ],
+          "unary_gains_ticks": [
+            -552530108,
+            -20141
+          ],
+          "witness_gain_ticks": 6930315,
+          "gain_ticks": 6930315,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_020_01/events.jsonl",
+          "file_sha256": "f4710070237724bcf79bebf25cc954ea08ae82548945bd4b10266109b1f21119",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "f4710070237724bcf79bebf25cc954ea08ae82548945bd4b10266109b1f21119",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_014_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 154,
+        "full_pair_gate": 154,
+        "partial_gate": 0,
+        "positive_witness_gate": 23,
+        "full_two_exchange_complete": 154,
+        "full_two_exchange_zero_certificate": 131,
+        "event_pair_commit": 23,
+        "committed_witnesses": 23,
+        "genuine_joint_commits": 23,
+        "positive_singleton_commits": 0,
+        "refined_commits": 23,
+        "positive_refinement_benefit_commits": 0
+      },
+      "sums": {
+        "gate_pair_visits": 527436549,
+        "gate_unique_pairs": 228103827,
+        "gate_upper_rejects": 226529469,
+        "gate_conflict_rejects": 1217202,
+        "gate_exact_pairs": 357156,
+        "gate_positive_pairs": 34,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 3.207098311,
+        "committed_witness_gain_ticks": 920409146,
+        "committed_gain_ticks": 920409146,
+        "committed_extra_ticks": 0
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_014_01",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 89,
+          "epoch": 1,
+          "event_line": 2,
+          "outside": [
+            14437,
+            16678
+          ],
+          "unary_gains_ticks": [
+            -464029698,
+            -85506579
+          ],
+          "witness_gain_ticks": 541368,
+          "gain_ticks": 541368,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_014_01/events.jsonl",
+          "file_sha256": "3ed6d3311ff4bb7b85b3a035079c65e593740a8828427bc755c934738be0033f",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_014_01",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 89,
+          "epoch": 6,
+          "event_line": 7,
+          "outside": [
+            16565,
+            32022
+          ],
+          "unary_gains_ticks": [
+            -554786622,
+            -540688924
+          ],
+          "witness_gain_ticks": 1025418,
+          "gain_ticks": 1025418,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_014_01/events.jsonl",
+          "file_sha256": "3ed6d3311ff4bb7b85b3a035079c65e593740a8828427bc755c934738be0033f",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_014_01",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 89,
+          "epoch": 40,
+          "event_line": 30,
+          "outside": [
+            16118,
+            31606
+          ],
+          "unary_gains_ticks": [
+            -446709857,
+            -464777790
+          ],
+          "witness_gain_ticks": 86379336,
+          "gain_ticks": 86379336,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_014_01/events.jsonl",
+          "file_sha256": "3ed6d3311ff4bb7b85b3a035079c65e593740a8828427bc755c934738be0033f",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_014_01",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 89,
+          "epoch": 43,
+          "event_line": 34,
+          "outside": [
+            9967,
+            20212
+          ],
+          "unary_gains_ticks": [
+            -27152594,
+            -462739368
+          ],
+          "witness_gain_ticks": 46507616,
+          "gain_ticks": 46507616,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_014_01/events.jsonl",
+          "file_sha256": "3ed6d3311ff4bb7b85b3a035079c65e593740a8828427bc755c934738be0033f",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_014_01",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 89,
+          "epoch": 44,
+          "event_line": 36,
+          "outside": [
+            14580,
+            28470
+          ],
+          "unary_gains_ticks": [
+            -60713459,
+            -458508748
+          ],
+          "witness_gain_ticks": 39715829,
+          "gain_ticks": 39715829,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_014_01/events.jsonl",
+          "file_sha256": "3ed6d3311ff4bb7b85b3a035079c65e593740a8828427bc755c934738be0033f",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_014_01",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 89,
+          "epoch": 45,
+          "event_line": 38,
+          "outside": [
+            11339,
+            25197
+          ],
+          "unary_gains_ticks": [
+            -508058928,
+            -512234291
+          ],
+          "witness_gain_ticks": 36198359,
+          "gain_ticks": 36198359,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_014_01/events.jsonl",
+          "file_sha256": "3ed6d3311ff4bb7b85b3a035079c65e593740a8828427bc755c934738be0033f",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_014_01",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 89,
+          "epoch": 46,
+          "event_line": 40,
+          "outside": [
+            14580,
+            28470
+          ],
+          "unary_gains_ticks": [
+            -60713459,
+            -458508748
+          ],
+          "witness_gain_ticks": 39715829,
+          "gain_ticks": 39715829,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_014_01/events.jsonl",
+          "file_sha256": "3ed6d3311ff4bb7b85b3a035079c65e593740a8828427bc755c934738be0033f",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_014_01",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 89,
+          "epoch": 67,
+          "event_line": 54,
+          "outside": [
+            3656,
+            19146
+          ],
+          "unary_gains_ticks": [
+            -508069692,
+            -501505061
+          ],
+          "witness_gain_ticks": 36397506,
+          "gain_ticks": 36397506,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_014_01/events.jsonl",
+          "file_sha256": "3ed6d3311ff4bb7b85b3a035079c65e593740a8828427bc755c934738be0033f",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "3ed6d3311ff4bb7b85b3a035079c65e593740a8828427bc755c934738be0033f",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_016_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 147,
+        "full_pair_gate": 147,
+        "partial_gate": 0,
+        "positive_witness_gate": 22,
+        "full_two_exchange_complete": 147,
+        "full_two_exchange_zero_certificate": 125,
+        "event_pair_commit": 22,
+        "committed_witnesses": 22,
+        "genuine_joint_commits": 22,
+        "positive_singleton_commits": 0,
+        "refined_commits": 22,
+        "positive_refinement_benefit_commits": 0
+      },
+      "sums": {
+        "gate_pair_visits": 566064819,
+        "gate_unique_pairs": 242910978,
+        "gate_upper_rejects": 240358520,
+        "gate_conflict_rejects": 1950790,
+        "gate_exact_pairs": 601668,
+        "gate_positive_pairs": 32,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 3.325549853,
+        "committed_witness_gain_ticks": 563069027,
+        "committed_gain_ticks": 563069027,
+        "committed_extra_ticks": 0
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_016_01",
+          "graph": "g1200",
+          "seed": 97,
+          "epoch": 6,
+          "event_line": 7,
+          "outside": [
+            5737,
+            31389
+          ],
+          "unary_gains_ticks": [
+            -19066261,
+            -499920562
+          ],
+          "witness_gain_ticks": 29212228,
+          "gain_ticks": 29212228,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_016_01/events.jsonl",
+          "file_sha256": "b47b9133484bc29f27c786deb82ae5b0fdcab150b0153b0423b262ac0b1712c8",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_016_01",
+          "graph": "g1200",
+          "seed": 97,
+          "epoch": 20,
+          "event_line": 18,
+          "outside": [
+            14863,
+            29830
+          ],
+          "unary_gains_ticks": [
+            -2132840,
+            -554286473
+          ],
+          "witness_gain_ticks": 2858065,
+          "gain_ticks": 2858065,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_016_01/events.jsonl",
+          "file_sha256": "b47b9133484bc29f27c786deb82ae5b0fdcab150b0153b0423b262ac0b1712c8",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_016_01",
+          "graph": "g1200",
+          "seed": 97,
+          "epoch": 21,
+          "event_line": 20,
+          "outside": [
+            17249,
+            30424
+          ],
+          "unary_gains_ticks": [
+            -2537664,
+            -554619517
+          ],
+          "witness_gain_ticks": 2121456,
+          "gain_ticks": 2121456,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_016_01/events.jsonl",
+          "file_sha256": "b47b9133484bc29f27c786deb82ae5b0fdcab150b0153b0423b262ac0b1712c8",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_016_01",
+          "graph": "g1200",
+          "seed": 97,
+          "epoch": 22,
+          "event_line": 22,
+          "outside": [
+            13962,
+            26236
+          ],
+          "unary_gains_ticks": [
+            -94564947,
+            -452433398
+          ],
+          "witness_gain_ticks": 633761,
+          "gain_ticks": 633761,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_016_01/events.jsonl",
+          "file_sha256": "b47b9133484bc29f27c786deb82ae5b0fdcab150b0153b0423b262ac0b1712c8",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_016_01",
+          "graph": "g1200",
+          "seed": 97,
+          "epoch": 23,
+          "event_line": 24,
+          "outside": [
+            8756,
+            33003
+          ],
+          "unary_gains_ticks": [
+            -548496793,
+            -11023612
+          ],
+          "witness_gain_ticks": 251564,
+          "gain_ticks": 251564,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_016_01/events.jsonl",
+          "file_sha256": "b47b9133484bc29f27c786deb82ae5b0fdcab150b0153b0423b262ac0b1712c8",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_016_01",
+          "graph": "g1200",
+          "seed": 97,
+          "epoch": 28,
+          "event_line": 29,
+          "outside": [
+            5868,
+            6457
+          ],
+          "unary_gains_ticks": [
+            -2197418,
+            -544078904
+          ],
+          "witness_gain_ticks": 12878528,
+          "gain_ticks": 12878528,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_016_01/events.jsonl",
+          "file_sha256": "b47b9133484bc29f27c786deb82ae5b0fdcab150b0153b0423b262ac0b1712c8",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_016_01",
+          "graph": "g1200",
+          "seed": 97,
+          "epoch": 31,
+          "event_line": 33,
+          "outside": [
+            21844,
+            35115
+          ],
+          "unary_gains_ticks": [
+            -494099799,
+            -8404342
+          ],
+          "witness_gain_ticks": 42492721,
+          "gain_ticks": 42492721,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_016_01/events.jsonl",
+          "file_sha256": "b47b9133484bc29f27c786deb82ae5b0fdcab150b0153b0423b262ac0b1712c8",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_016_01",
+          "graph": "g1200",
+          "seed": 97,
+          "epoch": 32,
+          "event_line": 35,
+          "outside": [
+            3223,
+            25248
+          ],
+          "unary_gains_ticks": [
+            -532635095,
+            -521275951
+          ],
+          "witness_gain_ticks": 22869310,
+          "gain_ticks": 22869310,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_016_01/events.jsonl",
+          "file_sha256": "b47b9133484bc29f27c786deb82ae5b0fdcab150b0153b0423b262ac0b1712c8",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "b47b9133484bc29f27c786deb82ae5b0fdcab150b0153b0423b262ac0b1712c8",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_015_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 188,
+        "full_pair_gate": 188,
+        "partial_gate": 0,
+        "positive_witness_gate": 21,
+        "full_two_exchange_complete": 188,
+        "full_two_exchange_zero_certificate": 167,
+        "event_pair_commit": 21,
+        "committed_witnesses": 21,
+        "genuine_joint_commits": 21,
+        "positive_singleton_commits": 0,
+        "refined_commits": 21,
+        "positive_refinement_benefit_commits": 0
+      },
+      "sums": {
+        "gate_pair_visits": 564781333,
+        "gate_unique_pairs": 244944023,
+        "gate_upper_rejects": 243738831,
+        "gate_conflict_rejects": 864724,
+        "gate_exact_pairs": 340468,
+        "gate_positive_pairs": 35,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 3.5496728940000013,
+        "committed_witness_gain_ticks": 896669692,
+        "committed_gain_ticks": 896669692,
+        "committed_extra_ticks": 0
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_015_01",
+          "graph": "g0680",
+          "seed": 89,
+          "epoch": 4,
+          "event_line": 4,
+          "outside": [
+            12532,
+            24602
+          ],
+          "unary_gains_ticks": [
+            -471204104,
+            -487979179
+          ],
+          "witness_gain_ticks": 22065870,
+          "gain_ticks": 22065870,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_015_01/events.jsonl",
+          "file_sha256": "48d5bb4f9b71164b3d35b80cd9cfcf5c4b5e706a6b6f0bbd4d0b834f6f6ff5b2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_015_01",
+          "graph": "g0680",
+          "seed": 89,
+          "epoch": 8,
+          "event_line": 9,
+          "outside": [
+            22341,
+            25555
+          ],
+          "unary_gains_ticks": [
+            -195792510,
+            -252655011
+          ],
+          "witness_gain_ticks": 97341042,
+          "gain_ticks": 97341042,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_015_01/events.jsonl",
+          "file_sha256": "48d5bb4f9b71164b3d35b80cd9cfcf5c4b5e706a6b6f0bbd4d0b834f6f6ff5b2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_015_01",
+          "graph": "g0680",
+          "seed": 89,
+          "epoch": 9,
+          "event_line": 11,
+          "outside": [
+            25505,
+            35741
+          ],
+          "unary_gains_ticks": [
+            -467760082,
+            -7745162
+          ],
+          "witness_gain_ticks": 51228216,
+          "gain_ticks": 51228216,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_015_01/events.jsonl",
+          "file_sha256": "48d5bb4f9b71164b3d35b80cd9cfcf5c4b5e706a6b6f0bbd4d0b834f6f6ff5b2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_015_01",
+          "graph": "g0680",
+          "seed": 89,
+          "epoch": 11,
+          "event_line": 14,
+          "outside": [
+            18934,
+            32621
+          ],
+          "unary_gains_ticks": [
+            -496417089,
+            -452386341
+          ],
+          "witness_gain_ticks": 125514,
+          "gain_ticks": 125514,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_015_01/events.jsonl",
+          "file_sha256": "48d5bb4f9b71164b3d35b80cd9cfcf5c4b5e706a6b6f0bbd4d0b834f6f6ff5b2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_015_01",
+          "graph": "g0680",
+          "seed": 89,
+          "epoch": 22,
+          "event_line": 25,
+          "outside": [
+            2714,
+            5782
+          ],
+          "unary_gains_ticks": [
+            -269077022,
+            -164430081
+          ],
+          "witness_gain_ticks": 126194824,
+          "gain_ticks": 126194824,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_015_01/events.jsonl",
+          "file_sha256": "48d5bb4f9b71164b3d35b80cd9cfcf5c4b5e706a6b6f0bbd4d0b834f6f6ff5b2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_015_01",
+          "graph": "g0680",
+          "seed": 89,
+          "epoch": 23,
+          "event_line": 27,
+          "outside": [
+            3411,
+            13636
+          ],
+          "unary_gains_ticks": [
+            -20900706,
+            -414899123
+          ],
+          "witness_gain_ticks": 41127169,
+          "gain_ticks": 41127169,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_015_01/events.jsonl",
+          "file_sha256": "48d5bb4f9b71164b3d35b80cd9cfcf5c4b5e706a6b6f0bbd4d0b834f6f6ff5b2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_015_01",
+          "graph": "g0680",
+          "seed": 89,
+          "epoch": 27,
+          "event_line": 32,
+          "outside": [
+            7696,
+            21401
+          ],
+          "unary_gains_ticks": [
+            -350279710,
+            -387324788
+          ],
+          "witness_gain_ticks": 110177627,
+          "gain_ticks": 110177627,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_015_01/events.jsonl",
+          "file_sha256": "48d5bb4f9b71164b3d35b80cd9cfcf5c4b5e706a6b6f0bbd4d0b834f6f6ff5b2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_015_01",
+          "graph": "g0680",
+          "seed": 89,
+          "epoch": 30,
+          "event_line": 36,
+          "outside": [
+            9233,
+            25168
+          ],
+          "unary_gains_ticks": [
+            -346365407,
+            -170394434
+          ],
+          "witness_gain_ticks": 28561877,
+          "gain_ticks": 28561877,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_015_01/events.jsonl",
+          "file_sha256": "48d5bb4f9b71164b3d35b80cd9cfcf5c4b5e706a6b6f0bbd4d0b834f6f6ff5b2",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "48d5bb4f9b71164b3d35b80cd9cfcf5c4b5e706a6b6f0bbd4d0b834f6f6ff5b2",
+      "event_recording_available": true
+    },
+    "confirmation_confirm_022_01": {
+      "arm": "full",
+      "counts": {
+        "event_pair_gate": 114,
+        "full_pair_gate": 114,
+        "partial_gate": 0,
+        "positive_witness_gate": 17,
+        "full_two_exchange_complete": 114,
+        "full_two_exchange_zero_certificate": 97,
+        "event_pair_commit": 17,
+        "committed_witnesses": 17,
+        "genuine_joint_commits": 17,
+        "positive_singleton_commits": 0,
+        "refined_commits": 17,
+        "positive_refinement_benefit_commits": 0
+      },
+      "sums": {
+        "gate_pair_visits": 556581288,
+        "gate_unique_pairs": 234454605,
+        "gate_upper_rejects": 232135959,
+        "gate_conflict_rejects": 1851745,
+        "gate_exact_pairs": 466901,
+        "gate_positive_pairs": 42,
+        "gate_positive_singletons": 0,
+        "gate_seconds": 3.0592374160000007,
+        "committed_witness_gain_ticks": 464045922,
+        "committed_gain_ticks": 464045922,
+        "committed_extra_ticks": 0
+      },
+      "genuine_joint_examples": [
+        {
+          "cell_id": "confirmation_confirm_022_01",
+          "graph": "g1800",
+          "seed": 97,
+          "epoch": 4,
+          "event_line": 5,
+          "outside": [
+            12697,
+            15593
+          ],
+          "unary_gains_ticks": [
+            -1724046,
+            -549819372
+          ],
+          "witness_gain_ticks": 8340459,
+          "gain_ticks": 8340459,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_022_01/events.jsonl",
+          "file_sha256": "c96699a026ff149f4bfc18ab3cf9875740eee3da71f370a95b562b7af54215e9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_022_01",
+          "graph": "g1800",
+          "seed": 97,
+          "epoch": 5,
+          "event_line": 7,
+          "outside": [
+            12670,
+            25438
+          ],
+          "unary_gains_ticks": [
+            -541833980,
+            -3296044
+          ],
+          "witness_gain_ticks": 14690890,
+          "gain_ticks": 14690890,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_022_01/events.jsonl",
+          "file_sha256": "c96699a026ff149f4bfc18ab3cf9875740eee3da71f370a95b562b7af54215e9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_022_01",
+          "graph": "g1800",
+          "seed": 97,
+          "epoch": 6,
+          "event_line": 9,
+          "outside": [
+            16070,
+            18431
+          ],
+          "unary_gains_ticks": [
+            -136706306,
+            -175165980
+          ],
+          "witness_gain_ticks": 247201703,
+          "gain_ticks": 247201703,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_022_01/events.jsonl",
+          "file_sha256": "c96699a026ff149f4bfc18ab3cf9875740eee3da71f370a95b562b7af54215e9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_022_01",
+          "graph": "g1800",
+          "seed": 97,
+          "epoch": 7,
+          "event_line": 11,
+          "outside": [
+            10562,
+            22629
+          ],
+          "unary_gains_ticks": [
+            -2814446,
+            -529050336
+          ],
+          "witness_gain_ticks": 28006489,
+          "gain_ticks": 28006489,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_022_01/events.jsonl",
+          "file_sha256": "c96699a026ff149f4bfc18ab3cf9875740eee3da71f370a95b562b7af54215e9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_022_01",
+          "graph": "g1800",
+          "seed": 97,
+          "epoch": 8,
+          "event_line": 13,
+          "outside": [
+            7735,
+            20455
+          ],
+          "unary_gains_ticks": [
+            -879750,
+            -540469987
+          ],
+          "witness_gain_ticks": 13086723,
+          "gain_ticks": 13086723,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_022_01/events.jsonl",
+          "file_sha256": "c96699a026ff149f4bfc18ab3cf9875740eee3da71f370a95b562b7af54215e9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_022_01",
+          "graph": "g1800",
+          "seed": 97,
+          "epoch": 11,
+          "event_line": 16,
+          "outside": [
+            5241,
+            17216
+          ],
+          "unary_gains_ticks": [
+            -437360466,
+            -19587782
+          ],
+          "witness_gain_ticks": 96793892,
+          "gain_ticks": 96793892,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_022_01/events.jsonl",
+          "file_sha256": "c96699a026ff149f4bfc18ab3cf9875740eee3da71f370a95b562b7af54215e9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_022_01",
+          "graph": "g1800",
+          "seed": 97,
+          "epoch": 32,
+          "event_line": 31,
+          "outside": [
+            15167,
+            29037
+          ],
+          "unary_gains_ticks": [
+            -520728251,
+            -6975244
+          ],
+          "witness_gain_ticks": 16325156,
+          "gain_ticks": 16325156,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_022_01/events.jsonl",
+          "file_sha256": "c96699a026ff149f4bfc18ab3cf9875740eee3da71f370a95b562b7af54215e9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        },
+        {
+          "cell_id": "confirmation_confirm_022_01",
+          "graph": "g1800",
+          "seed": 97,
+          "epoch": 33,
+          "event_line": 33,
+          "outside": [
+            13619,
+            28478
+          ],
+          "unary_gains_ticks": [
+            -4127377,
+            -551589411
+          ],
+          "witness_gain_ticks": 3078065,
+          "gain_ticks": 3078065,
+          "extra_ticks": 0,
+          "file": "results/confirmation/confirmation_confirm_022_01/events.jsonl",
+          "file_sha256": "c96699a026ff149f4bfc18ab3cf9875740eee3da71f370a95b562b7af54215e9",
+          "evidence_kind": "online_native_verified_witness; historical state is not reconstructed from final membership"
+        }
+      ],
+      "events_sha256": "c96699a026ff149f4bfc18ab3cf9875740eee3da71f370a95b562b7af54215e9",
+      "event_recording_available": true
+    }
+  },
+  "errors": []
+}

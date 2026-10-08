@@ -1,0 +1,215 @@
+{
+  "schema": "barr_v04bc_exploratory_design_v3",
+  "written_utc": "2026-10-07T11:10:20.403845+00:00",
+  "status": "PRE_PERFORMANCE_PRE_FLIGHT",
+  "purpose": "Find sparse genuinely profitable recovery opportunities before constructing augmented kernels, preserve strong local throughput",
+  "parent": "Frozen candidate A remains running and is never modified by B exploration",
+  "expert_document_sha256": "b1525491a6f4168f6955ee4c5b1e889b73ab7fd2c338540c9b0dd4f2fcaf25c2",
+  "evidence_informing_design": {
+    "historical_positive_only_cases": 74,
+    "all_best_restricted_pairs_union_selected_blockers": 2,
+    "all_best_restricted_pairs_shared_selected_blockers": 1,
+    "negative_singletons_both": 73,
+    "restriction": "Enriched historical same mother-source cases, not prevalence, recall or cumulative retained run gain"
+  },
+  "mathematics": {
+    "deficit_v": "W(N_S(v))-w(v)",
+    "pair_gain": "W(N_S(a) intersection N_S(b))-deficit_a-deficit_b",
+    "safe_pair_upper": "min(W(N_S(a)),W(N_S(b)))-deficit_a-deficit_b",
+    "condition": "a,b outside S, a and b nonadjacent, S feasible; positive pair at all nonpositive unary state necessarily shares selected blocker",
+    "certificate_scope": "Complete all-seed shared-blocker scan, all unary gains nonpositive, no positive witness => no improving exchange inserting at most two outsiders; nothing asserted for 3+ outsiders or global optimum",
+    "partial": "Keep positive feasible witness; no absent-opportunity certificate; full scan rotates deterministic seed starting point across epochs",
+    "zero_cache": "Exact incumbent masks, no hash-based equality"
+  },
+  "budget": {
+    "seconds": 360,
+    "threads": 1,
+    "population": 4,
+    "local_iterations": 64,
+    "local_seconds": 0.025,
+    "gate_warmup": 30,
+    "gate_cooldown": 0.5,
+    "gate_fraction": 0.05,
+    "pair_slice": 0.5,
+    "event_stale": 8,
+    "pair_max_seeds": 0,
+    "pair_fusion_every": 4,
+    "challengers": 12,
+    "kernel_nodes": 128,
+    "kernel_seconds": 0.03,
+    "fusion_seconds": 0.1,
+    "includes": "scout, optional fusion/descent, candidate expansion, kernel induction, recovery, commit; preparation counted separately; final transaction tails disclosed"
+  },
+  "pilot": {
+    "seconds_per_cell": 360,
+    "blocks": 10,
+    "arms": [
+      "local",
+      "pair-direct",
+      "pair-refine",
+      "pair-fusion",
+      "motif-refine"
+    ],
+    "graphs_seeds": [
+      [
+        "g0340",
+        211
+      ],
+      [
+        "g0680",
+        213
+      ],
+      [
+        "g1200",
+        223
+      ],
+      [
+        "g1800",
+        227
+      ],
+      [
+        "gW0680_gE1200_s0150",
+        229
+      ],
+      [
+        "gW0340_gE1200_s0150",
+        233
+      ],
+      [
+        "gW1200_gE0340_s0150",
+        239
+      ],
+      [
+        "gW1200_gE0680_s0150",
+        241
+      ],
+      [
+        "g1200",
+        251
+      ],
+      [
+        "g0340",
+        257
+      ]
+    ],
+    "workers": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "orders": "Five original cyclic orders plus their five reversals: each method at each position twice; each method pair before/after5:5.",
+    "selection_rule": "Maximize arithmetic mean of per-block percentage quality difference against paired local. Ties within 1e-9 percentage points favor smaller mean umbrella escalation seconds, then lexical arm ID. Require genuine joint-witness evidence; if no useful candidate, continue an isolated iteration and retain negative results.",
+    "positions": 50
+  },
+  "planned_confirmation": {
+    "status": "Planned; freeze selected policy and complete final matrix before first confirmation result",
+    "seeds": [
+      31,
+      37,
+      41
+    ],
+    "graphs": 8,
+    "arms": [
+      "local",
+      "fusion",
+      "barr-v03",
+      "candidate-A",
+      "CHILS-p16",
+      "selected-B-or-C"
+    ],
+    "cells": 144,
+    "same_physical_mother_source": true,
+    "note": "24samegraph/seed six-method blocks, two whole blocks perCPU. Fresh stochastic seeds from same reused mother data. Fully balanced six positions and pairwise order. Freeze chosen policy beforefirst confirmation outcome; no source or parameter retuning from that matrix.",
+    "workers": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "same_core_blocks": true,
+    "native_cells": 144
+  },
+  "scouts": {
+    "v03_trace_cells": 3,
+    "local_final_state_cells": 2,
+    "seconds_each": 360,
+    "excluded_from_pilot_confirmation_performance_means": true,
+    "native_searches_never_stopped": true
+  },
+  "deliverable": "Exactly one final Chinese Markdown report covering A, B, all negative candidates, actual resource receipts and independent mechanism audits",
+  "previous_design": "design_v2.json",
+  "amendment_before_first_pilot_quality_result": true,
+  "amendment_reason": "User resumed after local network loss; frozen A chain naturally completed144/144 and finalized2026-10-07T10:43:02Z. All12 calibrated cores now free, expand pre-first-outcome development to8graph coverage at same30min wall and two independent diagnostics.",
+  "motif_scope": "Only blocker-count {1,2} compatible pairs with one shared selected blocker. For bridge b, deficit_b=wu+wv-wb; leaf a blocked only by u gives exact gain wa-deficit_b. Descending leaf weights permit safe top rejection and first-compatible selection. Completed class-zero proof is NEVER a global <=2 or 3+ absence certificate.",
+  "resources": {
+    "quota_cores": 12,
+    "original_A_workers": 0,
+    "pilot_workers": 10,
+    "pilot_cpus": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "extra_diagnostic_cpu": 17,
+    "max_native_workers": 12,
+    "coordinator_cpu": 11,
+    "cpu17_calibration": "cpu17_calibration.json",
+    "cpu17_full_load_ratio": 0.986017,
+    "no_thirteenth_native_worker": true,
+    "compiler": "One job pinned CPU11 only before the optional C diagnostic starts",
+    "actual_per_cell_cpu_wall_policy": "Retain all cells, flag ratios below .95; same graph/seed paired arms remain on one fixed physical CPU; publish timings and resource receipts",
+    "extra_diagnostic_cpus": [
+      10,
+      17
+    ],
+    "calibration": "full_capacity_recovery_calibration.json",
+    "server_quota_cores": 12,
+    "no_source_compilers_during_twelve_native_jobs": true
+  },
+  "diagnostic_candidate_C": {
+    "seconds": 360,
+    "cpu": 17,
+    "purpose": "Uniform 1/20 gate-epoch frozen S snapshots, positive-witness enriched states, independent full pair oracle and exact sketch checks; excluded from means",
+    "condition": "Only after C native tests and before source freeze, no compiler overlaps this 12-native workload",
+    "positions": 2,
+    "graph_seeds": [
+      [
+        "g0340",
+        1719
+      ],
+      [
+        "g1200",
+        1717
+      ]
+    ],
+    "cpus": [
+      10,
+      17
+    ],
+    "scope": "Two separate stochastic diagnostic trajectories on the single reused mother source, not independent data sources"
+  },
+  "pilot_config_sha256": "3eefc059138109c7a5f6a65af36f754d0e0ba764d548d7657a1ebd5cc6a4aef1",
+  "pair_diagnostic_config_sha256": "73ec50e6216cf3d86d30d1a57e5ba47d3c268e2748ac7bf95e65162fc62310ff"
+}

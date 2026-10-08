@@ -1,0 +1,1622 @@
+{
+  "status": "SELECTED",
+  "selected": "pair-fusion",
+  "candidate_metrics": [
+    {
+      "arm": "pair-direct",
+      "paired": {
+        "target": "pair-direct",
+        "baseline": "local",
+        "expected": 10,
+        "paired": 10,
+        "unavailable": [],
+        "full_paired_frame": true,
+        "wins": 3,
+        "ties": 1,
+        "losses": 6,
+        "mean_relative_percent": -0.009660062579767837,
+        "mean_delta_seconds": -116.84946670000001,
+        "same_cpu_pairs": 10,
+        "differences": [
+          {
+            "graph": "g0340",
+            "seed": 211,
+            "delta_ticks": -114892186,
+            "relative_percent": -0.007088829352817115,
+            "same_cpu": true,
+            "cpu": 12,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0000378488899424,
+            "baseline_cpu_wall_ratio": 0.9959901352514118,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g0680",
+            "seed": 213,
+            "delta_ticks": -77746943,
+            "relative_percent": -0.006246722547700031,
+            "same_cpu": true,
+            "cpu": 13,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.9949518795347171,
+            "baseline_cpu_wall_ratio": 1.000390205048015,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1200",
+            "seed": 223,
+            "delta_ticks": -93631640,
+            "relative_percent": -0.010600308544599424,
+            "same_cpu": true,
+            "cpu": 14,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0004821558216013,
+            "baseline_cpu_wall_ratio": 1.0005115011677947,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1800",
+            "seed": 227,
+            "delta_ticks": 0,
+            "relative_percent": 0.0,
+            "same_cpu": true,
+            "cpu": 15,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0006891145491854,
+            "baseline_cpu_wall_ratio": 1.0002285559691986,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW0680_gE1200_s0150",
+            "seed": 229,
+            "delta_ticks": 112975984,
+            "relative_percent": 0.01062283242811643,
+            "same_cpu": true,
+            "cpu": 16,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0000224584947675,
+            "baseline_cpu_wall_ratio": 1.0005030708331677,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW0340_gE1200_s0150",
+            "seed": 233,
+            "delta_ticks": 199949229,
+            "relative_percent": 0.015887845004459944,
+            "same_cpu": true,
+            "cpu": 5,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 1.0003919014743694,
+            "baseline_cpu_wall_ratio": 1.0003799040956005,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW1200_gE0340_s0150",
+            "seed": 239,
+            "delta_ticks": 362143803,
+            "relative_percent": 0.028733212605654774,
+            "same_cpu": true,
+            "cpu": 6,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0003415871968282,
+            "baseline_cpu_wall_ratio": 0.9971249742644184,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW1200_gE0680_s0150",
+            "seed": 241,
+            "delta_ticks": -671900075,
+            "relative_percent": -0.06323247234514578,
+            "same_cpu": true,
+            "cpu": 7,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.9960770760388026,
+            "baseline_cpu_wall_ratio": 1.0004913444442771,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1200",
+            "seed": 251,
+            "delta_ticks": -194298799,
+            "relative_percent": -0.022057450314382738,
+            "same_cpu": true,
+            "cpu": 8,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 1.0005711646118742,
+            "baseline_cpu_wall_ratio": 1.000034562141705,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g0340",
+            "seed": 257,
+            "delta_ticks": -691094040,
+            "relative_percent": -0.04261873273126442,
+            "same_cpu": true,
+            "cpu": 9,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.999803495866786,
+            "baseline_cpu_wall_ratio": 1.00027860468132,
+            "both_resource_qualified": true
+          }
+        ],
+        "scope": "Arithmetic mean over the prespecified paired graph-seed blocks; one reused physical mother source"
+      },
+      "mean_relative_percent": -0.009660062579767837,
+      "mean_umbrella_seconds": 3.2578951505999996,
+      "genuine_joint_commits": 289,
+      "witness_evidence": [
+        {
+          "cell_id": "pilot_pilot_001_00",
+          "graph": "g0680",
+          "seed": 213,
+          "epoch": 1,
+          "event_line": 2,
+          "outside": [
+            11924,
+            25705
+          ],
+          "unary_gains_ticks": [
+            -522637270,
+            -500026467
+          ],
+          "witness_gain_ticks": 15755228,
+          "gain_ticks": 15755228,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_001_00/events.jsonl",
+          "file_sha256": "c95d31095e30328ba83d444d2c2d5d7b0c8fde552db9ffe4f4a4767c08cf6781",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_001_00",
+          "graph": "g0680",
+          "seed": 213,
+          "epoch": 13,
+          "event_line": 10,
+          "outside": [
+            8133,
+            21827
+          ],
+          "unary_gains_ticks": [
+            -511412167,
+            -528638262
+          ],
+          "witness_gain_ticks": 28176711,
+          "gain_ticks": 28176711,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_001_00/events.jsonl",
+          "file_sha256": "c95d31095e30328ba83d444d2c2d5d7b0c8fde552db9ffe4f4a4767c08cf6781",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_001_00",
+          "graph": "g0680",
+          "seed": 213,
+          "epoch": 22,
+          "event_line": 14,
+          "outside": [
+            17407,
+            31270
+          ],
+          "unary_gains_ticks": [
+            -6637181,
+            -545761048
+          ],
+          "witness_gain_ticks": 6219464,
+          "gain_ticks": 6219464,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_001_00/events.jsonl",
+          "file_sha256": "c95d31095e30328ba83d444d2c2d5d7b0c8fde552db9ffe4f4a4767c08cf6781",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_001_00",
+          "graph": "g0680",
+          "seed": 213,
+          "epoch": 38,
+          "event_line": 20,
+          "outside": [
+            9178,
+            35036
+          ],
+          "unary_gains_ticks": [
+            -526528478,
+            -23417714
+          ],
+          "witness_gain_ticks": 6680293,
+          "gain_ticks": 6680293,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_001_00/events.jsonl",
+          "file_sha256": "c95d31095e30328ba83d444d2c2d5d7b0c8fde552db9ffe4f4a4767c08cf6781",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_001_00",
+          "graph": "g0680",
+          "seed": 213,
+          "epoch": 39,
+          "event_line": 22,
+          "outside": [
+            9370,
+            33220
+          ],
+          "unary_gains_ticks": [
+            -513095219,
+            -371295
+          ],
+          "witness_gain_ticks": 45255751,
+          "gain_ticks": 45255751,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_001_00/events.jsonl",
+          "file_sha256": "c95d31095e30328ba83d444d2c2d5d7b0c8fde552db9ffe4f4a4767c08cf6781",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_001_00",
+          "graph": "g0680",
+          "seed": 213,
+          "epoch": 41,
+          "event_line": 25,
+          "outside": [
+            19269,
+            29618
+          ],
+          "unary_gains_ticks": [
+            -478888607,
+            -4642888
+          ],
+          "witness_gain_ticks": 43229150,
+          "gain_ticks": 43229150,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_001_00/events.jsonl",
+          "file_sha256": "c95d31095e30328ba83d444d2c2d5d7b0c8fde552db9ffe4f4a4767c08cf6781",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_001_00",
+          "graph": "g0680",
+          "seed": 213,
+          "epoch": 45,
+          "event_line": 28,
+          "outside": [
+            18998,
+            31441
+          ],
+          "unary_gains_ticks": [
+            -458200488,
+            -29762193
+          ],
+          "witness_gain_ticks": 69466269,
+          "gain_ticks": 69466269,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_001_00/events.jsonl",
+          "file_sha256": "c95d31095e30328ba83d444d2c2d5d7b0c8fde552db9ffe4f4a4767c08cf6781",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_001_00",
+          "graph": "g0680",
+          "seed": 213,
+          "epoch": 47,
+          "event_line": 31,
+          "outside": [
+            18549,
+            30988
+          ],
+          "unary_gains_ticks": [
+            -454064352,
+            -33472027
+          ],
+          "witness_gain_ticks": 70551445,
+          "gain_ticks": 70551445,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_001_00/events.jsonl",
+          "file_sha256": "c95d31095e30328ba83d444d2c2d5d7b0c8fde552db9ffe4f4a4767c08cf6781",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_007_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 241,
+          "epoch": 1,
+          "event_line": 2,
+          "outside": [
+            488,
+            24127
+          ],
+          "unary_gains_ticks": [
+            -393893112,
+            -319069420
+          ],
+          "witness_gain_ticks": 138451215,
+          "gain_ticks": 138451215,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_007_00/events.jsonl",
+          "file_sha256": "2acdf91011e98a96560b08ebb247a609ceb047f1700ba884612ca7b7c6e7a504",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_007_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 241,
+          "epoch": 2,
+          "event_line": 4,
+          "outside": [
+            15267,
+            25498
+          ],
+          "unary_gains_ticks": [
+            -58010674,
+            -449884271
+          ],
+          "witness_gain_ticks": 39924907,
+          "gain_ticks": 39924907,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_007_00/events.jsonl",
+          "file_sha256": "2acdf91011e98a96560b08ebb247a609ceb047f1700ba884612ca7b7c6e7a504",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_007_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 241,
+          "epoch": 3,
+          "event_line": 6,
+          "outside": [
+            1189,
+            26760
+          ],
+          "unary_gains_ticks": [
+            -61602985,
+            -456616991
+          ],
+          "witness_gain_ticks": 40428860,
+          "gain_ticks": 40428860,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_007_00/events.jsonl",
+          "file_sha256": "2acdf91011e98a96560b08ebb247a609ceb047f1700ba884612ca7b7c6e7a504",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_007_00",
+          "graph": "gW1200_gE0680_s0150",
+          "seed": 241,
+          "epoch": 5,
+          "event_line": 9,
+          "outside": [
+            3265,
+            25282
+          ],
+          "unary_gains_ticks": [
+            -498342106,
+            -521334701
+          ],
+          "witness_gain_ticks": 7744611,
+          "gain_ticks": 7744611,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_007_00/events.jsonl",
+          "file_sha256": "2acdf91011e98a96560b08ebb247a609ceb047f1700ba884612ca7b7c6e7a504",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        }
+      ]
+    },
+    {
+      "arm": "pair-refine",
+      "paired": {
+        "target": "pair-refine",
+        "baseline": "local",
+        "expected": 10,
+        "paired": 10,
+        "unavailable": [],
+        "full_paired_frame": true,
+        "wins": 4,
+        "ties": 0,
+        "losses": 6,
+        "mean_relative_percent": -0.006272380455954296,
+        "mean_delta_seconds": -115.1482401,
+        "same_cpu_pairs": 10,
+        "differences": [
+          {
+            "graph": "g0340",
+            "seed": 211,
+            "delta_ticks": -508872363,
+            "relative_percent": -0.03139734275463961,
+            "same_cpu": true,
+            "cpu": 12,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 0.999856750736973,
+            "baseline_cpu_wall_ratio": 0.9959901352514118,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g0680",
+            "seed": 213,
+            "delta_ticks": 52478552,
+            "relative_percent": 0.004216486737607787,
+            "same_cpu": true,
+            "cpu": 13,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 1.000410079695312,
+            "baseline_cpu_wall_ratio": 1.000390205048015,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1200",
+            "seed": 223,
+            "delta_ticks": -93631640,
+            "relative_percent": -0.010600308544599424,
+            "same_cpu": true,
+            "cpu": 14,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.9968890414315545,
+            "baseline_cpu_wall_ratio": 1.0005115011677947,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1800",
+            "seed": 227,
+            "delta_ticks": 314797061,
+            "relative_percent": 0.046268296513973996,
+            "same_cpu": true,
+            "cpu": 15,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0006460873510923,
+            "baseline_cpu_wall_ratio": 1.0002285559691986,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW0680_gE1200_s0150",
+            "seed": 229,
+            "delta_ticks": 112975984,
+            "relative_percent": 0.01062283242811643,
+            "same_cpu": true,
+            "cpu": 16,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0004482961821577,
+            "baseline_cpu_wall_ratio": 1.0005030708331677,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW0340_gE1200_s0150",
+            "seed": 233,
+            "delta_ticks": -264825876,
+            "relative_percent": -0.021042904201737777,
+            "same_cpu": true,
+            "cpu": 5,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.9999496011497532,
+            "baseline_cpu_wall_ratio": 1.0003799040956005,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW1200_gE0340_s0150",
+            "seed": 239,
+            "delta_ticks": 162729863,
+            "relative_percent": 0.012911312335415205,
+            "same_cpu": true,
+            "cpu": 6,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.00035922427273,
+            "baseline_cpu_wall_ratio": 0.9971249742644184,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW1200_gE0680_s0150",
+            "seed": 241,
+            "delta_ticks": -198877773,
+            "relative_percent": -0.018716374278253622,
+            "same_cpu": true,
+            "cpu": 7,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0004359226016575,
+            "baseline_cpu_wall_ratio": 1.0004913444442771,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1200",
+            "seed": 251,
+            "delta_ticks": -194298799,
+            "relative_percent": -0.022057450314382738,
+            "same_cpu": true,
+            "cpu": 8,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.9949084992962828,
+            "baseline_cpu_wall_ratio": 1.000034562141705,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g0340",
+            "seed": 257,
+            "delta_ticks": -533957410,
+            "relative_percent": -0.03292835248104321,
+            "same_cpu": true,
+            "cpu": 9,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 1.0003246862426063,
+            "baseline_cpu_wall_ratio": 1.00027860468132,
+            "both_resource_qualified": true
+          }
+        ],
+        "scope": "Arithmetic mean over the prespecified paired graph-seed blocks; one reused physical mother source"
+      },
+      "mean_relative_percent": -0.006272380455954296,
+      "mean_umbrella_seconds": 3.3472009375000007,
+      "genuine_joint_commits": 296,
+      "witness_evidence": [
+        {
+          "cell_id": "pilot_pilot_002_00",
+          "graph": "g1200",
+          "seed": 223,
+          "epoch": 2,
+          "event_line": 3,
+          "outside": [
+            27308,
+            27915
+          ],
+          "unary_gains_ticks": [
+            -5341217,
+            -544892272
+          ],
+          "witness_gain_ticks": 7811480,
+          "gain_ticks": 7811480,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_002_00/events.jsonl",
+          "file_sha256": "193e7674edffb6a583731f6153afb5ffa253ca99490654368f192a66d97ae305",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_002_00",
+          "graph": "g1200",
+          "seed": 223,
+          "epoch": 10,
+          "event_line": 7,
+          "outside": [
+            7846,
+            19852
+          ],
+          "unary_gains_ticks": [
+            -18955042,
+            -532474730
+          ],
+          "witness_gain_ticks": 2471622,
+          "gain_ticks": 2471622,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_002_00/events.jsonl",
+          "file_sha256": "193e7674edffb6a583731f6153afb5ffa253ca99490654368f192a66d97ae305",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_002_00",
+          "graph": "g1200",
+          "seed": 223,
+          "epoch": 38,
+          "event_line": 15,
+          "outside": [
+            8654,
+            32900
+          ],
+          "unary_gains_ticks": [
+            -77820020,
+            -335384492
+          ],
+          "witness_gain_ticks": 145987874,
+          "gain_ticks": 145987874,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_002_00/events.jsonl",
+          "file_sha256": "193e7674edffb6a583731f6153afb5ffa253ca99490654368f192a66d97ae305",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_002_00",
+          "graph": "g1200",
+          "seed": 223,
+          "epoch": 42,
+          "event_line": 17,
+          "outside": [
+            5606,
+            30007
+          ],
+          "unary_gains_ticks": [
+            -554462972,
+            -3748568
+          ],
+          "witness_gain_ticks": 720556,
+          "gain_ticks": 720556,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_002_00/events.jsonl",
+          "file_sha256": "193e7674edffb6a583731f6153afb5ffa253ca99490654368f192a66d97ae305",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_002_00",
+          "graph": "g1200",
+          "seed": 223,
+          "epoch": 74,
+          "event_line": 26,
+          "outside": [
+            12919,
+            28629
+          ],
+          "unary_gains_ticks": [
+            -534161747,
+            -527265077
+          ],
+          "witness_gain_ticks": 18938389,
+          "gain_ticks": 18938389,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_002_00/events.jsonl",
+          "file_sha256": "193e7674edffb6a583731f6153afb5ffa253ca99490654368f192a66d97ae305",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_002_00",
+          "graph": "g1200",
+          "seed": 223,
+          "epoch": 98,
+          "event_line": 33,
+          "outside": [
+            1582,
+            13344
+          ],
+          "unary_gains_ticks": [
+            -505777727,
+            -511112790
+          ],
+          "witness_gain_ticks": 48700240,
+          "gain_ticks": 48700240,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_002_00/events.jsonl",
+          "file_sha256": "193e7674edffb6a583731f6153afb5ffa253ca99490654368f192a66d97ae305",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_002_00",
+          "graph": "g1200",
+          "seed": 223,
+          "epoch": 170,
+          "event_line": 43,
+          "outside": [
+            3265,
+            25203
+          ],
+          "unary_gains_ticks": [
+            -497565047,
+            -489545524
+          ],
+          "witness_gain_ticks": 39533788,
+          "gain_ticks": 39533788,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_002_00/events.jsonl",
+          "file_sha256": "193e7674edffb6a583731f6153afb5ffa253ca99490654368f192a66d97ae305",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_002_00",
+          "graph": "g1200",
+          "seed": 223,
+          "epoch": 213,
+          "event_line": 50,
+          "outside": [
+            7999,
+            31810
+          ],
+          "unary_gains_ticks": [
+            -540000242,
+            -1283257
+          ],
+          "witness_gain_ticks": 1647387,
+          "gain_ticks": 1647387,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_002_00/events.jsonl",
+          "file_sha256": "193e7674edffb6a583731f6153afb5ffa253ca99490654368f192a66d97ae305",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_008_00",
+          "graph": "g1200",
+          "seed": 251,
+          "epoch": 8,
+          "event_line": 5,
+          "outside": [
+            3400,
+            17125
+          ],
+          "unary_gains_ticks": [
+            -505577918,
+            -511721614
+          ],
+          "witness_gain_ticks": 35208719,
+          "gain_ticks": 35208719,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_008_00/events.jsonl",
+          "file_sha256": "a1908de75652c0fbfbd26d70b06c7210d30668553f68648c2fe18adfc5d724e0",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_008_00",
+          "graph": "g1200",
+          "seed": 251,
+          "epoch": 10,
+          "event_line": 7,
+          "outside": [
+            1182,
+            36273
+          ],
+          "unary_gains_ticks": [
+            -349730946,
+            -184751464
+          ],
+          "witness_gain_ticks": 24594911,
+          "gain_ticks": 24594911,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_008_00/events.jsonl",
+          "file_sha256": "a1908de75652c0fbfbd26d70b06c7210d30668553f68648c2fe18adfc5d724e0",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_008_00",
+          "graph": "g1200",
+          "seed": 251,
+          "epoch": 11,
+          "event_line": 9,
+          "outside": [
+            8148,
+            31876
+          ],
+          "unary_gains_ticks": [
+            -533858831,
+            -11383655
+          ],
+          "witness_gain_ticks": 13880160,
+          "gain_ticks": 41809005,
+          "extra_ticks": 27928845,
+          "file": "results/pilot/pilot_pilot_008_00/events.jsonl",
+          "file_sha256": "a1908de75652c0fbfbd26d70b06c7210d30668553f68648c2fe18adfc5d724e0",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_008_00",
+          "graph": "g1200",
+          "seed": 251,
+          "epoch": 36,
+          "event_line": 18,
+          "outside": [
+            5725,
+            6313
+          ],
+          "unary_gains_ticks": [
+            -1865589,
+            -546564173
+          ],
+          "witness_gain_ticks": 10710576,
+          "gain_ticks": 10710576,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_008_00/events.jsonl",
+          "file_sha256": "a1908de75652c0fbfbd26d70b06c7210d30668553f68648c2fe18adfc5d724e0",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        }
+      ]
+    },
+    {
+      "arm": "pair-fusion",
+      "paired": {
+        "target": "pair-fusion",
+        "baseline": "local",
+        "expected": 10,
+        "paired": 10,
+        "unavailable": [],
+        "full_paired_frame": true,
+        "wins": 8,
+        "ties": 1,
+        "losses": 1,
+        "mean_relative_percent": 0.11160761597307842,
+        "mean_delta_seconds": 1343.5712457,
+        "same_cpu_pairs": 10,
+        "differences": [
+          {
+            "graph": "g0340",
+            "seed": 211,
+            "delta_ticks": 2727763611,
+            "relative_percent": 0.16830257501761875,
+            "same_cpu": true,
+            "cpu": 12,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0002830919134682,
+            "baseline_cpu_wall_ratio": 0.9959901352514118,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g0680",
+            "seed": 213,
+            "delta_ticks": 888060733,
+            "relative_percent": 0.07135288913620844,
+            "same_cpu": true,
+            "cpu": 13,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.9999203598150056,
+            "baseline_cpu_wall_ratio": 1.000390205048015,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1200",
+            "seed": 223,
+            "delta_ticks": 854329222,
+            "relative_percent": 0.09672108009501466,
+            "same_cpu": true,
+            "cpu": 14,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 1.0005697813566243,
+            "baseline_cpu_wall_ratio": 1.0005115011677947,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1800",
+            "seed": 227,
+            "delta_ticks": 0,
+            "relative_percent": 0.0,
+            "same_cpu": true,
+            "cpu": 15,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.9962768774775652,
+            "baseline_cpu_wall_ratio": 1.0002285559691986,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW0680_gE1200_s0150",
+            "seed": 229,
+            "delta_ticks": 1091288413,
+            "relative_percent": 0.10261095793637094,
+            "same_cpu": true,
+            "cpu": 16,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0004293229774326,
+            "baseline_cpu_wall_ratio": 1.0005030708331677,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW0340_gE1200_s0150",
+            "seed": 233,
+            "delta_ticks": 1028017916,
+            "relative_percent": 0.08168568287510587,
+            "same_cpu": true,
+            "cpu": 5,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 1.000446574058741,
+            "baseline_cpu_wall_ratio": 1.0003799040956005,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW1200_gE0340_s0150",
+            "seed": 239,
+            "delta_ticks": 1384597286,
+            "relative_percent": 0.1098567139967064,
+            "same_cpu": true,
+            "cpu": 6,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 0.9999139304247849,
+            "baseline_cpu_wall_ratio": 0.9971249742644184,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW1200_gE0680_s0150",
+            "seed": 241,
+            "delta_ticks": -27552914,
+            "relative_percent": -0.0025930029439767215,
+            "same_cpu": true,
+            "cpu": 7,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0004387335038756,
+            "baseline_cpu_wall_ratio": 1.0004913444442771,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1200",
+            "seed": 251,
+            "delta_ticks": 2885516636,
+            "relative_percent": 0.32757351130047296,
+            "same_cpu": true,
+            "cpu": 8,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0004688554843415,
+            "baseline_cpu_wall_ratio": 1.000034562141705,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g0340",
+            "seed": 257,
+            "delta_ticks": 2603691554,
+            "relative_percent": 0.16056575231726283,
+            "same_cpu": true,
+            "cpu": 9,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.9971129443669355,
+            "baseline_cpu_wall_ratio": 1.00027860468132,
+            "both_resource_qualified": true
+          }
+        ],
+        "scope": "Arithmetic mean over the prespecified paired graph-seed blocks; one reused physical mother source"
+      },
+      "mean_relative_percent": 0.11160761597307842,
+      "mean_umbrella_seconds": 4.844449677599999,
+      "genuine_joint_commits": 206,
+      "witness_evidence": [
+        {
+          "cell_id": "pilot_pilot_009_00",
+          "graph": "g0340",
+          "seed": 257,
+          "epoch": 7,
+          "event_line": 8,
+          "outside": [
+            11762,
+            20156
+          ],
+          "unary_gains_ticks": [
+            -215912596,
+            -277730034
+          ],
+          "witness_gain_ticks": 33048623,
+          "gain_ticks": 33048623,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_009_00/events.jsonl",
+          "file_sha256": "b9052c21f6174c9107da1c5b1028b9a95ca52b0704866827e20b84e35de11c36",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_009_00",
+          "graph": "g0340",
+          "seed": 257,
+          "epoch": 8,
+          "event_line": 10,
+          "outside": [
+            4671,
+            14872
+          ],
+          "unary_gains_ticks": [
+            -18426311,
+            -356737835
+          ],
+          "witness_gain_ticks": 156269176,
+          "gain_ticks": 156269176,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_009_00/events.jsonl",
+          "file_sha256": "b9052c21f6174c9107da1c5b1028b9a95ca52b0704866827e20b84e35de11c36",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_009_00",
+          "graph": "g0340",
+          "seed": 257,
+          "epoch": 9,
+          "event_line": 12,
+          "outside": [
+            17088,
+            30940
+          ],
+          "unary_gains_ticks": [
+            -502542784,
+            -523361641
+          ],
+          "witness_gain_ticks": 17995322,
+          "gain_ticks": 17995322,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_009_00/events.jsonl",
+          "file_sha256": "b9052c21f6174c9107da1c5b1028b9a95ca52b0704866827e20b84e35de11c36",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_009_00",
+          "graph": "g0340",
+          "seed": 257,
+          "epoch": 17,
+          "event_line": 20,
+          "outside": [
+            23868,
+            27311
+          ],
+          "unary_gains_ticks": [
+            -9203287,
+            -429132888
+          ],
+          "witness_gain_ticks": 10945995,
+          "gain_ticks": 10945995,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_009_00/events.jsonl",
+          "file_sha256": "b9052c21f6174c9107da1c5b1028b9a95ca52b0704866827e20b84e35de11c36",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_009_00",
+          "graph": "g0340",
+          "seed": 257,
+          "epoch": 31,
+          "event_line": 31,
+          "outside": [
+            5740,
+            29634
+          ],
+          "unary_gains_ticks": [
+            -523681812,
+            -498540413
+          ],
+          "witness_gain_ticks": 35276520,
+          "gain_ticks": 35276520,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_009_00/events.jsonl",
+          "file_sha256": "b9052c21f6174c9107da1c5b1028b9a95ca52b0704866827e20b84e35de11c36",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_009_00",
+          "graph": "g0340",
+          "seed": 257,
+          "epoch": 41,
+          "event_line": 41,
+          "outside": [
+            6982,
+            8695
+          ],
+          "unary_gains_ticks": [
+            -444279769,
+            -68543789
+          ],
+          "witness_gain_ticks": 33346944,
+          "gain_ticks": 65495295,
+          "extra_ticks": 32148351,
+          "file": "results/pilot/pilot_pilot_009_00/events.jsonl",
+          "file_sha256": "b9052c21f6174c9107da1c5b1028b9a95ca52b0704866827e20b84e35de11c36",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_009_00",
+          "graph": "g0340",
+          "seed": 257,
+          "epoch": 42,
+          "event_line": 43,
+          "outside": [
+            6982,
+            8695
+          ],
+          "unary_gains_ticks": [
+            -444279769,
+            -68543789
+          ],
+          "witness_gain_ticks": 33346944,
+          "gain_ticks": 65495295,
+          "extra_ticks": 32148351,
+          "file": "results/pilot/pilot_pilot_009_00/events.jsonl",
+          "file_sha256": "b9052c21f6174c9107da1c5b1028b9a95ca52b0704866827e20b84e35de11c36",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_009_00",
+          "graph": "g0340",
+          "seed": 257,
+          "epoch": 43,
+          "event_line": 45,
+          "outside": [
+            11245,
+            25011
+          ],
+          "unary_gains_ticks": [
+            -316568887,
+            -435723096
+          ],
+          "witness_gain_ticks": 111256887,
+          "gain_ticks": 111256887,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_009_00/events.jsonl",
+          "file_sha256": "b9052c21f6174c9107da1c5b1028b9a95ca52b0704866827e20b84e35de11c36",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_003_00",
+          "graph": "g1800",
+          "seed": 227,
+          "epoch": 1,
+          "event_line": 2,
+          "outside": [
+            1299,
+            24894
+          ],
+          "unary_gains_ticks": [
+            -548824336,
+            -916889
+          ],
+          "witness_gain_ticks": 7218726,
+          "gain_ticks": 7218726,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_003_00/events.jsonl",
+          "file_sha256": "32e1f45d4dcee09e6748418fd43fbba5f7ec1e71d1c3a396e96cc097f77d076b",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_003_00",
+          "graph": "g1800",
+          "seed": 227,
+          "epoch": 2,
+          "event_line": 4,
+          "outside": [
+            12887,
+            27774
+          ],
+          "unary_gains_ticks": [
+            -2535170,
+            -554421108
+          ],
+          "witness_gain_ticks": 2280675,
+          "gain_ticks": 2280675,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_003_00/events.jsonl",
+          "file_sha256": "32e1f45d4dcee09e6748418fd43fbba5f7ec1e71d1c3a396e96cc097f77d076b",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_003_00",
+          "graph": "g1800",
+          "seed": 227,
+          "epoch": 48,
+          "event_line": 20,
+          "outside": [
+            984,
+            24582
+          ],
+          "unary_gains_ticks": [
+            -551689588,
+            -3465156
+          ],
+          "witness_gain_ticks": 2815057,
+          "gain_ticks": 2815057,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_003_00/events.jsonl",
+          "file_sha256": "32e1f45d4dcee09e6748418fd43fbba5f7ec1e71d1c3a396e96cc097f77d076b",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_003_00",
+          "graph": "g1800",
+          "seed": 227,
+          "epoch": 50,
+          "event_line": 23,
+          "outside": [
+            984,
+            24582
+          ],
+          "unary_gains_ticks": [
+            -551689588,
+            -3465156
+          ],
+          "witness_gain_ticks": 2815057,
+          "gain_ticks": 2815057,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_003_00/events.jsonl",
+          "file_sha256": "32e1f45d4dcee09e6748418fd43fbba5f7ec1e71d1c3a396e96cc097f77d076b",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        }
+      ]
+    },
+    {
+      "arm": "motif-refine",
+      "paired": {
+        "target": "motif-refine",
+        "baseline": "local",
+        "expected": 10,
+        "paired": 10,
+        "unavailable": [],
+        "full_paired_frame": true,
+        "wins": 4,
+        "ties": 0,
+        "losses": 6,
+        "mean_relative_percent": 0.0018645149184723694,
+        "mean_delta_seconds": 0.6585623,
+        "same_cpu_pairs": 10,
+        "differences": [
+          {
+            "graph": "g0340",
+            "seed": 211,
+            "delta_ticks": -114892186,
+            "relative_percent": -0.007088829352817115,
+            "same_cpu": true,
+            "cpu": 12,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.00019378883218,
+            "baseline_cpu_wall_ratio": 0.9959901352514118,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g0680",
+            "seed": 213,
+            "delta_ticks": 231560641,
+            "relative_percent": 0.018605169817346674,
+            "same_cpu": true,
+            "cpu": 13,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 1.0003505923803278,
+            "baseline_cpu_wall_ratio": 1.000390205048015,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1200",
+            "seed": 223,
+            "delta_ticks": -34157103,
+            "relative_percent": -0.003867024339098008,
+            "same_cpu": true,
+            "cpu": 14,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 1.0000243941498832,
+            "baseline_cpu_wall_ratio": 1.0005115011677947,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1800",
+            "seed": 227,
+            "delta_ticks": 314797061,
+            "relative_percent": 0.046268296513973996,
+            "same_cpu": true,
+            "cpu": 15,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 1.0006959247707292,
+            "baseline_cpu_wall_ratio": 1.0002285559691986,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW0680_gE1200_s0150",
+            "seed": 229,
+            "delta_ticks": -56796173,
+            "relative_percent": -0.005340393656914826,
+            "same_cpu": true,
+            "cpu": 16,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.9961366751871327,
+            "baseline_cpu_wall_ratio": 1.0005030708331677,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW0340_gE1200_s0150",
+            "seed": 233,
+            "delta_ticks": -320203927,
+            "relative_percent": -0.025443210696228326,
+            "same_cpu": true,
+            "cpu": 5,
+            "target_before_baseline": true,
+            "target_cpu_wall_ratio": 0.9959503041163544,
+            "baseline_cpu_wall_ratio": 1.0003799040956005,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW1200_gE0340_s0150",
+            "seed": 239,
+            "delta_ticks": 166164381,
+            "relative_percent": 0.013183813852973821,
+            "same_cpu": true,
+            "cpu": 6,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0004132158305539,
+            "baseline_cpu_wall_ratio": 0.9971249742644184,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "gW1200_gE0680_s0150",
+            "seed": 241,
+            "delta_ticks": 29019661,
+            "relative_percent": 0.002731038408721722,
+            "same_cpu": true,
+            "cpu": 7,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.000016163790718,
+            "baseline_cpu_wall_ratio": 1.0004913444442771,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g1200",
+            "seed": 251,
+            "delta_ticks": -145034587,
+            "relative_percent": -0.016464811996184908,
+            "same_cpu": true,
+            "cpu": 8,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0005208583307885,
+            "baseline_cpu_wall_ratio": 1.000034562141705,
+            "both_resource_qualified": true
+          },
+          {
+            "graph": "g0340",
+            "seed": 257,
+            "delta_ticks": -63872145,
+            "relative_percent": -0.0039388993670493345,
+            "same_cpu": true,
+            "cpu": 9,
+            "target_before_baseline": false,
+            "target_cpu_wall_ratio": 1.0001869151233873,
+            "baseline_cpu_wall_ratio": 1.00027860468132,
+            "both_resource_qualified": true
+          }
+        ],
+        "scope": "Arithmetic mean over the prespecified paired graph-seed blocks; one reused physical mother source"
+      },
+      "mean_relative_percent": 0.0018645149184723696,
+      "mean_umbrella_seconds": 0.8146672970000003,
+      "genuine_joint_commits": 178,
+      "witness_evidence": [
+        {
+          "cell_id": "pilot_pilot_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 233,
+          "epoch": 3,
+          "event_line": 4,
+          "outside": [
+            2093,
+            16967
+          ],
+          "unary_gains_ticks": [
+            -5490554,
+            -507113782
+          ],
+          "witness_gain_ticks": 45222282,
+          "gain_ticks": 45222282,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_005_00/events.jsonl",
+          "file_sha256": "4753bfadbf6ad2e8af1a704982b55980332c6c7bd16922223bc0e7ae0f6fc4ae",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 233,
+          "epoch": 5,
+          "event_line": 7,
+          "outside": [
+            7942,
+            31813
+          ],
+          "unary_gains_ticks": [
+            -12889325,
+            -538445980
+          ],
+          "witness_gain_ticks": 7667323,
+          "gain_ticks": 34071903,
+          "extra_ticks": 26404580,
+          "file": "results/pilot/pilot_pilot_005_00/events.jsonl",
+          "file_sha256": "4753bfadbf6ad2e8af1a704982b55980332c6c7bd16922223bc0e7ae0f6fc4ae",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 233,
+          "epoch": 12,
+          "event_line": 14,
+          "outside": [
+            6955,
+            22548
+          ],
+          "unary_gains_ticks": [
+            -33533210,
+            -370395757
+          ],
+          "witness_gain_ticks": 52556726,
+          "gain_ticks": 52556726,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_005_00/events.jsonl",
+          "file_sha256": "4753bfadbf6ad2e8af1a704982b55980332c6c7bd16922223bc0e7ae0f6fc4ae",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 233,
+          "epoch": 23,
+          "event_line": 20,
+          "outside": [
+            9442,
+            22797
+          ],
+          "unary_gains_ticks": [
+            -89111866,
+            -302352886
+          ],
+          "witness_gain_ticks": 166916668,
+          "gain_ticks": 166916668,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_005_00/events.jsonl",
+          "file_sha256": "4753bfadbf6ad2e8af1a704982b55980332c6c7bd16922223bc0e7ae0f6fc4ae",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 233,
+          "epoch": 24,
+          "event_line": 22,
+          "outside": [
+            9470,
+            23213
+          ],
+          "unary_gains_ticks": [
+            -536929013,
+            -12932742
+          ],
+          "witness_gain_ticks": 9310864,
+          "gain_ticks": 9310864,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_005_00/events.jsonl",
+          "file_sha256": "4753bfadbf6ad2e8af1a704982b55980332c6c7bd16922223bc0e7ae0f6fc4ae",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 233,
+          "epoch": 30,
+          "event_line": 27,
+          "outside": [
+            1544,
+            15253
+          ],
+          "unary_gains_ticks": [
+            -20043623,
+            -512556388
+          ],
+          "witness_gain_ticks": 17936616,
+          "gain_ticks": 21475236,
+          "extra_ticks": 3538620,
+          "file": "results/pilot/pilot_pilot_005_00/events.jsonl",
+          "file_sha256": "4753bfadbf6ad2e8af1a704982b55980332c6c7bd16922223bc0e7ae0f6fc4ae",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 233,
+          "epoch": 67,
+          "event_line": 45,
+          "outside": [
+            16622,
+            29217
+          ],
+          "unary_gains_ticks": [
+            -553183531,
+            -1507844
+          ],
+          "witness_gain_ticks": 5307764,
+          "gain_ticks": 5307764,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_005_00/events.jsonl",
+          "file_sha256": "4753bfadbf6ad2e8af1a704982b55980332c6c7bd16922223bc0e7ae0f6fc4ae",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_005_00",
+          "graph": "gW0340_gE1200_s0150",
+          "seed": 233,
+          "epoch": 77,
+          "event_line": 51,
+          "outside": [
+            18210,
+            19840
+          ],
+          "unary_gains_ticks": [
+            -453058085,
+            -48805026
+          ],
+          "witness_gain_ticks": 53488298,
+          "gain_ticks": 53488298,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_005_00/events.jsonl",
+          "file_sha256": "4753bfadbf6ad2e8af1a704982b55980332c6c7bd16922223bc0e7ae0f6fc4ae",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 229,
+          "epoch": 4,
+          "event_line": 4,
+          "outside": [
+            4926,
+            15150
+          ],
+          "unary_gains_ticks": [
+            -3359684,
+            -505480078
+          ],
+          "witness_gain_ticks": 15523219,
+          "gain_ticks": 15523219,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_004_00/events.jsonl",
+          "file_sha256": "561c7eeb294a77618932a4eccf78e55c35c6aaf7b531f41d9eceaa3f13def7a2",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 229,
+          "epoch": 10,
+          "event_line": 7,
+          "outside": [
+            10769,
+            24141
+          ],
+          "unary_gains_ticks": [
+            -56264608,
+            -391283671
+          ],
+          "witness_gain_ticks": 110967783,
+          "gain_ticks": 110967783,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_004_00/events.jsonl",
+          "file_sha256": "561c7eeb294a77618932a4eccf78e55c35c6aaf7b531f41d9eceaa3f13def7a2",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 229,
+          "epoch": 29,
+          "event_line": 18,
+          "outside": [
+            10321,
+            21847
+          ],
+          "unary_gains_ticks": [
+            -501924964,
+            -21542956
+          ],
+          "witness_gain_ticks": 27079794,
+          "gain_ticks": 27079794,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_004_00/events.jsonl",
+          "file_sha256": "561c7eeb294a77618932a4eccf78e55c35c6aaf7b531f41d9eceaa3f13def7a2",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        },
+        {
+          "cell_id": "pilot_pilot_004_00",
+          "graph": "gW0680_gE1200_s0150",
+          "seed": 229,
+          "epoch": 39,
+          "event_line": 22,
+          "outside": [
+            22854,
+            33115
+          ],
+          "unary_gains_ticks": [
+            -376971946,
+            -39601580
+          ],
+          "witness_gain_ticks": 124349462,
+          "gain_ticks": 124349462,
+          "extra_ticks": 0,
+          "file": "results/pilot/pilot_pilot_004_00/events.jsonl",
+          "file_sha256": "561c7eeb294a77618932a4eccf78e55c35c6aaf7b531f41d9eceaa3f13def7a2",
+          "evidence_kind": "online_native_verified_witness_event; historical incumbent is not reconstructed from the final solution"
+        }
+      ]
+    }
+  ],
+  "top_mean_relative_percent": 0.11160761597307842,
+  "tied_within_percent": 1e-09,
+  "top_mean_tie_arms": [
+    "pair-fusion"
+  ],
+  "rule": "Maximum mean of 10 paired percentages vs local; within 1e-9 percentage points use lower mean escalation_seconds then lexical arm ID. Rank all candidates before checking the winner's genuine joint evidence.",
+  "winner_positive_mean": true,
+  "winner_genuine_joint_commit": true,
+  "all_candidate_means_nonpositive": false,
+  "genuine_joint_definition": "Committed positive witness inserting exactly two distinct outside vertices, both pre-commit unary gains <=0; instrumented native event evidence bound to unchanged source/binary hashes.",
+  "resource_policy": "All audited native quality results retained; CPU/wall flags do not exclude pairs",
+  "quality_scope": "Development observations on 10 prespecified graph-seed pairs from one physical mother source",
+  "no_performance_reruns": true,
+  "tolerance_arithmetic": "Mean paired percentages and the 1e-9 percentage-point boundary are compared as exact rational numbers from integer ticks; displayed values are floats.",
+  "created_utc": "2026-10-07T11:41:32.951423+00:00",
+  "pilot_registration_sha256": "fa2d041ecc299148bdfaebe0ef11d54a0e9ec47a919537782358823329eeb345",
+  "pilot_completion_sha256": "03e1d4314c3dee7fc6ed5301f14d15c35b7e83200c3d48e5fff40012fc8fbf69",
+  "pilot_audit_sha256": "ae0576a8002e49e49e8aa711504dea4a8d7a6f2348e5ecbeaf9f3c515efa3695",
+  "event_evidence_sha256": "88ffad4004ccb66ebe2cea51c1eecfb9254018219181a1e87c1259e0c273e0e2",
+  "source_audit_sha256": "fd2557c96f98608c93014703f49fbc7d44b6b68cb953bdc7addefc6a0b7129fe",
+  "scripts": {
+    "select_and_confirm_remote.py": "87781b4eed6747b55b32b55fbffa37b026c72bf70926f0c9316475fe6dcc7131",
+    "analyze_bc_remote.py": "4d63830248dab284c3273ff90d9dc6bf50b936e2ef6604fd216fb118c734cd8c",
+    "bc_audit_helpers.py": "fa66fd0de5b8d0a396dad0d09dc0635d9bb45a7937a92ac939d01eba34257875",
+    "bc_metrics.py": "de9ca3b7fda0c400ba579306e2486a482cdaf2a1e27729327a8639a72792754c",
+    "remote_pair_pilot.py": "29f60b398e2369540111766774282565ddc341b9147993913e79d0c36de57567"
+  },
+  "sources_pass": true
+}

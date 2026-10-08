@@ -1,0 +1,13 @@
+build/
+run_outputs/
+__pycache__/
+*.py[cod]
+.venv/
+tmp/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk

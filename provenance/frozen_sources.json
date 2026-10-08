@@ -1,0 +1,399 @@
+{
+  "B_binary_sha256": "fb56e65a09f59762ee6b5c538ab091f0f435bfc939de195dd0737b389ae86cf1",
+  "B_source_files": [
+    {
+      "path": "native/BARR_v0.4B/.gitignore",
+      "sha256": "1688abecb2327ab5b474c5c8b4a053f63d3b60143b43f2aebe64dab67affe39a"
+    },
+    {
+      "path": "native/BARR_v0.4B/CMakeLists.txt",
+      "sha256": "1140a9cbe5549d1fdd6d048727505204ad21855c98f9f78c487e4643045940be"
+    },
+    {
+      "path": "native/BARR_v0.4B/LICENSE",
+      "sha256": "4d060a54ac50e9d6ce0e17f8942356e58b423de0b50fcfdc9b7cbbe1b0a02880"
+    },
+    {
+      "path": "native/BARR_v0.4B/requirements-learning.txt",
+      "sha256": "8568551fbd635a0e3edce562ac1de127f766f941c65c3d2aa548d1c4f23c3a88"
+    },
+    {
+      "path": "native/BARR_v0.4B/requirements.txt",
+      "sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac"
+    },
+    {
+      "path": "native/BARR_v0.4B/examples/demo/contacts_00.npz",
+      "sha256": "d00428e1d58fc4a44d46de42fae312030844be9b96a2e24b78ee631a6e213d46"
+    },
+    {
+      "path": "native/BARR_v0.4B/examples/demo/contacts_01.npz",
+      "sha256": "5c0ffc8dbf51a37ce86f28be87a585adbbe967723ace8cc69aa1413444c6f009"
+    },
+    {
+      "path": "native/BARR_v0.4B/examples/demo/contacts_02.npz",
+      "sha256": "d4174fadd63ed733c4b3fff930e02655bacba80fc4bd0b59c3488d36a798d378"
+    },
+    {
+      "path": "native/BARR_v0.4B/examples/demo/contacts_03.npz",
+      "sha256": "ccb2904eac0bf76a9377771b2413741c67174bf5479fdff53779001511a50ba6"
+    },
+    {
+      "path": "native/BARR_v0.4B/examples/demo/manifest.csv",
+      "sha256": "671119c38a90fa5b890b36dfb07eeba6f3f6783e68c11ed8c28594aaf86fc690"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/coupling.hpp",
+      "sha256": "49e990cb8edcad6cef3733371c6eb6770022e934b5274ad387790d502a272cb6"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/flow.hpp",
+      "sha256": "4adcd701e46f5bb93935bf33818848d02bf7bd693b287ce3bf0ad3943b60e263"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/graph.hpp",
+      "sha256": "5eae668b86139b14a23131eda0a9cf229041359f489872be3b099fbd36fc1e97"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/kernel_io.hpp",
+      "sha256": "a6896de452140fe048aa13569552404de3f1240aa5cd4c812dcfe6772cb42396"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/local_search.hpp",
+      "sha256": "d75aafc82ecbb125b1accc63c0b2f90b83d5df50f58781895da554d97581baca"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/mechanism_audit.hpp",
+      "sha256": "2a2afd7c04e50b67a9c0808d8963d3edc10d805c22b632925f26589500293117"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/pair_scout.hpp",
+      "sha256": "ccec56651246a895fcd591078d3dfd4056e2e0eef7593d77c62d8b17d9d9e370"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/pair_solver_impl.hpp",
+      "sha256": "becd037231a430580768d9181997567290c3bbc9cacd032fbad88b69cce6669f"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/policy.hpp",
+      "sha256": "542843f40cb672c4e6001ab79f129ba415d9b09c2030ac76a4ab9f6310edf503"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/recombination.hpp",
+      "sha256": "878bf130bf99ce9f4a45ad4fa3d08bc30501694ef5433f7efb8bb88c49acf8bd"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/selective.hpp",
+      "sha256": "84b080e15e4d9357d0f7294212ac78f4a3b9803c0bcbc591a8f682d160013f9c"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/selective_solver_impl.hpp",
+      "sha256": "83dbc3bb66df21a8f2a2a90f8b92577ab61d5848950b5f7e6a2bb252d3810085"
+    },
+    {
+      "path": "native/BARR_v0.4B/include/barr/solver.hpp",
+      "sha256": "7de27c99bb242d1586b502093cf82ab0bfebc74150b7e595cf293e277e4d4744"
+    },
+    {
+      "path": "native/BARR_v0.4B/python/barr_io.py",
+      "sha256": "33768418afd3232eb6af9e19a9c8d22346f2bf35ca6538d06c1c8b64a6a370ce"
+    },
+    {
+      "path": "native/BARR_v0.4B/python/barr_model.py",
+      "sha256": "d6fb150c19010c182d8a522093b783a46895911729678c4e87de65aa0f218c12"
+    },
+    {
+      "path": "native/BARR_v0.4B/scripts/analyze.py",
+      "sha256": "51679bb2e01db5a7caf679f1f150628213802ac6a4dbe37be62a9281ce08c27e"
+    },
+    {
+      "path": "native/BARR_v0.4B/scripts/audit_snapshots.py",
+      "sha256": "6cf531ea87e6f67eb649d432ca0c70e551312ae61ec10bc8d5b56d410025b1e5"
+    },
+    {
+      "path": "native/BARR_v0.4B/scripts/benchmark.py",
+      "sha256": "33268ac0007373c240d1d4fdf5a2fc98fe796f626fd9de902190c4e836682167"
+    },
+    {
+      "path": "native/BARR_v0.4B/scripts/collect.py",
+      "sha256": "9708790c94f9b563d1ab8fe9725792687047fcf6381ceda60bc4437b75bfc522"
+    },
+    {
+      "path": "native/BARR_v0.4B/scripts/make_demo.py",
+      "sha256": "696302f31bfaf92fbd6626fcd70c6dcfcf6f516ef11c2045d344e9f60c1df771"
+    },
+    {
+      "path": "native/BARR_v0.4B/scripts/make_manifest.py",
+      "sha256": "a91ee2d112abff8b68dc854838a6d678c12f4103f10f811f5be37b3d4885e81f"
+    },
+    {
+      "path": "native/BARR_v0.4B/scripts/mechanism_suite.py",
+      "sha256": "ea6b0584c13426c1bb855d6cdfe9a327e7eb5a15f643cf61363f63311c254e40"
+    },
+    {
+      "path": "native/BARR_v0.4B/scripts/run.py",
+      "sha256": "d7f14907891eaf97b8ff88d0965a06f586b5909496365512108ba3ffc4868dbe"
+    },
+    {
+      "path": "native/BARR_v0.4B/scripts/train.py",
+      "sha256": "69b6c45705440a02dd7bfda3bc84d773b19681ef0f6bda6a724e03c396a923b0"
+    },
+    {
+      "path": "native/BARR_v0.4B/scripts/verify_package.py",
+      "sha256": "0c330a8117f08a21cf25544b25307a1543cb1b02d6c71d200a6fc1017b557956"
+    },
+    {
+      "path": "native/BARR_v0.4B/src/main.cpp",
+      "sha256": "83704b85c0e52e7f282af31a3331def805fb63c892d536134b3b8c7c6cfa60e5"
+    },
+    {
+      "path": "native/BARR_v0.4B/src/pair_oracle.cpp",
+      "sha256": "70677dec32fc3b44e8541a30ff6bb947e71fe196e2bb8b23b46ccb496353a84e"
+    },
+    {
+      "path": "native/BARR_v0.4B/src/probe.cpp",
+      "sha256": "01e782237d83e5ea9b1b191800063601244640a36edd7968ded5a3519fdfee8e"
+    },
+    {
+      "path": "native/BARR_v0.4B/src/sketch_oracle.cpp",
+      "sha256": "a5349d74e896f591109c9c50b2be02b772a2207ca79c4cc3317dc5005a7f645f"
+    },
+    {
+      "path": "native/BARR_v0.4B/tests/test_core.cpp",
+      "sha256": "9eaa4a385e096684ed0b21ff8f9dcd2051c62732d13047a615de2f7140bea954"
+    },
+    {
+      "path": "native/BARR_v0.4B/tests/test_coupling.cpp",
+      "sha256": "1b7657036550209114c773d847e8eebfb461872df19c88c43991fa79725b47ec"
+    },
+    {
+      "path": "native/BARR_v0.4B/tests/test_pair.cpp",
+      "sha256": "ffa9496cf891475ceb559e97b2494852ea766116bf754764790b642110fe679c"
+    },
+    {
+      "path": "native/BARR_v0.4B/tests/test_python.py",
+      "sha256": "9838ad66109480a662e8f9378e1ebe3ffbd26e15701c7eb869b0d55ae2a445c6"
+    },
+    {
+      "path": "native/BARR_v0.4B/tests/test_selective.cpp",
+      "sha256": "2ca3aeadf3f3aca8258851dc6f47368df5a0d7636468cce84eb94ccec38e348a"
+    },
+    {
+      "path": "native/BARR_v0.4B/tests/test_v03.py",
+      "sha256": "54b98132479d4067997678b448ad051ece26d4c7ef8427858db2e7a4ad2d3d06"
+    },
+    {
+      "path": "native/BARR_v0.4B/tools/audit_final_pairs.py",
+      "sha256": "dfd2a3d86a007669fad64ce6946f85b4536755116924f5c48d6235ae92f1af73"
+    },
+    {
+      "path": "native/BARR_v0.4B/tools/chils_p1_fixture.cpp",
+      "sha256": "93e6e6cfd566e97a753c39b3e371a23e4dc381028c25dfb4170c3e5ecbad5d74"
+    }
+  ],
+  "E_source_files": [
+    {
+      "path": "related/BARR_v0.4E/.gitignore",
+      "sha256": "1688abecb2327ab5b474c5c8b4a053f63d3b60143b43f2aebe64dab67affe39a"
+    },
+    {
+      "path": "related/BARR_v0.4E/CMakeLists.txt",
+      "sha256": "28ec305ceb3b232c86d130ca985cd4fd5c5e7f26c9ccc60755f227401b6427ff"
+    },
+    {
+      "path": "related/BARR_v0.4E/examples/demo/contacts_00.npz",
+      "sha256": "d00428e1d58fc4a44d46de42fae312030844be9b96a2e24b78ee631a6e213d46"
+    },
+    {
+      "path": "related/BARR_v0.4E/examples/demo/contacts_01.npz",
+      "sha256": "5c0ffc8dbf51a37ce86f28be87a585adbbe967723ace8cc69aa1413444c6f009"
+    },
+    {
+      "path": "related/BARR_v0.4E/examples/demo/contacts_02.npz",
+      "sha256": "d4174fadd63ed733c4b3fff930e02655bacba80fc4bd0b59c3488d36a798d378"
+    },
+    {
+      "path": "related/BARR_v0.4E/examples/demo/contacts_03.npz",
+      "sha256": "ccb2904eac0bf76a9377771b2413741c67174bf5479fdff53779001511a50ba6"
+    },
+    {
+      "path": "related/BARR_v0.4E/examples/demo/manifest.csv",
+      "sha256": "671119c38a90fa5b890b36dfb07eeba6f3f6783e68c11ed8c28594aaf86fc690"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/coupling.hpp",
+      "sha256": "49e990cb8edcad6cef3733371c6eb6770022e934b5274ad387790d502a272cb6"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/flow.hpp",
+      "sha256": "4adcd701e46f5bb93935bf33818848d02bf7bd693b287ce3bf0ad3943b60e263"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/graph.hpp",
+      "sha256": "96986d4a8a5eb32638e1fe413ba09ea47af2717415aa5c15f1abb5c50c36f545"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/kernel_io.hpp",
+      "sha256": "a6896de452140fe048aa13569552404de3f1240aa5cd4c812dcfe6772cb42396"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/local_search.hpp",
+      "sha256": "d75aafc82ecbb125b1accc63c0b2f90b83d5df50f58781895da554d97581baca"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/mechanism_audit.hpp",
+      "sha256": "2a2afd7c04e50b67a9c0808d8963d3edc10d805c22b632925f26589500293117"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/pair_scout.hpp",
+      "sha256": "ccec56651246a895fcd591078d3dfd4056e2e0eef7593d77c62d8b17d9d9e370"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/pair_solver_impl.hpp",
+      "sha256": "4e6ca8d63d70fa2af4e1e0945e425aa63388ae8a339cb32662a29b870b14cd40"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/policy.hpp",
+      "sha256": "542843f40cb672c4e6001ab79f129ba415d9b09c2030ac76a4ab9f6310edf503"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/recombination.hpp",
+      "sha256": "878bf130bf99ce9f4a45ad4fa3d08bc30501694ef5433f7efb8bb88c49acf8bd"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/selective.hpp",
+      "sha256": "84b080e15e4d9357d0f7294212ac78f4a3b9803c0bcbc591a8f682d160013f9c"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/selective_solver_impl.hpp",
+      "sha256": "83dbc3bb66df21a8f2a2a90f8b92577ab61d5848950b5f7e6a2bb252d3810085"
+    },
+    {
+      "path": "related/BARR_v0.4E/include/barr/solver.hpp",
+      "sha256": "a3ee694736a045c8f0c801de0f7c83071f10a14883fc9d0921723da4649a2c35"
+    },
+    {
+      "path": "related/BARR_v0.4E/LICENSE",
+      "sha256": "4d060a54ac50e9d6ce0e17f8942356e58b423de0b50fcfdc9b7cbbe1b0a02880"
+    },
+    {
+      "path": "related/BARR_v0.4E/python/barr_io.py",
+      "sha256": "33768418afd3232eb6af9e19a9c8d22346f2bf35ca6538d06c1c8b64a6a370ce"
+    },
+    {
+      "path": "related/BARR_v0.4E/python/barr_model.py",
+      "sha256": "d6fb150c19010c182d8a522093b783a46895911729678c4e87de65aa0f218c12"
+    },
+    {
+      "path": "related/BARR_v0.4E/requirements-learning.txt",
+      "sha256": "8568551fbd635a0e3edce562ac1de127f766f941c65c3d2aa548d1c4f23c3a88"
+    },
+    {
+      "path": "related/BARR_v0.4E/requirements.txt",
+      "sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac"
+    },
+    {
+      "path": "related/BARR_v0.4E/scripts/analyze.py",
+      "sha256": "51679bb2e01db5a7caf679f1f150628213802ac6a4dbe37be62a9281ce08c27e"
+    },
+    {
+      "path": "related/BARR_v0.4E/scripts/audit_snapshots.py",
+      "sha256": "6cf531ea87e6f67eb649d432ca0c70e551312ae61ec10bc8d5b56d410025b1e5"
+    },
+    {
+      "path": "related/BARR_v0.4E/scripts/benchmark.py",
+      "sha256": "33268ac0007373c240d1d4fdf5a2fc98fe796f626fd9de902190c4e836682167"
+    },
+    {
+      "path": "related/BARR_v0.4E/scripts/collect.py",
+      "sha256": "9708790c94f9b563d1ab8fe9725792687047fcf6381ceda60bc4437b75bfc522"
+    },
+    {
+      "path": "related/BARR_v0.4E/scripts/make_demo.py",
+      "sha256": "696302f31bfaf92fbd6626fcd70c6dcfcf6f516ef11c2045d344e9f60c1df771"
+    },
+    {
+      "path": "related/BARR_v0.4E/scripts/make_manifest.py",
+      "sha256": "a91ee2d112abff8b68dc854838a6d678c12f4103f10f811f5be37b3d4885e81f"
+    },
+    {
+      "path": "related/BARR_v0.4E/scripts/mechanism_suite.py",
+      "sha256": "ea6b0584c13426c1bb855d6cdfe9a327e7eb5a15f643cf61363f63311c254e40"
+    },
+    {
+      "path": "related/BARR_v0.4E/scripts/run.py",
+      "sha256": "d7f14907891eaf97b8ff88d0965a06f586b5909496365512108ba3ffc4868dbe"
+    },
+    {
+      "path": "related/BARR_v0.4E/scripts/train.py",
+      "sha256": "69b6c45705440a02dd7bfda3bc84d773b19681ef0f6bda6a724e03c396a923b0"
+    },
+    {
+      "path": "related/BARR_v0.4E/scripts/verify_package.py",
+      "sha256": "0c330a8117f08a21cf25544b25307a1543cb1b02d6c71d200a6fc1017b557956"
+    },
+    {
+      "path": "related/BARR_v0.4E/src/main.cpp",
+      "sha256": "edbd4d65dfd18df75978c0748d513ecc60645506d8eb53276127911c565dedb3"
+    },
+    {
+      "path": "related/BARR_v0.4E/src/pair_oracle.cpp",
+      "sha256": "70677dec32fc3b44e8541a30ff6bb947e71fe196e2bb8b23b46ccb496353a84e"
+    },
+    {
+      "path": "related/BARR_v0.4E/src/probe.cpp",
+      "sha256": "01e782237d83e5ea9b1b191800063601244640a36edd7968ded5a3519fdfee8e"
+    },
+    {
+      "path": "related/BARR_v0.4E/src/sketch_oracle.cpp",
+      "sha256": "a5349d74e896f591109c9c50b2be02b772a2207ca79c4cc3317dc5005a7f645f"
+    },
+    {
+      "path": "related/BARR_v0.4E/tests/b_frozen_pair_reference_impl.hpp",
+      "sha256": "fd869998557c8a0647df6953cac2170ce06efbee1d0b81fcf9c305a4322020c9"
+    },
+    {
+      "path": "related/BARR_v0.4E/tests/test_core.cpp",
+      "sha256": "9eaa4a385e096684ed0b21ff8f9dcd2051c62732d13047a615de2f7140bea954"
+    },
+    {
+      "path": "related/BARR_v0.4E/tests/test_coupling.cpp",
+      "sha256": "1b7657036550209114c773d847e8eebfb461872df19c88c43991fa79725b47ec"
+    },
+    {
+      "path": "related/BARR_v0.4E/tests/test_pair.cpp",
+      "sha256": "ffa9496cf891475ceb559e97b2494852ea766116bf754764790b642110fe679c"
+    },
+    {
+      "path": "related/BARR_v0.4E/tests/test_pulse_ablation.cpp",
+      "sha256": "c1819fb1b934be8bad1c8b369586559ccf6ef598f0eae89aad785affa18d55e0"
+    },
+    {
+      "path": "related/BARR_v0.4E/tests/test_python.py",
+      "sha256": "9838ad66109480a662e8f9378e1ebe3ffbd26e15701c7eb869b0d55ae2a445c6"
+    },
+    {
+      "path": "related/BARR_v0.4E/tests/test_selective.cpp",
+      "sha256": "2ca3aeadf3f3aca8258851dc6f47368df5a0d7636468cce84eb94ccec38e348a"
+    },
+    {
+      "path": "related/BARR_v0.4E/tests/test_v03.py",
+      "sha256": "54b98132479d4067997678b448ad051ece26d4c7ef8427858db2e7a4ad2d3d06"
+    },
+    {
+      "path": "related/BARR_v0.4E/tools/audit_final_pairs.py",
+      "sha256": "dfd2a3d86a007669fad64ce6946f85b4536755116924f5c48d6235ae92f1af73"
+    },
+    {
+      "path": "related/BARR_v0.4E/tools/chils_p1_fixture.cpp",
+      "sha256": "93e6e6cfd566e97a753c39b3e371a23e4dc381028c25dfb4170c3e5ecbad5d74"
+    },
+    {
+      "path": "related/BARR_v0.4E/tools/independent_pair_audit.py",
+      "sha256": "a3906547662e020cd9cecdaa47f0a1b49cc5894703c16a49636a3898812611d7"
+    }
+  ],
+  "B_source_is_byte_identical": true,
+  "E_source_is_byte_identical": true,
+  "primary_mode": "pair",
+  "primary_pair_policy": "fusion-refine"
+}

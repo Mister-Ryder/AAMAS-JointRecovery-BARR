@@ -1,0 +1,286 @@
+{
+  "source_file_sha256": "5d20ad04e95659e1a2b2a534f592f5cf41f300ecfff541446d8bc6b11c515c2b",
+  "aggregation": "Mean across available seeds within each graph, then equal mean across eight graphs. Distinct experiment batches stay separate. Exact equal averages share rank.",
+  "rows": [
+    {
+      "id": "B04B::confirmation::CHILS-p16",
+      "method": "CHILS-p16",
+      "batch": "BARR v0.4 B确认",
+      "mean_contact_seconds": 1137262.6066341666,
+      "score_fraction": "1364715127961/1200000",
+      "n": 24,
+      "seeds": [
+        31,
+        37,
+        41
+      ],
+      "graph_count": 8,
+      "per_view_means": {
+        "g0340": 1628707.8244633332,
+        "g0680": 1248917.127989,
+        "g1200": 880856.140332,
+        "g1800": 682503.6234023334,
+        "gW0340_gE1200_s0150": 1262236.9924623333,
+        "gW0680_gE1200_s0150": 1066057.1067833332,
+        "gW1200_gE0340_s0150": 1263838.1953536666,
+        "gW1200_gE0680_s0150": 1064983.8422873334
+      },
+      "source": "E:/01-Joycecyq/2026-AAMAS/研究一-正式方法探索版本/v0.4/exploration/parental_v04b/cloud/evidence/analysis_bc_final/confirmation_summary.json",
+      "note": "360秒原生墙时，外部输入准备另计；8视图整数目标经审计。",
+      "scope": "先逐视图平均，再八视图等权",
+      "rank": 8
+    },
+    {
+      "id": "B04B::confirmation::selected-B-or-C",
+      "method": "BARR候选B（pair-fusion）",
+      "batch": "BARR v0.4 B确认",
+      "mean_contact_seconds": 1135933.2073965834,
+      "score_fraction": "13631198488759/12000000",
+      "n": 24,
+      "seeds": [
+        31,
+        37,
+        41
+      ],
+      "graph_count": 8,
+      "per_view_means": {
+        "g0340": 1623235.4376933333,
+        "g0680": 1245333.070542,
+        "g1200": 882805.013615,
+        "g1800": 682341.0911746667,
+        "gW0340_gE1200_s0150": 1260905.189678,
+        "gW0680_gE1200_s0150": 1066383.324201,
+        "gW1200_gE0340_s0150": 1261909.8237946667,
+        "gW1200_gE0680_s0150": 1064552.708474
+      },
+      "source": "E:/01-Joycecyq/2026-AAMAS/研究一-正式方法探索版本/v0.4/exploration/parental_v04b/cloud/evidence/analysis_bc_final/confirmation_summary.json",
+      "note": "360秒原生墙时，外部输入准备另计；8视图整数目标经审计。；实际预冻结所选方法：pair-fusion，即v0.4完整候选B。",
+      "scope": "先逐视图平均，再八视图等权",
+      "rank": 18
+    },
+    {
+      "id": "B04F::confirmation::full",
+      "method": "BARR完整版本E",
+      "batch": "BARR v0.4 F对照",
+      "mean_contact_seconds": 1135843.5161470417,
+      "score_fraction": "27260244387529/24000000",
+      "n": 24,
+      "seeds": [
+        83,
+        89,
+        97
+      ],
+      "graph_count": 8,
+      "per_view_means": {
+        "g0340": 1623022.6943636667,
+        "g0680": 1245148.1460733332,
+        "g1200": 882525.2705616667,
+        "g1800": 682143.7922656666,
+        "gW0340_gE1200_s0150": 1261893.1699246666,
+        "gW0680_gE1200_s0150": 1064760.8896936667,
+        "gW1200_gE0340_s0150": 1262125.23551,
+        "gW1200_gE0680_s0150": 1065128.9307836667
+      },
+      "source": "E:/01-Joycecyq/2026-AAMAS/研究一-正式方法探索版本/v0.4/exploration/chils_basic_v04f/cloud/evidence/analysis_f_final/confirmation_summary.json",
+      "note": "360秒原生墙时，外部输入准备另计；8视图整数目标经审计。；显示名：BARR v0.4完整版本E；两个阶段为独立新seed结果，保留各批次。",
+      "scope": "先逐视图平均，再八视图等权",
+      "rank": 19
+    },
+    {
+      "id": "B04E::ablation::pulse-only",
+      "method": "BARR pulse-only",
+      "batch": "BARR v0.4 E消融",
+      "mean_contact_seconds": 1135740.80675925,
+      "score_fraction": "4542963227037/4000000",
+      "n": 24,
+      "seeds": [
+        71,
+        73,
+        79
+      ],
+      "graph_count": 8,
+      "per_view_means": {
+        "g0340": 1623349.7466623334,
+        "g0680": 1244919.195962,
+        "g1200": 883032.7802736667,
+        "g1800": 682119.9799903333,
+        "gW0340_gE1200_s0150": 1260549.1280846666,
+        "gW0680_gE1200_s0150": 1064881.9306206666,
+        "gW1200_gE0340_s0150": 1261899.4920073333,
+        "gW1200_gE0680_s0150": 1065174.200473
+      },
+      "source": "E:/01-Joycecyq/2026-AAMAS/研究一-正式方法探索版本/v0.4/exploration/pulse_ablation_v04e/cloud/evidence/analysis_e_final/ablation_summary.json",
+      "note": "360秒原生墙时，外部输入准备另计；8视图整数目标经审计。",
+      "scope": "先逐视图平均，再八视图等权",
+      "rank": 20
+    },
+    {
+      "id": "B04E::ablation::full",
+      "method": "BARR完整版本E",
+      "batch": "BARR v0.4 E消融",
+      "mean_contact_seconds": 1135645.9385789584,
+      "score_fraction": "5451100505179/4800000",
+      "n": 24,
+      "seeds": [
+        71,
+        73,
+        79
+      ],
+      "graph_count": 8,
+      "per_view_means": {
+        "g0340": 1622884.885577,
+        "g0680": 1245367.0930283333,
+        "g1200": 882475.7403313334,
+        "g1800": 682412.637143,
+        "gW0340_gE1200_s0150": 1260663.0777273334,
+        "gW0680_gE1200_s0150": 1064846.2155336668,
+        "gW1200_gE0340_s0150": 1261320.798751,
+        "gW1200_gE0680_s0150": 1065197.06054
+      },
+      "source": "E:/01-Joycecyq/2026-AAMAS/研究一-正式方法探索版本/v0.4/exploration/pulse_ablation_v04e/cloud/evidence/analysis_e_final/ablation_summary.json",
+      "note": "360秒原生墙时，外部输入准备另计；8视图整数目标经审计。；显示名：BARR v0.4完整版本E；两个阶段为独立新seed结果，保留各批次。",
+      "scope": "先逐视图平均，再八视图等权",
+      "rank": 21
+    },
+    {
+      "id": "B04F::confirmation::chils-basic",
+      "method": "CHILS-p4-basic",
+      "batch": "BARR v0.4 F对照",
+      "mean_contact_seconds": 1134641.48952975,
+      "score_fraction": "4538565958119/4000000",
+      "n": 24,
+      "seeds": [
+        83,
+        89,
+        97
+      ],
+      "graph_count": 8,
+      "per_view_means": {
+        "g0340": 1624597.4525106666,
+        "g0680": 1246433.3940766666,
+        "g1200": 879682.7324493333,
+        "g1800": 682018.0607196667,
+        "gW0340_gE1200_s0150": 1259057.561607,
+        "gW0680_gE1200_s0150": 1063096.2919546666,
+        "gW1200_gE0340_s0150": 1260995.2761046668,
+        "gW1200_gE0680_s0150": 1061251.1468153333
+      },
+      "source": "E:/01-Joycecyq/2026-AAMAS/研究一-正式方法探索版本/v0.4/exploration/chils_basic_v04f/cloud/evidence/analysis_f_final/confirmation_summary.json",
+      "note": "360秒原生墙时，外部输入准备另计；8视图整数目标经审计。；显示名：CHILS-p4基础对照，种群4，不是p1。",
+      "scope": "先逐视图平均，再八视图等权",
+      "rank": 25
+    },
+    {
+      "id": "B04B::confirmation::fusion",
+      "method": "fusion",
+      "batch": "BARR v0.4 B确认",
+      "mean_contact_seconds": 1134524.3518530417,
+      "score_fraction": "27228584444473/24000000",
+      "n": 24,
+      "seeds": [
+        31,
+        37,
+        41
+      ],
+      "graph_count": 8,
+      "per_view_means": {
+        "g0340": 1621134.5692616666,
+        "g0680": 1243800.5352183334,
+        "g1200": 881412.3349723333,
+        "g1800": 681753.5215826667,
+        "gW0340_gE1200_s0150": 1258781.7117686667,
+        "gW0680_gE1200_s0150": 1065123.208665,
+        "gW1200_gE0340_s0150": 1260624.9725766666,
+        "gW1200_gE0680_s0150": 1063563.960779
+      },
+      "source": "E:/01-Joycecyq/2026-AAMAS/研究一-正式方法探索版本/v0.4/exploration/parental_v04b/cloud/evidence/analysis_bc_final/confirmation_summary.json",
+      "note": "360秒原生墙时，外部输入准备另计；8视图整数目标经审计。",
+      "scope": "先逐视图平均，再八视图等权",
+      "rank": 27
+    },
+    {
+      "id": "B04B::confirmation::local",
+      "method": "local",
+      "batch": "BARR v0.4 B确认",
+      "mean_contact_seconds": 1133440.0487527917,
+      "score_fraction": "27202561170067/24000000",
+      "n": 24,
+      "seeds": [
+        31,
+        37,
+        41
+      ],
+      "graph_count": 8,
+      "per_view_means": {
+        "g0340": 1620244.6263606667,
+        "g0680": 1243658.5615996667,
+        "g1200": 879923.7455413333,
+        "g1800": 679636.543383,
+        "gW0340_gE1200_s0150": 1258209.7750693334,
+        "gW0680_gE1200_s0150": 1064236.0429703332,
+        "gW1200_gE0340_s0150": 1259563.11246,
+        "gW1200_gE0680_s0150": 1062047.982638
+      },
+      "source": "E:/01-Joycecyq/2026-AAMAS/研究一-正式方法探索版本/v0.4/exploration/parental_v04b/cloud/evidence/analysis_bc_final/confirmation_summary.json",
+      "note": "360秒原生墙时，外部输入准备另计；8视图整数目标经审计。",
+      "scope": "先逐视图平均，再八视图等权",
+      "rank": 41
+    },
+    {
+      "id": "B04B::confirmation::candidate-A",
+      "method": "BARR候选A",
+      "batch": "BARR v0.4 B确认",
+      "mean_contact_seconds": 1133428.7903923334,
+      "score_fraction": "3400286371177/3000000",
+      "n": 24,
+      "seeds": [
+        31,
+        37,
+        41
+      ],
+      "graph_count": 8,
+      "per_view_means": {
+        "g0340": 1620060.6894383333,
+        "g0680": 1243604.085968,
+        "g1200": 879890.584986,
+        "g1800": 679579.4639043333,
+        "gW0340_gE1200_s0150": 1258253.3055983332,
+        "gW0680_gE1200_s0150": 1063920.3367396668,
+        "gW1200_gE0340_s0150": 1260118.405653,
+        "gW1200_gE0680_s0150": 1062003.450851
+      },
+      "source": "E:/01-Joycecyq/2026-AAMAS/研究一-正式方法探索版本/v0.4/exploration/parental_v04b/cloud/evidence/analysis_bc_final/confirmation_summary.json",
+      "note": "360秒原生墙时，外部输入准备另计；8视图整数目标经审计。",
+      "scope": "先逐视图平均，再八视图等权",
+      "rank": 42
+    },
+    {
+      "id": "B04B::confirmation::barr-v03",
+      "method": "BARR-v0.3",
+      "batch": "BARR v0.4 B确认",
+      "mean_contact_seconds": 1132762.7792499166,
+      "score_fraction": "13593153350999/12000000",
+      "n": 24,
+      "seeds": [
+        31,
+        37,
+        41
+      ],
+      "graph_count": 8,
+      "per_view_means": {
+        "g0340": 1618628.5713826667,
+        "g0680": 1241510.0830106668,
+        "g1200": 880884.008643,
+        "g1800": 679670.5110493334,
+        "gW0340_gE1200_s0150": 1256497.0136096666,
+        "gW0680_gE1200_s0150": 1063965.4992633334,
+        "gW1200_gE0340_s0150": 1258416.3808763332,
+        "gW1200_gE0680_s0150": 1062530.1661643332
+      },
+      "source": "E:/01-Joycecyq/2026-AAMAS/研究一-正式方法探索版本/v0.4/exploration/parental_v04b/cloud/evidence/analysis_bc_final/confirmation_summary.json",
+      "note": "360秒原生墙时，外部输入准备另计；8视图整数目标经审计。",
+      "scope": "先逐视图平均，再八视图等权",
+      "rank": 47
+    }
+  ]
+}

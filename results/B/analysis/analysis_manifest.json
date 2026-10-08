@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-07T12:54:09.368936+00:00",
+  "files": {
+    "audited_runs.json": "0dc794de1048849e3157563e8dd32d848bd724d0383b3fcef2c64eb1fbbe31a9",
+    "confirmation_audit.json": "6e61c0d9b7d00190704e437e0b0a3867888320b8db4f2ac1aa9533676dec6860",
+    "confirmation_summary.json": "57362f2dc0b9a149ac1ec01f049ca88899858fc7553b0df2a49238a6deb26251",
+    "event_evidence.json": "df76dfa27ee24c54a2891051971fc22e87be9a51ed20e6ea8d8a1539689385d1",
+    "failures.json": "55b0b45a51564c0389d032db31422f474903f0e7e9946aa77423b7bac75bfac5",
+    "pair_diagnostic_audit.json": "b273afc0553d09c09248f1cf48e7a9261884e325b7b75500f95ea94dc74cedbf",
+    "pair_diagnostic_summary.json": "e347bbe2afb878038531df72f7667bf1ff13930f51f91fa865e016dc5c619c66",
+    "pilot_audit.json": "ae0576a8002e49e49e8aa711504dea4a8d7a6f2348e5ecbeaf9f3c515efa3695",
+    "pilot_summary.json": "dc2c557e127ee3803016d3f9a9ec45c86fef013dbe7c5459f848fae23b82cee6",
+    "resource_audit.json": "34abd134ebde4d4d55d14b108da0f76fa7dbc128f1e5d24fa255fd8f476b6ba8",
+    "solution_audit.json": "33ad3e5f1a375401f334ce632a2f8f5f5094a86ed573ce987636bc5c8bd7db93",
+    "source_audit.json": "fd2557c96f98608c93014703f49fbc7d44b6b68cb953bdc7addefc6a0b7129fe",
+    "summary.json": "9f31bbb72efdda34502ebdf6b58bb247ca8cdbae96cc60828769877085207567"
+  },
+  "overall_audit_pass": true,
+  "no_source_mutation": true,
+  "no_quality_solver_calls": true,
+  "no_performance_reruns": true
+}

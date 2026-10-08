@@ -1,0 +1,11 @@
+{
+  "primary_batch": "B confirmation",
+  "primary_mean_contact_seconds": 1135933.2073965834,
+  "source_B": "E:\\01-Joycecyq\\2026-AAMAS\\研究一-正式方法探索版本\\v0.4\\exploration\\parental_v04b\\cloud\\evidence",
+  "source_E": "E:\\01-Joycecyq\\2026-AAMAS\\研究一-正式方法探索版本\\v0.4\\exploration\\pulse_ablation_v04e\\cloud\\evidence",
+  "source_F": "E:\\01-Joycecyq\\2026-AAMAS\\研究一-正式方法探索版本\\v0.4\\exploration\\chils_basic_v04f\\cloud\\evidence",
+  "original_files_modified": 0,
+  "single_branch": "main",
+  "recorded_performance_runs_copied": 290,
+  "performance_reruns": 0
+}

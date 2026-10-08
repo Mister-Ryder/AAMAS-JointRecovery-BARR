@@ -1,0 +1,333 @@
+{
+  "seconds": 360.0,
+  "coordinator_cpu": 11,
+  "extra_calibration_paths": [],
+  "native_threads": 1,
+  "common_initialization": "Unchanged copied normalized initial_mask on each graph",
+  "sampler_default": "OFF",
+  "resource_policy": "CPU/wall <.95 flagged and retained; no automatic quality exclusions or reruns",
+  "budget_matching": "Same policy parameters and 360 native wall seconds; closing scout changes credit, stale state, local progress and event counts. Trajectories/call counts are not matched.",
+  "scientific_scope": "Joint/scout/refinement component over the same sparse pulse policy, not a new algorithm selection; one reused physical mother source",
+  "schema": "barr_v04E_frozen_ablation_v1",
+  "phase": "ablation",
+  "role": "frozen_pulse_component_ablation",
+  "cpus": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "arms": [
+    {
+      "id": "full",
+      "source": "BARR_v0.4E",
+      "mode": "pair",
+      "options": {
+        "gate-fraction": 0.05,
+        "gate-warmup": 30,
+        "gate-cooldown": 0.5,
+        "event-stale": 8,
+        "pair-slice": 0.5,
+        "pair-max-seeds": 0,
+        "pair-fusion-every": 4,
+        "challengers": 12,
+        "kernel-nodes": 128,
+        "kernel-seconds": 0.03,
+        "local-iterations": 64,
+        "local-seconds": 0.025,
+        "pair-policy": "fusion-refine",
+        "pair-component": "full"
+      },
+      "binary_sha256": "8dba1d02ad3da42f49d3a9b6d0858a6bdbdffb0e28c9fa41e4f5130ab0bab656",
+      "trace": false,
+      "kernel_snapshots": false,
+      "sketch_snapshots": false,
+      "role": "frozen_pulse_component_ablation"
+    },
+    {
+      "id": "pulse-only",
+      "source": "BARR_v0.4E",
+      "mode": "pair",
+      "options": {
+        "gate-fraction": 0.05,
+        "gate-warmup": 30,
+        "gate-cooldown": 0.5,
+        "event-stale": 8,
+        "pair-slice": 0.5,
+        "pair-max-seeds": 0,
+        "pair-fusion-every": 4,
+        "challengers": 12,
+        "kernel-nodes": 128,
+        "kernel-seconds": 0.03,
+        "local-iterations": 64,
+        "local-seconds": 0.025,
+        "pair-policy": "fusion-refine",
+        "pair-component": "pulse-only"
+      },
+      "binary_sha256": "8dba1d02ad3da42f49d3a9b6d0858a6bdbdffb0e28c9fa41e4f5130ab0bab656",
+      "trace": false,
+      "kernel_snapshots": false,
+      "sketch_snapshots": false,
+      "role": "frozen_pulse_component_ablation"
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "ablation_000",
+      "graph": "gW1200_gE0340_s0150",
+      "seed": 79,
+      "cpu": 5,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_001",
+      "graph": "gW1200_gE0680_s0150",
+      "seed": 71,
+      "cpu": 6,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_002",
+      "graph": "g1200",
+      "seed": 71,
+      "cpu": 7,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_003",
+      "graph": "g1800",
+      "seed": 73,
+      "cpu": 8,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_004",
+      "graph": "gW0680_gE1200_s0150",
+      "seed": 71,
+      "cpu": 9,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_005",
+      "graph": "gW0340_gE1200_s0150",
+      "seed": 73,
+      "cpu": 10,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_006",
+      "graph": "g0680",
+      "seed": 79,
+      "cpu": 12,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_007",
+      "graph": "gW0680_gE1200_s0150",
+      "seed": 79,
+      "cpu": 13,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_008",
+      "graph": "g0340",
+      "seed": 71,
+      "cpu": 14,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_009",
+      "graph": "gW1200_gE0680_s0150",
+      "seed": 79,
+      "cpu": 15,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_010",
+      "graph": "gW1200_gE0680_s0150",
+      "seed": 73,
+      "cpu": 16,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_011",
+      "graph": "g0340",
+      "seed": 73,
+      "cpu": 17,
+      "arm_order": [
+        "full",
+        "pulse-only"
+      ]
+    },
+    {
+      "block_id": "ablation_012",
+      "graph": "gW0340_gE1200_s0150",
+      "seed": 71,
+      "cpu": 5,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_013",
+      "graph": "gW0340_gE1200_s0150",
+      "seed": 79,
+      "cpu": 6,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_014",
+      "graph": "gW0680_gE1200_s0150",
+      "seed": 73,
+      "cpu": 7,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_015",
+      "graph": "g0680",
+      "seed": 73,
+      "cpu": 8,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_016",
+      "graph": "g1200",
+      "seed": 79,
+      "cpu": 9,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_017",
+      "graph": "g0680",
+      "seed": 71,
+      "cpu": 10,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_018",
+      "graph": "gW1200_gE0340_s0150",
+      "seed": 71,
+      "cpu": 12,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_019",
+      "graph": "gW1200_gE0340_s0150",
+      "seed": 73,
+      "cpu": 13,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_020",
+      "graph": "g1800",
+      "seed": 71,
+      "cpu": 14,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_021",
+      "graph": "g0340",
+      "seed": 79,
+      "cpu": 15,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_022",
+      "graph": "g1800",
+      "seed": 79,
+      "cpu": 16,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    },
+    {
+      "block_id": "ablation_023",
+      "graph": "g1200",
+      "seed": 73,
+      "cpu": 17,
+      "arm_order": [
+        "pulse-only",
+        "full"
+      ]
+    }
+  ],
+  "positions": 48,
+  "fresh_seeds": [
+    71,
+    73,
+    79
+  ],
+  "order_seed": 20261007,
+  "same_binary_sha256": "8dba1d02ad3da42f49d3a9b6d0858a6bdbdffb0e28c9fa41e4f5130ab0bab656",
+  "order_protocol": "Each CPU executes two whole blocks: one full-first and one pulse-only-first. Overall order12:12, 24 paired graph-seed comparisons"
+}

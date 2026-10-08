@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "version": "cipheur-scaleup-benchmark-graphs-v1",
+  "source_id": "CP-SCALE-AU-L002",
+  "source_group": "CP-SCALE-L002",
+  "split": "benchmark",
+  "raw_manifest_sha256": "b60e56ea29fe83ea8bb7788dd0305fe4f57cab9d6200974c4cdb1a4ad3018165",
+  "raw_contacts_sha256": "075902a3e8442b66b3e73d6389e980fbfcf5e183a241ed5d2c8dcad77b125368",
+  "configuration_declaration_sha256": "8b48863b445d509ddda0a038346096fbdfad46a974193e2cc29a1be06afdf799",
+  "scoring_or_labels_executed": false,
+  "complete_configurations": 8,
+  "build_seconds": 14.865945400000783,
+  "summary_sha256": "f89dd8b6be3a73c1c7cb63d14e00a557bf5010b1de7440e34e75fdc59269c9b8"
+}

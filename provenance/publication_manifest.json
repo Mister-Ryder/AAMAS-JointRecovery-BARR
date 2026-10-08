@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-08T13:09:45.537892+00:00",
+  "checked_utc": "2026-10-08T13:29:44.060190+00:00",
   "files": [
     {
       "path": ".gitattributes",
@@ -198,53 +198,53 @@
     },
     {
       "path": "docs/figures/README.md",
-      "bytes": 1630,
-      "sha256": "723790cdb0e85eee0d1558a8c9d82b41ab83008c2e2c5acbc847e78f41bf999d"
+      "bytes": 2403,
+      "sha256": "2c0fa38db6492d3bcb0bebc7423ab749d1ae721b8b2d1e4258a1faf6e77e930a"
     },
     {
       "path": "docs/figures/barr-pair-fusion-zh.drawio",
-      "bytes": 39266,
-      "sha256": "2577b1f91603600e071661f088767f2b4a593f9d8b917fa8b1b06cc2faca42b2"
+      "bytes": 57701,
+      "sha256": "4fa17486707ba76e92b37a56f63effad365b61d45b6a841ba1e09f93c926e188"
     },
     {
       "path": "docs/figures/barr-pair-fusion-zh.drawio.pdf",
-      "bytes": 195767,
-      "sha256": "72eb4dfba7bede3370d7172f8219cece3697c7b07d4766d41094b4570d51d5ad"
+      "bytes": 226636,
+      "sha256": "92d90cdb46d77f4db9e5ddf2aa6ed0098db306dd2371025d31857c928208ac4c"
     },
     {
       "path": "docs/figures/barr-pair-fusion-zh.drawio.svg",
-      "bytes": 147369,
-      "sha256": "2505a5427e8280fb95cc6d1cf816119600a554cf2109da635a510c605a433410"
+      "bytes": 197504,
+      "sha256": "405343f8ff8119c7d7d2163c0d8df8d8e1917d23578a853124f128b3842f8055"
     },
     {
       "path": "docs/figures/barr-pair-fusion-zh.png",
-      "bytes": 1249536,
-      "sha256": "6ffee20dd1dd61bf2a5c64d209fd877d8938ee6429ca43ba1a74d497b422b939"
+      "bytes": 1058480,
+      "sha256": "523c3deb8e597951b180ac0fd63ad3a592bb1bcca5068e6494779647e86a2444"
     },
     {
       "path": "docs/figures/barr-pair-fusion.drawio",
-      "bytes": 39432,
-      "sha256": "a4bfe005b65607f633701016902a564da0ccfa431093287ca6bed47bf86e6b8c"
+      "bytes": 56331,
+      "sha256": "4038955a03b5a5b4e3691e3504dae6816dce7c57a46de2bf13b56f04b425a36e"
     },
     {
       "path": "docs/figures/barr-pair-fusion.drawio.pdf",
-      "bytes": 120142,
-      "sha256": "8ba858f679c81fdd0ae8315191b66ad6aa06ddc1decb1691593c394369e1f3b7"
+      "bytes": 115070,
+      "sha256": "86b275f76d20e0ac81eee0be18c57b6a19e78db530f74ad25af49aaa55ee2302"
     },
     {
       "path": "docs/figures/barr-pair-fusion.drawio.svg",
-      "bytes": 147269,
-      "sha256": "d688e74680e1996455bff5a900aba9a01c2c78e396cd0fd7935be1af2082e4a9"
+      "bytes": 192856,
+      "sha256": "adc6ff1ff1e39e765dd82f09e644cadb140aa934dacc594b5ac975a5b8360b5b"
     },
     {
       "path": "docs/figures/barr-pair-fusion.png",
-      "bytes": 1173363,
-      "sha256": "8c2e91dfd539f9591c1ec2497aadad1518af92545d54c8c6cce33f1ace1cc6ae"
+      "bytes": 1091779,
+      "sha256": "62d4955ec9843e400bb664b8c15f5cbf1e622d2026ce51c6526d356356503282"
     },
     {
       "path": "docs/figures/figure-manifest.json",
-      "bytes": 1719,
-      "sha256": "58a3d35fcbcbbca97fab8db9fce8d3801a1fa609112600f94d806b9b82b29f7b"
+      "bytes": 1663,
+      "sha256": "bc69ee898d26be7eb9c4cda54192b15406ad6ff2594c2e5a2c48f4cd6c7b06de"
     },
     {
       "path": "native/BARR_v0.4B/.gitignore",
@@ -563,8 +563,8 @@
     },
     {
       "path": "provenance/visual_validation.json",
-      "bytes": 1873,
-      "sha256": "055b4f0b5b16c0c2bd1a717b60addb3a1bdf32eaf9f3246f4f03f9ba81655c8a"
+      "bytes": 2868,
+      "sha256": "6150c3dcdfc389f37cb24ac1b4b6cb4cb1c77f6190b5fc4531c2df4e24ab0e4f"
     },
     {
       "path": "related/BARR_v0.4E/.gitignore",
